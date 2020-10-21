@@ -65,6 +65,14 @@ button {
   outline: none;
 }
 
+/* Section common */
+.section {
+  text-align: center;
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /* Typography */
 
 h1 {
@@ -104,17 +112,23 @@ p {
 /* Navbar */
 
 #navbar {
-  background-color: var(--color-blue);
+  position: fixed;
+  background-color: transparent;
   width: 100%;
   padding: 4px;
+  transition: all 1s ease-in-out;
   
+}
+
+#navbar.navbar--dark {
+  background-color: var(--color-blue);
 }
 
 .navbar__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -146,4 +160,34 @@ p {
 .navbar__menu__item:hover {
   background-color: var(--color-dark-blue);
   
+}
+
+
+/* BGholder */
+
+#bgholder {
+  height: 530px;
+  padding-top: 160px;
+  background: url("../img/bg_full.png") center/cover no-repeat;
+  color: var(--color-white);
+  text-align: center;
+  
+}
+
+.bgholder__title, .bgholder__subtitle, .bgholder__host, .bgholder__date {
+  color: var(--color-white);
+}
+
+.bgholder__register {
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-white);
+  border-radius: var(--size-border-radius);
+}
+
+#ct__intro {
+  height: 2200px;
 }
