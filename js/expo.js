@@ -24,10 +24,13 @@ function cardCreate(item) {
   let card = document.createElement("li");
   card.classList.add("container__cardList__card");
   let cardImg = document.createElement("img");
+  cardImg.classList.add("container__cardList__card__img");
   cardImg.src = item.logo;
-  cardImg.width = 150;
-  cardImg.height = 55;
 
+  // onclick, might create seperate function...
+  card.onclick = () => {
+    alert(`${item.name} clicked`);
+  };
   card.appendChild(cardImg);
 
   return card;

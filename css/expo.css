@@ -123,9 +123,17 @@ p {
 }
 
 .container__cardList__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0.5em;
   padding: 0.5em;
   width: 200px;
   height: 200px;
-  background-color: var(--color-dark-white);
+  background-color: var(--color-white);
+}
+
+.container__cardList__card__img {
+  width: 150px;
+  height: 55px;
 }
