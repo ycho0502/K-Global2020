@@ -187,7 +187,7 @@ p {
 /* BGholder */
 
 #bgholder {
-  height: 1030px;
+  height: 1000px;
   margin: 0 auto;
   padding-top: 160px;
   background: url("../img/blankbg.png") center/cover no-repeat;
@@ -293,6 +293,31 @@ p {
   font-weight: var(--weight-semi-bold);
 }
 
+.bgholder__register {
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  /* padding: 8px 12px; */
+  border: 2px solid var(--color-white);
+  border-radius: var(--size-border-radius);
+  background-color: var(--color-dark-blue);
+
+}
+
+.bgholder__register a{
+  display: block;
+  padding: 8px 14px;
+
+}
+
+
+.bgholder__register a:hover{
+  color: var(--color-orange);
+}
+
+
+
 @keyframes anim3{
   from{
     left: -100%;
@@ -312,11 +337,15 @@ p {
 }
 
 .box3__container {
+  
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
+  
 }
 
 .box__container__logo1 a{
+  
   display: block;
   width: 220px;
   height: 134px;
@@ -324,6 +353,7 @@ p {
 }
 
 .box__container__logo2 a{
+  
   display: block;
   width: 220px;
   height: 96px;
@@ -331,6 +361,7 @@ p {
 }
 
 .box__container__logo3 a{
+  
   display: block;
   width: 200px;
   height: 121px;
@@ -338,6 +369,7 @@ p {
 }
 
 .box__container__logo4 a{
+  
   display: block;
   width: 180px;
   height: 136px;
@@ -381,27 +413,6 @@ p {
   background: url('../img/KIC.png');
   animation: fadeIn ease 5s;
 }
-
-
-.bgholder__title, .bgholder__subtitle, .bgholder__host, .bgholder__date {
-  color: var(--color-white);
-}
-
-.bgholder__register {
-  color: var(--color-white);
-  font-size: var(--font-regular);
-  font-weight: var(--weight-bold);
-  margin: 24px;
-  padding: 8px 12px;
-  border: 2px solid var(--color-white);
-  border-radius: var(--size-border-radius);
-}
-
-
-
-
-
-
 
 
 #ct__intro {
