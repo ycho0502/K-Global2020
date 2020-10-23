@@ -1,7 +1,6 @@
 'use strict'
 
-
-// Navbar Transparency
+// Navbar TransperTransparencyancy
 const navbar = document.querySelector('#navbar');
 const navbarHeight = navbar.getBoundingClientRect().height;
 
