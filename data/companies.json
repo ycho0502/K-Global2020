@@ -3,32 +3,38 @@
     {
       "name": "Static",
       "description": "We, STATIC Corp, is young and innovative company. We are focusing on developing and designing and manufacturing high-end and innovative products related to Smart Phone and others. Our first products are Fancy and Innovative <Wireless Magnetic Power Bank & Case> (Portable Charger) for iPhone. These consiste of premium quality design <Case> and innovative featured < Magnetic Wirless Power Bank>, which are fullly designed and made all in South Korea. We thinnk these will give you new and very good experiences when using and charing Smart Phones easily and conveniently.",
-      "logo": "img/logos/static.png"
+      "logo": "img/logos/static.png",
+      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_STATIC.png"
     },
     {
       "name": "IT Telecom",
       "description": "Since IT Telecom(ITT) was established in 2004, ITT has made continuous and utmost efforts to develop the cutting edge ITS wireless communication technology like V2X. ITT was a leading V2X device(including V2X applications) vendor in Korea nationwide C-ITS R&D project, Smart Highway, of which period was longer than 7 years. And ITT has successfully done the scratch development of whole V2X communication stacks, DSRC & ITS G5, including base band modem(IEEE802.11p) which was programed in FPGA. And ITT could adapt its whole stack to the V2X conformance test system contracted with Keysight on Mar 2018. Also, ITT ported NXP and AutoTalk base band modem chip in its Linux based V2X devices(OBU & RSU) using its upper layer V2X software stack. Most currently ITT became a V2X device vendor which supply 3000 OBU’s and 100 RSU’s for the Jeju Island(Korea) C-ITS project. Currently ITT is developing C-V2X device by interfacing its upper stack with Qualcomm base band modem. And ITT is also developing the use cases to supply for C-ITS Seoul project ,which is similar size project with Jeju Island C-ITS project and will be using C-V2X device(contracted this year).",
-      "logo": "img/logos/IT telecom.png"
+      "logo": "img/logos/IT telecom.png",
+      "panel": "img/panel/02_TELECOMMUNICATIONS/KOTRA_TELECOMMUNICATIONS_IT TELECOM.png"
     },
     {
       "name": "Apulsetechnology",
       "description": "Apulsetech is a RFID company manufacturing RFID handheld readers. With over 20 years of RFID business experience in the field, we make the most efficient RFID handheld reader providing customers high-end technology for the IoT world. Apulsetech designs and manufactures a leading product suitable for various industries, such as Healthcare, Pharmaceutical, Retail, transportation, and many others. With our service, your business will grow and reach the world with new opportunities. Apulsetech products offer Slim and sophisticated design mobile RFID readers with class-leading UHF performance. Free SDK and flexible sample applications make your software development easy.",
-      "logo": "img/logos/Apulsetechnology.png"
+      "logo": "img/logos/Apulsetechnology.png",
+      "panel": "img/panel/02_TELECOMMUNICATIONS/KOTRA_TELECOMMUNICATIONS_APULSETECHNOLOGY.png"
     },
     {
       "name": "NST",
       "description": "Starting with the XDSL modem, NST began to develop its Layer 2 switches and industrial switches and to improve its technology. With our in-house R&D, we do every single development by our own and we also insist domestic production for the sake of quality. Based on our unique technology, NST is leading new technologies in the Public and Enterprise markets. NST has No. 1 market share in Smart Apartment Building in Korea and, supplies our quality products to Government sectors, Public services and Korea Army and prove its performance and quality excellence.",
-      "logo": "img/logos/NST.png"
+      "logo": "img/logos/NST.png",
+      "panel": "img/panel/02_TELECOMMUNICATIONS/KOTRA_TELECOMMUNICATIONS_NST.png"
     },
     {
       "name": "Braintech",
       "description": "Braintech (ISO-9001,14001,13485, GMP certified company) is a company that constantly researches for the development of electrical and electronic products and quality innovation. Braintech is focusing on self-health care and wellness product R&D. IOT healthcare (in vitro diagnostics-urine chemistry tester) product that can easily test and manage various (infinite expandability) diagnosis and tests with a single device has been developed (CE IVD, FDA certification), and is a wellness product, smart customized pillow. Also expected to be released in October. In addition, the next-generation test equipment is under development (in vitro diagnostics-urine chemistry tester), and it is aimed at launching in May 2021 as a multi-functional and popularized type with improved precision.",
-      "logo": "img/logos/Braintech.png"
+      "logo": "img/logos/Braintech.png",
+      "panel": "img/panel/03_BIOTECH/KOTRA_BIOTECH_BRAINTECH.png"
     },
     {
       "name": "DTRON",
       "description": "This South Korean company was established in 2000 and has developed, manufactured, and sold portable urination detector for babies and seniors. This product is for measuring diaper wetting for seniors and  is now looking forward to can be very useful in your hospital or nursing facility. ",
-      "logo": "img/logos/Dtron.png"
+      "logo": "img/logos/Dtron.png",
+      "panel": "img/panel/03_BIOTECH/KOTRA_BIOTECH_DTRON.png"
     }
   ]
 }

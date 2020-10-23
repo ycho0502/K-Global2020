@@ -53,10 +53,10 @@ function openPanel(item) {
 
   let imgContainer = document.querySelector(".partnerPanel__imgContainer");
   let panelLogo = document.querySelector(".partnerPanel__logo");
-  panelLogo.src = item.logo;
+  panelLogo.src = item.panel;
 
-  let panelDescription = document.querySelector(".partnerPanel__content");
-  panelDescription.textContent = item.description;
+  // let panelDescription = document.querySelector(".partnerPanel__content");
+  // panelDescription.textContent = item.description;
 
   // imgContainer.appendChild(panelLogo);
   // header.appendChild(imgContainer);

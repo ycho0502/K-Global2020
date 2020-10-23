@@ -105,9 +105,12 @@ p {
 /* Company card */
 .container {
   display: flex;
-  background-color: var(--color-blue);
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: auto;
+  height: 100%;
+  flex-wrap: wrap;
+  /* background-color: var(--color-light-white); */
 }
 
 .container__cardList {
@@ -130,7 +133,18 @@ p {
   padding: 0.5em;
   width: 200px;
   height: 200px;
-  background-color: var(--color-white);
+  border-radius: 11px;
+  border: 1px solid rgba(202, 205, 211, 0.5);
+  box-shadow: -8px 8px 0 -2px rgba(234, 235, 237, 0.5);
+  /* box-shadow: -5px 5px 0px var(--color-light-white); */
+  /* background-color: var(--color-white); */
+  /* box-shadow: 7px 7px 10px rgba(55, 84, 170, 0.15), -7px -7px 20px #fff,
+    1px 1px 4px rgba(255, 255, 255, 0.2); */
+}
+
+.container__cardList__card:hover {
+  transform: translateY(-6px);
+  transition: 150ms ease-in-out;
 }
 
 .container__cardList__card__img {
@@ -143,14 +157,15 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0); /*scale hides panel by default*/
-  transition: 200ms ease-in-out;
-  border: 2px solid var(--color-black);
-  border-radius: 10px;
+  transition: 700ms ease-in-out;
+  border-radius: 15px;
   z-index: 10;
-  background-color: var(--color-light-white);
-  width: 800px;
-  height: 800px;
+  background-color: var(--color-white);
+  width: 640px;
+  height: 900px;
   max-width: 80%;
+  max-height: 80%;
+  /* overflow-y: auto; */
 }
 
 .partnerPanel.active {
@@ -158,23 +173,30 @@ p {
 }
 
 .partnerPanel__header {
-  padding: 10px 15px;
+  /* padding: 10px 15px; */
+  border-radius: 10px;
+  /* width: 640px; */
+  width: 640px;
+  height: 900px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  border-bottom: 1px solid var(--color-black);
+  /* border-bottom: 1px solid var(--color-black); */
 }
 
 .partnerPanel__imgContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 600px;
-  height: 600px;
-  background-color: var(--color-white);
+  width: 640px;
+  height: 900px;
+  border-radius: 15px;
+  /* background-color: var(--color-white); */
 }
 
 .partnerPanel__logo {
+  width: inherit;
+  height: inherit;
 }
 
 .partnerPanel__closeBtn {
@@ -189,9 +211,9 @@ p {
   font-weight: bold;
 }
 
-.partnerPanel__content {
-  padding: 10px 15px;
-}
+/* .partnerPanel__content {
+  padding: 20px 30px;
+} */
 
 /* background darkens when card clicked */
 #overlay {
