@@ -1,15 +1,15 @@
 {
   "company": [
     {
-      "name": "AIDUS",
-      "logo": "img/logos/AIDUS.png",
-      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_AIDUS.png",
-      "category": "smart appliances"
-    },
-    {
       "name": "CPD",
       "logo": "img/logos/CPDGROUP.png",
       "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_CPD.png",
+      "category": "smart appliances"
+    },
+    {
+      "name": "AIDUS",
+      "logo": "img/logos/AIDUS.png",
+      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_AIDUS.png",
       "category": "smart appliances"
     },
     {
@@ -19,21 +19,15 @@
       "category": "smart appliances"
     },
     {
-      "name": "KMS PARTNER",
-      "logo": "img/logos/KMS PARTNER.png",
-      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_KMS PARTNER.png",
-      "category": "smart appliances"
-    },
-    {
       "name": "REMYDE",
       "logo": "img/logos/REMYDE.png",
       "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_REMYDE.png",
       "category": "smart appliances"
     },
     {
-      "name": "R.O.C.K",
-      "logo": "img/logos/ROCK.png",
-      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_ROCK.png",
+      "name": "KMS PARTNER",
+      "logo": "img/logos/KMS PARTNER.png",
+      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_KMS PARTNER.png",
       "category": "smart appliances"
     },
     {
@@ -43,15 +37,21 @@
       "category": "smart appliances"
     },
     {
-      "name": "STATIC",
-      "logo": "img/logos/STATIC.png",
-      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_STATIC.png",
-      "category": "smart appliances"
-    },
-    {
       "name": "WHOBORN",
       "logo": "img/logos/WHOBORN.png",
       "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_WHOBORN.png",
+      "category": "smart appliances"
+    },
+    {
+      "name": "R.O.C.K",
+      "logo": "img/logos/ROCK.png",
+      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_ROCK.png",
+      "category": "smart appliances"
+    },
+    {
+      "name": "STATIC",
+      "logo": "img/logos/STATIC.png",
+      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_STATIC.png",
       "category": "smart appliances"
     },
     {
@@ -157,6 +157,12 @@
       "category": "security"
     },
     {
+      "name": "AIZEN GLOBAL",
+      "logo": "img/logos/AIZEN GLOBAL.png",
+      "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_AIZEN GLOBAL.png",
+      "category": "it services"
+    },
+    {
       "name": "UMAIN",
       "logo": "img/logos/UMAIN.png",
       "panel": "img/panel/04_SECURITY/KOTRA_SECURITY_UMAIN.png",
@@ -223,12 +229,6 @@
       "category": "robotics"
     },
     {
-      "name": "AIZEN GLOBAL",
-      "logo": "img/logos/AIZEN GLOBAL.png",
-      "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_AIZEN GLOBAL.png",
-      "category": "it services"
-    },
-    {
       "name": "BNF TECHNOLOGY",
       "logo": "img/logos/BNF TECHNOLOGY.png",
       "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_BNF TECHNOLOGY.png",
@@ -265,15 +265,15 @@
       "category": "it services"
     },
     {
-      "name": "KINETIC LAB",
-      "logo": "img/logos/KINETIC LAB.png",
-      "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_KINETIC LAB.png",
-      "category": "it services"
-    },
-    {
       "name": "MLAB",
       "logo": "img/logos/MLAB.png",
       "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_MLAB.png",
+      "category": "it services"
+    },
+    {
+      "name": "KINETIC LAB",
+      "logo": "img/logos/KINETIC LAB.png",
+      "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_KINETIC LAB.png",
       "category": "it services"
     },
     {
