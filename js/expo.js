@@ -28,30 +28,39 @@ function renderCompanies(companies) {
 function cardCreate(item) {
   let card = document.createElement("li");
   card.classList.add("container__cardList__card");
+
   let cardImg = document.createElement("img");
   cardImg.classList.add("container__cardList__card__img");
   cardImg.src = item.logo;
+
+  let cardTitle = document.createElement("div");
+  cardTitle.classList.add("container__cardList__card__title");
+  cardTitle.textContent = item.name;
 
   // Adding event listener for panel to popup when clicked
   card.addEventListener("click", () => {
     openPanel(item);
   });
 
+  // closing panel when close button is clicked
   closeBtn.addEventListener("click", () => {
     closePanel(item);
   });
 
-  // Adding event listeners when close button on the panel is clicked
+  // Closing panel when outside of the panel is also clicked
+  overlay.addEventListener("click", () => {
+    closePanel(item);
+  });
 
   card.appendChild(cardImg);
+  card.appendChild(cardTitle);
 
   return card;
 }
 
 function openPanel(item) {
   // const header = document.querySelector(".partnerPanel__header");
-
-  let imgContainer = document.querySelector(".partnerPanel__imgContainer");
+  // let imgContainer = document.querySelector(".partnerPanel__imgContainer");
   let panelLogo = document.querySelector(".partnerPanel__logo");
   panelLogo.src = item.panel;
 
@@ -62,8 +71,10 @@ function openPanel(item) {
   // header.appendChild(imgContainer);
   // header.appendChild(panelDescription);
 
-  // Enables panel
+  // Enable overlay
   overlay.classList.add("active");
+
+  // Enables panel
   partnerPanel.classList.add("active");
 }
 
