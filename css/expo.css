@@ -68,7 +68,7 @@ button {
 .section {
   text-align: center;
   padding: 50px;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -116,16 +116,16 @@ p {
 #cardList {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  padding: 30px 0px 10px 0px;
+  flex-wrap: wrap;
+  /* padding: 30px 0px 10px 0px; */
 }
 
 .cardList__Category {
   border-radius: 11px;
   border: 1px solid rgba(202, 205, 211, 0.5);
   box-shadow: -8px 8px 0 -2px rgba(234, 235, 237, 0.5);
-  padding: 10px;
-  margin: 30px;
+  margin: 30px 0px 30px 0px;
+  max-width: 1280px;
   min-width: 200px;
   min-height: 200px;
 }
@@ -134,9 +134,10 @@ p {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   height: 100%;
+  padding: 1em;
 }
 
 .container__cardList__card {
@@ -180,7 +181,7 @@ p {
   /* transform: translate(0%, -50%) scale(0); scale hides panel by default */
   transform: translate3d(100%, 0, 0);
   transition: 700ms ease-in-out;
-  border-radius: 35px;
+  border-radius: 11px;
   z-index: 10;
   background-color: var(--color-white);
   /* min-width: 33vh; */
@@ -201,6 +202,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 11px;
 }
 
 .partnerPanel__imgContainer {
@@ -209,12 +211,13 @@ p {
   align-items: center;
   width: inherit;
   height: 100vh;
+  border-radius: 11px;
 }
 
 .partnerPanel__logo {
   width: inherit;
   height: inherit;
-  border-radius: 20px;
+  border-radius: 11px;
 }
 
 .partnerPanel__closeBtn {
