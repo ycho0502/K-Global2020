@@ -742,3 +742,42 @@ h4:after {
   font-weight: var(--weight-semi-bold);
 }
 
+/* Contact */
+#contact {
+  background-color: var(--color-blue);
+}
+
+.contact__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__contact__form {
+  
+  width: 50%;
+}
+
+
+.contact__contact__form p {
+  font-size: var(--font-small);
+  color: var(--color-white);
+}
+
+.contact__description{
+  width: 50%;
+}
+
+.contact__description p{
+  color: var(--color-white);
+  font-weight: var(--weight-semi-bold);
+}
+
+.contact__description img {
+  
+  width: 350px;
+}
+
+.contact__description__detail p{
+  font-size: var(--font-small);
+  color: var(--color-white);
+}
