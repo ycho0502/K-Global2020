@@ -684,5 +684,61 @@ h4:after {
   text-align: center;
 } 
 
-/* Panel 1 (as different design */
+
+
+/* TESTIMONIAL */
+
+#testimonials{
+  
+  background: url('../img/bg4.jpg');
+
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+    
+}
+
+.testimonials{
+  margin:40px;
+
+}
+
+.testimonial {
+  display: flex;
+  margin: 32px 0;
+}
+
+.testimonial__avatar{
+  border: 2px solid var(--color-white);
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  margin: 12px;
+}
+
+.testimonial__avatar:nth-child(odd){
+  margin-right: 40px;
+}
+.testimonial__avatar:nth-child(even){
+  margin-left: 40px;
+}
+
+.testimonial__speech-bubble{
+  border-radius: 5px;
+  padding: 18px;
+  background-color: var(--color-white);
+}
+
+.testimonial__speech-bubble p {
+  color: var(--color-light-grey);
+}
+
+.testimonial__speech-bubble .name {
+  color: #545454;
+  font-weight: var(--weight-semi-bold);
+}
 
