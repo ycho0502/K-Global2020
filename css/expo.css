@@ -169,13 +169,13 @@ hr {
   border: 1px solid rgba(202, 205, 211, 0.5);
   /* box-shadow: -8px 8px 0 -2px rgba(234, 235, 237, 0.5); */
   border-radius: 6px;
-  background: var(--color-blue);
+  /* background: var(--color-blue); */
 }
 
 .cardList__Category__title {
   font-size: var(--font-regular);
   text-align: start;
-  color: white;
+  color: var(--color-dark-grey);
   margin: 8px 24px 8px 24px;
 }
 .container__cardList {
@@ -223,25 +223,36 @@ hr {
   padding: 0.5em;
 }
 .partnerPanel {
+  /* Trasition from right side */
   position: fixed;
   top: 0%;
-  right: 0%;
-  /* transform: translate(0%, -50%) scale(0); scale hides panel by default */
-  transform: translate3d(100%, 0, 0);
+  right: -50%;
+  transform: translate3d(0, 0, 0);
+  transition: 900ms ease-in-out;
+  border-radius: 11px;
+  z-index: 10;
+  background-color: var(--color-white);
+  min-height: 100vh;
+  max-height: 100%;
+
+  /* Trasition from middle */
+  /* position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
   transition: 700ms ease-in-out;
   border-radius: 11px;
   z-index: 10;
   background-color: var(--color-white);
-  /* min-width: 33vh; */
-  min-height: 100vh;
-  /* max-width: 80%; */
-  max-height: 100%;
-  /* overflow-y: auto; */
+  max-width: 80%; */
 }
 
 .partnerPanel.active {
-  /* transform: translate(0%, -50%) scale(1); */
-  transform: translate3d(0, 0, 0);
+  /* Trasition from right side */
+  transform: translate3d(-135%, 0, 0);
+
+  /* Trasition from middle */
+  /* transform: translate(-50%, -50%) scale(1); */
 }
 
 .partnerPanel__header {
@@ -269,6 +280,7 @@ hr {
 }
 
 .partnerPanel__closeBtn {
+  /* Trasition from right side */
   position: absolute;
   top: 1%;
   right: 2.5%;
@@ -279,12 +291,16 @@ hr {
   font-size: 1.5rem;
   font-weight: bold;
 
-  /* cursor: pointer;
+  /* Trasition from middle */
+  /* position: absolute;
+  top: 1%;
+  right: 2.5%;
+  cursor: pointer;
   border: none;
-  outline:none;
+  outline: none;
   background: none;
-  font-size: 1.25rem;
-  font-weight: var(--weight-bold); */
+  font-size: 1.5rem;
+  font-weight: bold; */
 }
 
 /* .partnerPanel__content {
@@ -295,7 +311,7 @@ hr {
 #overlay {
   position: fixed;
   opacity: 0;
-  transition: 200ms ease-in-out;
+  transition: 700ms ease-in-out;
   top: 0;
   left: 0;
   right: 0;
