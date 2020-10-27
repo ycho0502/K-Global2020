@@ -392,7 +392,7 @@ p {
 }
 
 .yearly__row:nth-child(2n+3) .yearly__year{
-  background-color: var(--color-dark-white);
+  background-color: var(--color-white);
 
 }
 
@@ -402,7 +402,7 @@ p {
 }
 
 .yearly__row:nth-child(2n+3) .yearly__theme{
-  background-color: var(--color-dark-white);
+  background-color: var(--color-white);
 
 }
 
