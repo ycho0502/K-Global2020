@@ -1,3 +1,6 @@
+const navbar = document.querySelector("#navbar");
+const navbarHeight = navbar.getBoundingClientRect().height;
+
 // Init. category element
 const smartAppliancesList = document.getElementById(
   "cardList__smartAppliances"
@@ -26,6 +29,17 @@ const adas = [];
 const robotics = [];
 const itService = [];
 //===================================================================================================
+
+// Navbar scroll event
+document.addEventListener("scroll", () => {
+  console.log(window.scrollY);
+  console.log(`navbarHeight: $(navbarHeight)`);
+  if (window.scrollY > navbarHeight) {
+    navbar.classList.add("navbar--dark");
+  } else {
+    navbar.classList.remove("navbar--dark");
+  }
+});
 
 //Fetching company data from json file
 //Usually gives error unless json is provided from the server
@@ -141,6 +155,9 @@ function cardCreate(item) {
   let card = document.createElement("li");
   card.classList.add("container__cardList__card");
 
+  let cardImgContainer = document.createElement("div");
+  cardImgContainer.classList.add("container__cardList__card__container");
+
   let cardImg = document.createElement("img");
   cardImg.classList.add("container__cardList__card__img");
   cardImg.src = item.logo;
@@ -164,7 +181,8 @@ function cardCreate(item) {
     closePanel(item);
   });
 
-  card.appendChild(cardImg);
+  cardImgContainer.appendChild(cardImg);
+  card.appendChild(cardImgContainer);
   card.appendChild(cardTitle);
 
   return card;
