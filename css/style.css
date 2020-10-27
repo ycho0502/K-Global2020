@@ -69,9 +69,10 @@ button {
 /* Section common */
 .section {
   text-align: center;
-  padding: 50px;
+  padding:28px 12px;
   max-width: 1280px;
   margin: 0 auto;
+
 }
 
 /* Typography */
@@ -192,7 +193,7 @@ p {
   padding-top: 160px;
   background: url("../img/blankbg.png") center/cover no-repeat;
   color: var(--color-white);
-  text-align: center;
+
 }
 
 .cont{
@@ -203,7 +204,7 @@ p {
 }
 
 .testcontainer{
-  /* background-color: red; */
+  
   position: absolute;
   height: 600px;
   width: 100%;
@@ -433,30 +434,22 @@ p {
 /* EVENTS */
 
 #events {
-  /* border: 1px solid red; */
-  padding: 2px 4px;
-  margin: 10px auto;
-  background: url('../img/eventsbg.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  margin: 0 auto;
+  background: url('../img/eventsbg.jpg') center/cover no-repeat;
   height: 800px;
 }
 .events__container{
-  /* border: 1px solid blue; */
   height: 100%;
-  padding: 0px;
+
 }
 .events__container1{
   display: flex;
   justify-content: space-evenly;
   height: 50%;
-  padding-top:5%;
+
+  
 }
 
-.events__intro{
-  /* border: 2px solid white; */
-}
 
 .events__intro__title h1{
   text-align: end;
