@@ -381,13 +381,13 @@ p {
 
 .yearly__row:nth-child(1) .yearly__year{
   background-color: var(--color-dark-blue);
-  color:var(--color-light-white);
+  color:var(--color-white);
 
 }
 
 .yearly__row:nth-child(1) .yearly__theme{
   background-color: var(--color-dark-blue);
-  color:var(--color-light-white);
+  color:var(--color-white);
 
 }
 
