@@ -434,78 +434,65 @@ p {
 /* EVENTS */
 
 #events {
-  margin: 0 auto;
+ 
   background: url('../img/eventsbg.jpg') center/cover no-repeat;
-  height: 800px;
-}
-.events__container{
-  height: 100%;
-
-}
-.events__container1{
-  display: flex;
-  justify-content: space-evenly;
-  height: 50%;
-
-  
+  border:2px solid black;
 }
 
 
 .events__intro__title h1{
-  text-align: end;
+  text-align: center;
   color: var(--color-white);
 }
 
-.events__intro__description img{
-  width: 80%;
+.events__container{
+
+  height: 100%;
 }
 
 
 
-.events__container2{
-  /* border:1px solid yellow; */
-  margin-top: 20px;
-  height: 50%;
-  width: 100%;
+
+.events__row{
+ 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin: 24px auto;
+
+}
+
+.events__row .events__card {
+  margin: 0 auto;
 }
 
 
 
 #events .events__card {
-  
-  height: 250px;
-  width: 300px;
-  box-sizing: 4px 3px #888888;
+
   border-radius: 5px;
 
 }
 
 .events__card .events__card__title{
   border-radius: 5px;
-  height: 30%;
+
   background-color: rgba(20, 36, 83, 0.78);
   color: var(--color-white);
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
   text-align: center;
   padding: 20px 0;
-  
-  
-
 
 }
 
 .events__card__description{
   background-color: var(--color-white);
-  height: 100%;
-  border-left: 1px solid var(--color-black);
-  border-right: 1px solid var(--color-black);
+  border: 1px solid var(--color-black);
+  
   
 }
 .events__card__date {
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto;
   padding: 15px 0;
   font-size: var(--font-regular);
@@ -521,14 +508,13 @@ hr {
 }
 
 .events__card__detail {
-  min-width: 240px;
+  /* min-width: 240px; */
   padding: 40px 10px;
   color: var(--color-black);
 
 }
 
 .events__card__detail a {
-
 
   color: var(--color-orange);
 
@@ -544,12 +530,12 @@ hr {
 #speaker{
   background-color: #F5F5F5 ;
 }
-.speaker__container{
+/* .speaker__container{
   margin: 10px auto;
   max-width: 1280px;
   height: 500px;
   
-}
+} */
 
 .speaker__title{
   text-align: center;
@@ -564,23 +550,25 @@ hr {
   display: flex;
   justify-content: space-around;
   padding:0;
-  margin:0;
-  border-radius: 3px;
+  margin:0 auto;
+  flex-wrap: wrap;
+  
+  
 }
 
 .speaker__card {
   height: 350px;
   width: 250px;
-  padding:0;
+  padding: 24px 4px;
   margin:0;
-  position: relative;
+  /* position: relative; */
   
 }
 
 .speaker__card__img{
   display: block;
-  height: 250px;
-  width: 250px;
+  height: 230px;
+  width: 230px;
   border-radius: 3px;
 }
 
@@ -724,6 +712,8 @@ h4:after {
   border-radius: 5px;
   padding: 18px;
   background-color: var(--color-white);
+  display: flex;
+  align-items: center;
 }
 
 .testimonial__speech-bubble p {
