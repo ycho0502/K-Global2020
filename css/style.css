@@ -628,6 +628,7 @@ h4 .duration {
   background-color: var(--color-blue);
   display: inline-block;
   width: 20px;
+  font-size: var(--font-micro);
   text-align: center;
   color: var(--color-white);
   border-radius: 50%;
@@ -762,6 +763,77 @@ hr {
   margin: 0 auto;
   height: 250px;
 }
+
+/* Welcome */
+
+
+#welcome {
+  background: url('../img/genralbg.png') center/cover no-repeat;
+  height: 300px;
+  padding-bottom: 52px;
+  background-attachment: fixed;
+
+}
+.welcome__container{
+  display: flex;
+  margin: 0 auto;
+}
+
+.welcome__attend{
+ 
+  padding: 24px 12px;
+  margin-left: auto;
+  /* width: 40%; */
+  color: var(--color-white);
+  font-size: var(--font-medium);
+  
+}
+
+
+#colon {
+  font-size: var(--font-xlarge);
+}
+#approx{
+  font-size: var(--font-large);
+  font-style: italic;
+}
+
+#number{
+  font-size: var(--font-xlarge);
+  font-weight: var(--weight-bold);
+  color: var(--color-orange)
+}
+.welcome__detail{
+  margin-right: auto;
+  background-color:rgba(2, 2, 58, 0.301);
+  padding: 8px 4px;
+}
+
+.welcome__detail__theme{
+
+  font-weight: var(--weight-bold);
+}
+
+.welcome__title {
+  color: var(--color-yellow);
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+}
+
+.welcome__subtitle{
+  font-size: var(--font-medium);
+  color: var(--color-white);
+  font-weight: var(--weight-semi-bold);
+}
+
+.welcome__date{
+  font-size: var(--font-regular);
+  color: var(--color-white);
+  font-weight: var(--weight-semi-bold);
+}
+
+
+
 
 
 /* Speakers */
