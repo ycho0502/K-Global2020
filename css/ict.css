@@ -31,7 +31,7 @@
 }
 
 
-/* ICT EVENT OVERVIEW */
+/* OVERVIEW */
 
 
 .overview__content {
@@ -44,6 +44,19 @@
 .overview__content span {
   font-weight: var(--weight-bold);
 }
+
+.ict__container .overview__content {
+  margin-bottom: 0px;
+}
+
+
+/* ICT Forum Event Details  */
+
+.ict__event .ict__container {
+  margin-bottom: 120px;
+}
+
+
 
 
 /* Schedule Card ----- */
@@ -137,6 +150,15 @@ h4 .duration {
   text-align: left;
   font-weight: var(--weight-semi-bold);
   padding-left: 4px;
+}
+
+.speaker__bio__name span {
+  background-color: var(--color-blue);
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  color: var(--color-white);
+  border-radius: 50%;
 }
 
 .speaker__bio__title {
