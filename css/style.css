@@ -437,6 +437,7 @@ p {
  
   background: url('../img/eventsbg.jpg') center/cover no-repeat;
   border:2px solid black;
+  background-attachment: fixed;
 }
 
 

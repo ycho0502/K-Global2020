@@ -145,6 +145,7 @@ p {
   background: url('../img/genralbg.png') center/cover no-repeat;
   height: 300px;
   padding-bottom: 52px;
+  background-attachment: fixed;
 
 }
 .welcome__container{
