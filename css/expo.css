@@ -473,6 +473,36 @@ p {
   margin-left: 15px;
 } */
 
+.heading-1 {
+  text-align: left;
+  font-size: 1.5em;
+  /* letter-spacing: 0.05em; */
+  font-weight: 300;
+  color: var(--color-dark-grey);
+  text-shadow: 0 1px 1px #ffffff;
+  text-transform: uppercase;
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+.heading-1 p {
+  font-size: 0.7em;
+}
+
+.divider-1 {
+  border: none;
+  margin: 0.5em 0px 1.5em;
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+.divider-1 span {
+  display: block;
+  width: 50px;
+  height: 1px;
+  background-color: var(--color-blue);
+}
+
 .block {
   background: #f5f5f5;
   max-width: 50rem;
@@ -506,9 +536,6 @@ hr {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* border: 1px solid rgba(202, 205, 211, 0.5);
-  box-shadow: -8px 8px 0 -2px rgba(234, 235, 237, 0.5);
-  border-radius: 11px; */
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -520,16 +547,36 @@ hr {
   max-width: 1280px;
   min-width: 200px;
   min-height: 200px;
-  border: 1px solid rgba(202, 205, 211, 0.5);
-  /* box-shadow: -8px 8px 0 -2px rgba(234, 235, 237, 0.5); */
+  border: 0.5px solid rgba(202, 205, 211, 0.5);
   border-radius: 6px;
-  /* background: var(--color-blue); */
+}
+
+#category__smartAppliances {
+  background: #9c91c6;
+}
+#category__telecomunications {
+  background: #569cd5;
+}
+#category__biotech {
+  background: #688dc9;
+}
+#category__security {
+  background: #f69785;
+}
+#category__adas {
+  background: #a0d4a4;
+}
+#category__robotics {
+  background: #f89f71;
+}
+#category__itServices {
+  background: #7fd0d8;
 }
 
 .cardList__Category__title {
   font-size: var(--font-regular);
   text-align: start;
-  color: var(--color-light-grey);
+  color: var(--color-white);
   margin: 8px 24px 8px 24px;
 }
 .container__cardList {
@@ -539,7 +586,7 @@ hr {
   justify-content: flex-start;
   height: 100%;
   padding: 1.1em;
-  background: #f5f5f5;
+  background: var(--color-white);
 }
 
 .container__cardList__card__container {
@@ -557,9 +604,9 @@ hr {
   height: 200px;
   border-radius: 11px;
   border: 1px solid rgba(202, 205, 211, 0.5);
+  box-shadow: -4px 4px 0 -2px rgba(202, 205, 211, 0.5);
   /* box-shadow: -8px 8px 0 -2px rgba(234, 235, 237, 0.5); */
-  box-shadow: -8px 8px 0 -2px rgba(202, 205, 211, 0.5);
-  background: var(--color-white);
+  /* background: var(--color-white); */
   /* box-shadow: -5px 5px 0px var(--color-light-white); */
   /* background-color: var(--color-white); */
   /* box-shadow: 7px 7px 10px rgba(55, 84, 170, 0.15), -7px -7px 20px #fff,
@@ -590,6 +637,84 @@ hr {
   padding: 0.5em;
   color: var(--color-grey);
 }
+
+#cardList__smartAppliances .container__cardList__card__title::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  /* background-color: #fac42b; */
+  background-color: #9c91c6;
+  margin-bottom: 20px;
+}
+
+#cardList__telecomunications .container__cardList__card__title::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  /* background-color: #fac42b; */
+  background-color: #569cd5;
+  margin-bottom: 20px;
+}
+
+#cardList__biotech .container__cardList__card__title::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  /* background-color: #fac42b; */
+  background-color: #688dc9;
+  margin-bottom: 20px;
+}
+
+#cardList__security .container__cardList__card__title::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  /* background-color: #fac42b; */
+  background-color: #f69785;
+  margin-bottom: 20px;
+}
+
+#cardList__adas .container__cardList__card__title::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  /* background-color: #fac42b; */
+  background-color: #a0d4a4;
+  margin-bottom: 20px;
+}
+
+#cardList__robotics .container__cardList__card__title::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  /* background-color: #fac42b; */
+  background-color: #f89f71;
+  margin-bottom: 20px;
+}
+
+#cardList__itServices .container__cardList__card__title::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  /* background-color: #fac42b; */
+  background-color: #7fd0d8;
+  margin-bottom: 20px;
+}
+
 .partnerPanel {
   /* Trasition from right side */
   position: fixed;
@@ -728,31 +853,4 @@ hr {
 .contact__description__detail p {
   font-size: var(--font-small);
   color: var(--color-white);
-}
-
-.heading-1 {
-  text-align: left;
-  font-family: "Roboto Slab", serif;
-  font-size: 1.2em;
-  letter-spacing: 0.08em;
-  font-weight: 300;
-  color: var(--color-dark-grey);
-  text-shadow: 0 1px 1px #ffffff;
-  text-transform: uppercase;
-  padding-inline-start: 100px;
-}
-
-.divider-1 {
-  /* border-bottom: 1px solid #fff; */
-  /* background-color: #dadada; */
-  /* height: 1px; */
-  margin: 0.5em 0px 1.5em;
-  padding-inline-start: 100px;
-}
-
-.divider-1 span {
-  display: block;
-  width: 50px;
-  height: 1px;
-  background-color: var(--color-blue);
 }
