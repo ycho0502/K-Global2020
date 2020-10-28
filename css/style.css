@@ -105,6 +105,52 @@ p {
   margin: 4px 0;
 }
 
+.line__title {
+  padding: 24px 0px 36px 0px;
+}
+
+.line__title h2 {
+  font-weight: var(--weight-bold);
+  position:relative;
+  margin: 48px auto;
+  padding: 0 24px;
+
+}
+
+.line__title h2:before{
+  content: " ";
+  display:block;
+  width: 440px;
+  height:4px;
+  background: linear-gradient(to left, black, white);
+/* background: radial-gradient(circle, rgba(2,0,36,1) 25%, rgba(9,9,121,1) 40%, rgba(9,15,125,1) 55%, rgba(6,84,170,1) 70%, rgba(255,255,255,1) 100%); */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -2;
+  
+}
+
+.line__title h2:after{
+  content: " ";
+  display:block;
+  width: 440px;
+  height:4px;
+  background: linear-gradient(to right, black, white);
+  /* background: radial-gradient(circle, rgba(2,0,36,1) 25%, rgba(9,9,121,1) 40%, rgba(9,15,125,1) 55%, rgba(6,84,170,1) 70%, rgba(255,255,255,1) 100%); */
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -2;
+}
+
+.line__title span{
+  background: #fff
+  }
+
+
+
+
 /* Refacotor it later!!!!!!!!!!!! */
 /* .navbar__wrapper {
   width: 1280px;
@@ -531,12 +577,15 @@ hr {
 #speaker{
   background-color: #F5F5F5 ;
 }
-/* .speaker__container{
-  margin: 10px auto;
-  max-width: 1280px;
-  height: 500px;
-  
-} */
+
+
+.spaker__col {
+  display: flex;
+}
+
+.spaker__col .speaker__card {
+  margin: 24px 12px;
+}
 
 .speaker__title{
   text-align: center;
@@ -546,6 +595,10 @@ hr {
   font-weight: var(--weight-bold);
 }
 
+.speaker__topic {
+  font-weight: var(--weight-bold);
+  font-size: var(--font-regular);
+}
 
 .speakers{
   display: flex;
@@ -560,16 +613,16 @@ hr {
 .speaker__card {
   height: 350px;
   width: 250px;
-  padding: 24px 4px;
-  margin:0;
+  /* padding: 24px 4px; */
+  margin-top:24px;
   /* position: relative; */
   
 }
 
 .speaker__card__img{
   display: block;
-  height: 230px;
-  width: 230px;
+  height: 250px;
+  width: 250px;
   border-radius: 3px;
 }
 
@@ -598,7 +651,7 @@ hr {
   font-weight: var(--weight-semi-bold);
 }
 
-h4:after {
+.speaker__card__content__name h4:after {
   content: "";
   display: block;
   width: 40px;

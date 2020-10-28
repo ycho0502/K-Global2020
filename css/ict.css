@@ -1,0 +1,146 @@
+/* Slider */
+
+#slider{
+
+  background: url('../img/general_bg.png') center/cover no-repeat;
+  padding-top: 60px;
+  padding-bottom: 52px;
+}
+
+.slider__text__title{
+  color: var(--color-yellow);
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+}
+.slider__text__subtitle{
+  color: var(--color-white);
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+}
+
+.slider__text__date{
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-semi-bold);
+}
+
+#bg {
+  position: fixed; 
+  background-size:100% 100%;
+  background: cover;
+}
+
+
+/* ICT EVENT OVERVIEW */
+
+
+.overview__content {
+  margin:0 auto;
+  text-align: left;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.overview__content span {
+  font-weight: var(--weight-bold);
+}
+
+
+/* Schedule Card ----- */
+
+
+
+#ICT__schedule{
+  /* background-color: var(--color-white); */
+}
+.schedule__container{
+
+  margin: 0 auto;
+  padding: 24px 0px;
+
+  
+}
+
+.schedule__card {
+  width: 75%;
+  margin: 10px auto;
+  display: flex;
+  margin-left: auto;
+}
+
+
+
+.schedule__card__time {
+  
+  border-radius: 5px;
+  width: 15%;
+  text-align: center;
+  padding:16px 10px;
+  
+  font-weight: var(--weight-semi-bold);
+  color: #4d4d4d;
+
+
+}
+
+.description__content h4{
+  padding-top: 10px;
+  color: var(--color-orange);
+  font-weight: var(--weight-semi-bold);
+}
+
+h4 .duration {
+  color: var(--color-light-grey);
+}
+
+.description__topic h3 {
+  font-weight: var(--weight-semi-bold);
+}
+
+.schedule__card__description {
+  border: 2px solid var(--color-light-grey);
+  border-radius: 5px;
+  padding: 8px 16px;
+  width: 85%;
+}
+
+
+.schedule__card__description .description__topic, .description__content{
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description__topic{
+  margin: auto 0;
+}
+
+
+.description__speaker {
+  display: flex;
+  padding: 4px 12px;
+  
+}
+
+.speaker__img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.speaker__bio {
+  padding-left: 10px;
+}
+
+.speaker__bio__name {
+  text-align: left;
+  font-weight: var(--weight-semi-bold);
+  padding-left: 4px;
+}
+
+.speaker__bio__title {
+  text-align: left;
+  padding-left: 4px;
+  color: var(--color-light-grey);
+}
