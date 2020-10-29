@@ -30,8 +30,6 @@
 
 /* Schedule Card ----- */
 
-
-
 #ICT__schedule{
   /* background-color: var(--color-white); */
 }
@@ -145,36 +143,3 @@ h4 .duration {
   color: var(--color-light-grey);
 }
 
-@media screen and (max-width: 768px) {
-
-  .schedule__container {
-  
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-  }
-
-  .schedule__container .schedule__card {
-    width: 100%;
- 
-  }
-
-  .schedule__card .schedule__card__description {
-  
-    margin: 0 auto;
-    width: 90%;
-    padding: 6px 8px;
-  }
-
-  .schedule__card__description .description__time {
-
-    display: block;
-  }
-
-
-  .schedule__card .schedule__card__time {
-    display: none;
-  }
-
-}

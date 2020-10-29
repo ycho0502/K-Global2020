@@ -603,8 +603,8 @@ p {
 
 
 
-#ICT__schedule{
-  /* background-color: var(--color-white); */
+#schedule{
+  background-color: var(--color-white);
 }
 .schedule__container{
 
@@ -656,6 +656,18 @@ h4 .duration {
   padding: 8px 16px;
   width: 85%;
   
+}
+
+
+.schedule__card__description .description__time {
+
+  color: var(--color-dark-grey);
+  font-weight: var(--weight-semi-bold);
+  /* padding: 4px 4px; */
+  border-bottom: 2px solid var(--color-dark-grey);
+  line-height: 40px;
+  display: none;
+
 }
 
 
@@ -1241,6 +1253,39 @@ h4 .duration {
     line-height: 50px;
     
   
+  }
+
+
+  /* Schedule */
+
+  .schedule__container {
+  
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .schedule__container .schedule__card {
+    width: 100%;
+ 
+  }
+
+  .schedule__card .schedule__card__description {
+  
+    margin: 0 auto;
+    width: 90%;
+    padding: 6px 8px;
+  }
+
+  .schedule__card__description .description__time {
+
+    display: block;
+  }
+
+
+  .schedule__card .schedule__card__time {
+    display: none;
   }
 
 
