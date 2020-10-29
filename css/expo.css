@@ -474,34 +474,36 @@ p {
 } */
 
 .heading-1 {
+  display: flex;
   text-align: left;
   font-size: 1.5em;
-  /* letter-spacing: 0.05em; */
+  letter-spacing: 0.02em;
   font-weight: 300;
   color: var(--color-dark-grey);
   text-shadow: 0 1px 1px #ffffff;
-  text-transform: uppercase;
-  padding-left: 350px;
-  padding-right: 350px;
+  padding-left: 250px;
+  padding-right: 250px;
+  /* text-transform: uppercase; */
 }
 
 .heading-1 p {
   font-size: 0.7em;
+  margin: 7px;
 }
 
-.divider-1 {
+/* .divider-1 {
   border: none;
   margin: 0.5em 0px 1.5em;
   padding-left: 350px;
   padding-right: 350px;
-}
+} */
 
-.divider-1 span {
+/* .divider-1 span {
   display: block;
   width: 50px;
   height: 1px;
   background-color: var(--color-blue);
-}
+} */
 
 .block {
   background: #f5f5f5;
@@ -543,40 +545,96 @@ hr {
 }
 
 .cardList__Category {
-  margin: 8px 0px 8px 0px;
+  margin: 8px 0px 40px 0px;
   max-width: 1280px;
   min-width: 200px;
   min-height: 200px;
-  border: 0.5px solid rgba(202, 205, 211, 0.5);
+  border: 1px solid rgba(202, 205, 211, 0.5);
   border-radius: 6px;
 }
 
-#category__smartAppliances {
-  background: #9c91c6;
+#category__smartAppliances hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    #9c91c6,
+    var(--color-white)
+  );
+  /* background: #9c91c6; */
 }
-#category__telecomunications {
-  background: #569cd5;
+#category__telecomunications hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    #569cd5,
+    var(--color-white)
+  );
+  /* background: #569cd5; */
 }
-#category__biotech {
-  background: #688dc9;
+#category__biotech hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    #688dc9,
+    var(--color-white)
+  );
+  /* background: #688dc9; */
 }
-#category__security {
-  background: #f69785;
+#category__security hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    #f69785,
+    var(--color-white)
+  );
+  /* background: #f69785; */
 }
-#category__adas {
-  background: #a0d4a4;
+#category__adas hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    #a0d4a4,
+    var(--color-white)
+  );
+  /* background: #a0d4a4; */
 }
-#category__robotics {
-  background: #f89f71;
+#category__robotics hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    #f89f71,
+    var(--color-white)
+  );
+  /* background: #f89f71; */
 }
-#category__itServices {
-  background: #7fd0d8;
+#category__itServices hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    #7fd0d8,
+    var(--color-white)
+  );
+  /* background: #7fd0d8; */
 }
 
 .cardList__Category__title {
   font-size: var(--font-regular);
-  text-align: start;
-  color: var(--color-white);
+  text-align: center;
+  color: var(--color-dark-grey);
   margin: 8px 24px 8px 24px;
 }
 .container__cardList {
