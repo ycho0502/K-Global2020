@@ -559,7 +559,7 @@ hr {
   overflow: hidden;
   backface-visibility: hidden;
   position: absolute;
-  transition: transform 0.6s linear;
+  transition: transform 0.7s linear;
 }
 
 .speaker__card__img {
@@ -585,10 +585,12 @@ hr {
   position: absolute;
   justify-content: center;
   align-items: center;
+  background: var(--color-blue);
 }
 
 .card__back__note p {
   text-align: center;
+  color: var(--color-light-white);
 }
 
 .speaker__card__content {

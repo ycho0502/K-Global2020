@@ -559,7 +559,7 @@ hr {
   background-image: linear-gradient(
     to right,
     var(--color-white),
-    #9c91c6,
+    #967cfd,
     var(--color-white)
   );
   /* background: #9c91c6; */
@@ -603,7 +603,7 @@ hr {
   background-image: linear-gradient(
     to right,
     var(--color-white),
-    #a0d4a4,
+    #86e68e,
     var(--color-white)
   );
   /* background: #a0d4a4; */
@@ -667,23 +667,11 @@ hr {
 
   -webkit-filter: grayscale(0) blur(0);
   filter: grayscale(0) blur(0);
-  transition: 0.4s ease-in-out;
-  /* box-shadow: -8px 8px 0 -2px rgba(234, 235, 237, 0.5); */
-  /* background: var(--color-white); */
-  /* box-shadow: -5px 5px 0px var(--color-light-white); */
-  /* background-color: var(--color-white); */
-  /* box-shadow: 7px 7px 10px rgba(55, 84, 170, 0.15), -7px -7px 20px #fff,
-    1px 1px 4px rgba(255, 255, 255, 0.2); */
+  transition: 0.2s ease-in-out;
 }
 
-/* .container__cardList__card:hover:before {
-  -webkit-filter: grayscale(100%) blur(2px);
-  filter: grayscale(100%) blur(2px);
-  transition: 0.4s ease-in-out;
-} */
-
 .speaker__card__content__more {
-  transition: 0.5s ease;
+  transition: 0.1s ease;
   opacity: 0;
   position: absolute;
   top: 55%;
@@ -691,12 +679,48 @@ hr {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  border-radius: 5px;
 }
 
+#cardList__smartAppliances .speaker__card__content__more {
+  border: 1.5px solid #967cfd;
+  border-radius: 5px;
+}
+
+#cardList__telecomunications .speaker__card__content__more {
+  border: 1.5px solid #569cd5;
+  border-radius: 5px;
+}
+
+#cardList__itServices .speaker__card__content__more {
+  border: 1.5px solid #7fd0d8;
+  border-radius: 5px;
+}
+
+#cardList__adas .speaker__card__content__more {
+  border: 1.5px solid #86e68e;
+  border-radius: 5px;
+}
+
+#cardList__security .speaker__card__content__more {
+  border: 1.5px solid #f69785;
+  border-radius: 5px;
+}
+
+#cardList__biotech .speaker__card__content__more {
+  border: 1.5px solid #688dc9;
+  border-radius: 5px;
+}
+
+#cardList__robotics .speaker__card__content__more {
+  border: 1.5px solid #f89f71;
+  border-radius: 5px;
+}
 .speaker__card__content__more .text {
-  background-color: rgba(14, 29, 75, 1);
+  /* background-color: rgba(14, 29, 75, 1); */
+  background-color: var(--color-white);
   color: var(--color-orange);
-  color: var(--color-white);
+  color: var(--color-dark-grey);
   padding: 4px 8px;
   border-radius: 5px;
   font-weight: var(--weight-bold);
@@ -747,7 +771,7 @@ hr {
   height: 2px;
   margin: 0 auto;
   /* background-color: #fac42b; */
-  background-color: #9c91c6;
+  background-color: #967cfd;
   margin-bottom: 20px;
 }
 
@@ -791,7 +815,7 @@ hr {
   height: 2px;
   margin: 0 auto;
   /* background-color: #fac42b; */
-  background-color: #a0d4a4;
+  background-color: #86e68e;
   margin-bottom: 20px;
 }
 
