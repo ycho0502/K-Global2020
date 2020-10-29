@@ -263,11 +263,11 @@ p {
   padding: 12px 8px;
 }
 
-/* .navbar__menu__item.active a {
+.navbar__menu__item.active a {
 
   color: var(--color-orange);
   
-} */
+}
 
 .navbar__menu__item a:hover {
 
@@ -876,6 +876,7 @@ h4 .duration {
 
 .spaker__col {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .spaker__col .speaker__card {
@@ -1206,6 +1207,20 @@ h4 .duration {
 
   /* Navbar  END----------*/
 
+
+
+  /* Speaker */
+
+  .spaker__col {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .spaker__col .speaker__card {
+    margin: 24px auto;
+    
+  }
 
   /* INTRODUCTION START------- */
 
