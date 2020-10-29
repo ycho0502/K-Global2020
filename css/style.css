@@ -544,6 +544,23 @@ hr {
   position: relative;
 }
 
+.card__middle {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.card__front,
+.card__back {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform 0.6s linear;
+}
+
 .speaker__card__img {
   display: block;
   height: 250px;
@@ -551,7 +568,31 @@ hr {
   border-radius: 3px;
 }
 
+.card__front {
+  transform: perspective(600px) rotateY(0deg);
+}
+
+.card__back {
+  background: white;
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card__back__note {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__back__note p {
+  text-align: center;
+}
+
 .speaker__card__content {
+  position: relative;
+  top: 71.5%;
   height: 100px;
   background-color: #ffffff;
   padding: 0;
@@ -604,7 +645,14 @@ h4:after {
   transition: transform 0.5s ease;
 }
 
-.speaker__card:hover img {
+.speaker__card:hover .card__front {
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.speaker__card:hover .card__back {
+  transform: perspective(600px) rotateY(0deg);
+}
+/* .speaker__card:hover img {
   transform: scale(1.03);
   cursor: pointer;
   -webkit-filter: brightness(0.7);
@@ -614,7 +662,7 @@ h4:after {
 .speaker__card:hover .speaker__card__content__more {
   opacity: 1;
   cursor: pointer;
-}
+} */
 
 .speaker__card__content__more .text {
   background-color: rgba(14, 29, 75, 0.38);
