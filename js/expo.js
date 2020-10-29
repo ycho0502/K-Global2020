@@ -164,6 +164,13 @@ function cardCreate(item) {
   cardTitle.classList.add("container__cardList__card__title");
   cardTitle.textContent = item.name;
 
+  let hover = document.createElement("div");
+  hover.classList.add("speaker__card__content__more");
+
+  let hoverText = document.createElement("div");
+  hoverText.classList.add("text");
+  hoverText.textContent = "More Info";
+
   // Adding event listener for panel to popup when clicked
   card.addEventListener("click", () => {
     openPanel(item);
@@ -179,9 +186,11 @@ function cardCreate(item) {
     closePanel(item);
   });
 
+  hover.appendChild(hoverText);
   cardImgContainer.appendChild(cardImg);
   card.appendChild(cardImgContainer);
   card.appendChild(cardTitle);
+  card.appendChild(hover);
 
   return card;
 }
