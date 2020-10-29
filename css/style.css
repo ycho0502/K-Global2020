@@ -301,13 +301,17 @@ p {
 
 #bgholder {
   height: 1000px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding-top: 160px;
   background: url("../img/blankbg.png") center/cover no-repeat;
   color: var(--color-white);
 
 }
 
+.events__title h1{
+  color: var(--color-white);
+  padding:24px 0px;
+}
 .cont{
   position: relative;
   height: 600px;
@@ -345,7 +349,7 @@ p {
   width: 550px;
   height: 376px;
   background: url('../img/af.png');
-  left: 0px;
+  left: -20px;
   animation: float 6s ease-in-out infinite;
   z-index:-1;
 }
@@ -363,11 +367,10 @@ p {
   from{
     left:0;
     right:0;
-    /* left:20%; */
     width: 550px;
   }to{
     width:0px;
-    left:10%;
+    left:30px;
    
   }
 }
