@@ -21,22 +21,43 @@
   <body>
 
 
-    <!--Navbar-->
-    <nav id="navbar">
-      <div class="navbar__wrapper">
-        <div class="navbar__logo">
-          <a href="index.html"><img src="img/kglobal.png"></a>
-        </div>
-        <a href="#"></a>
-        <ul class="navbar__menu">
-          <li class="navbar__menu__item active"><a href="introduction.html">Introduction</a></li>
-          <li class="navbar__menu__item"><a href="ict.html">ICT Forum</a></li>
-          <li class="navbar__menu__item"><a href="#">Pitching Competition</a></li>
-          <li class="navbar__menu__item"><a href="ama.html">AMA Session</a></li>
-          <li class="navbar__menu__item"><a href="#">Online Partnership Expo</a></li>
-        </ul>
+  <!--Navbar-->
+  <nav id="navbar">
+    <div class="navbar__wrapper">
+      <div class="navbar__logo">
+        <a href="index.html"><img src="img/kglobal.png"></a>
       </div>
-    </nav>
+      <a href="#"></a>
+      <ul class="navbar__menu">
+        
+        <li class="navbar__menu__item active"><a href="introduction.html">Introduction</a></li>
+        
+        <li class="navbar__menu__item"><a href="ict.html">ICT Forum</a></li>
+        
+        <li class="navbar__menu__item sub-menu"><a href="#">Pitching Competition</a>
+          <ul class="sub-menu__list">
+            <li><a href="kpitch.html">K-Pitch</a></li>
+            <li><a href="ipitch.html">International Pitch</a></li>
+          </ul>
+
+        <li class="navbar__menu__item"><a href="ama.html">AMA Session</a></li>
+        
+        <li class="navbar__menu__item"><a href="#">Online Partnership Expo</a></li>
+      </ul>
+    </div>
+
+    <button class="navbar__toggle-btn">
+      <svg class="svg-icon" viewBox="0 0 20 20">
+        <path fill="none"
+          d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314
+          c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743
+          s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314
+          c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z">
+        </path>
+      </svg>
+    </button>
+
+  </nav>
 
 
     <!-- Slider -->

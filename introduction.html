@@ -1,376 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>K-Global 2020</title>
-    <meta name="author" content="KOTRA">
-    <meta name="description" content="K-Global at silicon valley 2020">
-    <!-- Might not need fonrawesome-->
-    <script src="https://kit.fontawesome.com/939867400f.js" crossorigin="anonymous"></script> 
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <!-- Google font-->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
-    <!-- Stylesheet and JS-->
-    <link rel="stylesheet" href="css/introduction.css">
-    <link rel="stylesheet" href="css/style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K-Global 2020</title>
+  <meta name="author" content="KOTRA">
+  <meta name="description" content="K-Global at silicon valley 2020">
+  <!-- Might not need fonrawesome-->
+  <script src="https://kit.fontawesome.com/939867400f.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <!-- Google font-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
-    <script src="js/main.js" defer></script>
-  </head>
-  <body>
+  <!-- Stylesheet and JS-->
+  <link rel="stylesheet" href="css/introduction.css">
+  <link rel="stylesheet" href="css/style.css">
 
-    <!--Navbar-->
-    <nav id="navbar">
-      <div class="navbar__wrapper">
-        <div class="navbar__logo">
-          <a href="index.html"><img src="img/kglobal.png"></a>
-        </div>
-        <a href="#"></a>
-        <ul class="navbar__menu">
-          <li class="navbar__menu__item active"><a href="introduction.html">Introduction</a></li>
-          <li class="navbar__menu__item"><a href="ict.html">ICT Forum</a></li>
-          <li class="navbar__menu__item"><a href="#">Pitching Competition</a></li>
-          <li class="navbar__menu__item"><a href="ama.html">AMA Session</a></li>
-          <li class="navbar__menu__item"><a href="#">Online Partnership Expo</a></li>
-        </ul>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+
+  <!--Navbar-->
+  <nav id="navbar">
+    <div class="navbar__wrapper">
+      <div class="navbar__logo">
+        <a href="index.html"><img src="img/kglobal.png"></a>
       </div>
-    </nav>
+      <a href="#"></a>
+      <ul class="navbar__menu">
+
+        <li class="navbar__menu__item active"><a href="introduction.html">Introduction</a></li>
+
+        <li class="navbar__menu__item"><a href="ict.html">ICT Forum</a></li>
+
+        <li class="navbar__menu__item sub-menu"><a href="#">Pitching Competition</a>
+          <ul class="sub-menu__list">
+            <li><a href="kpitch.html">K-Pitch</a></li>
+            <li><a href="ipitch.html">International Pitch</a></li>
+          </ul>
+
+        <li class="navbar__menu__item"><a href="ama.html">AMA Session</a></li>
+
+        <li class="navbar__menu__item"><a href="#">Online Partnership Expo</a></li>
+      </ul>
+    </div>
+
+    <button class="navbar__toggle-btn">
+      <svg class="svg-icon" viewBox="0 0 20 20">
+        <path fill="none"
+          d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314
+        c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743
+        s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314
+        c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z">
+        </path>
+      </svg>
+    </button>
+
+  </nav>
 
 
-    <!-- Slider -->
-    <section id="slider">
-      <!-- <div class="slider__container"> <img src="img/notextbg.png" id="bg" alt=""></div> -->
-      <div class="section">
-        <div id="slider__text">
-          <div class="slider__text__title">POST COVID-19<br></div>
-          <div class="slider__text__subtitle">
-            REVOLUTIONARY GAME CHANGER
-          </div>
-          <div class="slider__text__title">AI</div>
-          <div class="slider__text__date">NOV 30 - DEC 3, 2020</div>
-          <button class="bgholder__register"><a href="#">REGISTER</a></button>
+  <!-- Slider -->
+  <section id="slider">
+    <!-- <div class="slider__container"> <img src="img/notextbg.png" id="bg" alt=""></div> -->
+    <div class="section">
+      <div id="slider__text">
+        <div class="slider__text__title">POST COVID-19<br></div>
+        <div class="slider__text__subtitle">
+          REVOLUTIONARY GAME CHANGER
         </div>
+        <div class="slider__text__title">AI</div>
+        <div class="slider__text__date">NOV 30 - DEC 3, 2020</div>
+        <button class="bgholder__register"><a href="#">REGISTER</a></button>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!--Introduction -->
+  <!--Introduction -->
 
-    <section id="introduction">
-      <div class="section">
-        <div class="line__title">
-          <h2><span>INTRODUCTION</span></h2>
-        </div>
-        <div class="card__container">
+  <section id="introduction">
+    <div class="section">
+      <!-- <div class="line__title">
+        <h2><span>INTRODUCTION</span></h2>
+      </div> -->
+      <h2>Event Overview</h2>
+      <div class="card__container">
 
-          <div class="introduction__card">
-            <div class="introduction__card__icon">
-              <img src="img/webinar3.png" alt="">
-            </div>
-            <h4 class="introduction__card__title">Online<br> Webinar</h4>
-            <div class="introduction__card__description">
-              Invite top Silicon Valley experts in AI for the
-              leading industry that will pave way for the future of innovation, and conduct speeches and panel discussions virtually to influence industries in both Korea and the U.S.
-            </div>
+        <div class="introduction__card">
+          <div class="introduction__card__icon">
+            <img src="img/webinar3.png" alt="">
           </div>
-
-
-          <div class="introduction__card">
-            <div class="introduction__card__icon">
-              <img src="img/oppertunity.png" alt="">
-            </div>
-            <h4 class="introduction__card__title">Seeking new opportunities post COVID-19</h4>
-            <div class="introduction__card__description">Highlight upcoming
-              revolution of new industry and businesses within Silicon
-              Valley companies in the midst of COVID-19
-            </div>
-          </div>
-
-
-          <div class="introduction__card">
-            <div class="introduction__card__icon">
-              <img src="img/ai.png" alt="">
-            </div>
-            <h4 class="introduction__card__title">Advance promotion of technology</h4>
-            <div class="introduction__card__description">Generate interest among
-              K-Global participants with the focus on AI new technology
-              and service, and promote excellence of Korea’s innovative
-              technology to local buyers and investors
-            </div>
-          </div>
-
-          <!-- <div class="introduction__card">
-            <div class="introduction__card__icon">
-              <img src="img/marketing.png" alt="">
-            </div>
-            <h4 class="introduction__card__title">Advance<br> online marketing</h4>
-    
-            <div class="introduction__card__description">With the main goal in advancing
-              ICT hidden champions to overseas markets, SNS marketing
-              → 1:1 video conference/consulting → advancement in online
-              marking that leads to more buyer discovery (DB), as well as
-              continued support for productive results</div>
-          </div> -->
-        </div>
-        
-      </div>
-
-    </section>
-
-
-
-
-
-
-
-
-
-    <!-- Version2 -->
-
-    <!-- <section id="introduction">
-      <div class="section">
-        <div class="card__container2">
-
-          <div class="introduction__card2">
-            <div class="introduction__card__icon2">
-              <img src="img/webinar3.png" alt="">
-            </div>
-            <h4 class="introduction__card__title2">Online Webinar</h4>
-            <div class="introduction__card__description2">
-              Invite top Silicon Valley experts in AI for the
-              leading industry that will pave way for the future of innovation, and conduct speeches and panel discussions virtually to influence industries in both Korea and the U.S.
-            </div>
-          </div>
-
-
-          <div class="introduction__card2">
-            <div class="introduction__card__icon2">
-              <img src="img/oppertunity.png" alt="">
-            </div>
-            <h4 class="introduction__card__title2">Seeking new opportunities post COVID-19</h4>
-            <div class="introduction__card__description2">Highlight upcoming
-              revolution of new industry and businesses within Silicon
-              Valley companies in the midst of COVID-19
-            </div>
-          </div>
-
-        </div>  
-          <div class="card__container2">
-
-
-          <div class="introduction__card2">
-            <div class="introduction__card__icon2">
-              <img src="img/ai.png" alt="">
-            </div>
-            <h4 class="introduction__card__title2">Advance promotion of technology</h4>
-            <div class="introduction__card__description2">Generate interest among
-              K-Global participants with the focus on AI new technology
-              and service, and promote excellence of Korea’s innovative
-              technology to local buyers and investors
-            </div>
-          </div>
-
-          <div class="introduction__card2">
-            <div class="introduction__card__icon2">
-              <img src="img/marketing.png" alt="">
-            </div>
-            <h4 class="introduction__card__title2">Advance online marketing</h4>
-    
-            <div class="introduction__card__description2">With the main goal in advancing
-              ICT hidden champions to overseas markets, SNS marketing
-              → 1:1 video conference/consulting → advancement in online
-              marking that leads to more buyer discovery (DB), as well as
-              continued support for productive results</div>
+          <h4 class="introduction__card__title">Online<br> Webinar</h4>
+          <div class="introduction__card__description">
+            Invite top Silicon Valley experts in AI for the
+            leading industry that will pave way for the future of innovation, and conduct speeches and panel
+            discussions virtually to influence industries in both Korea and the U.S.
           </div>
         </div>
-        
+
+
+        <div class="introduction__card">
+          <div class="introduction__card__icon">
+            <img src="img/oppertunity.png" alt="">
+          </div>
+          <h4 class="introduction__card__title">Seeking new opportunities post COVID-19</h4>
+          <div class="introduction__card__description">Highlight upcoming
+            revolution of new industry and businesses within Silicon
+            Valley companies in the midst of COVID-19
+          </div>
+        </div>
+
+
+        <div class="introduction__card">
+          <div class="introduction__card__icon">
+            <img src="img/ai.png" alt="">
+          </div>
+          <h4 class="introduction__card__title">Advance promotion of technology</h4>
+          <div class="introduction__card__description">Generate interest among
+            K-Global participants with the focus on AI new technology
+            and service, and promote excellence of Korea’s innovative
+            technology to local buyers and investors
+          </div>
+        </div>
+
+        <!-- <div class="introduction__card">
+          <div class="introduction__card__icon">
+            <img src="img/marketing.png" alt="">
+          </div>
+          <h4 class="introduction__card__title">Advance<br> online marketing</h4>
+  
+          <div class="introduction__card__description">With the main goal in advancing
+            ICT hidden champions to overseas markets, SNS marketing
+            → 1:1 video conference/consulting → advancement in online
+            marking that leads to more buyer discovery (DB), as well as
+            continued support for productive results</div>
+        </div> -->
       </div>
 
-    </section> -->
+    </div>
 
-    <!-- EVENT OVERVIEW  -->
-    <section id="overview">
-      <div class="section">
-        <div class="line__title">
-          <h2><span>Event Overview</span></h2>
+  </section>
+
+
+  <!-- EVENT OVERVIEW  -->
+  <section id="overview">
+    <div class="section">
+      <!-- <div class="line__title">
+      <h2><span>Event Overview</span></h2>
+    </div> -->
+      <h2>Event Overview</h2>
+      <div class="overview__content">
+        <div class="overview__theme">
+          <h3> <span>Theme:</span> "AI, REVOLUTIONARY GAME CHANGER FOR POST COVID-19 ERA"</h3>
         </div>
-        <div class="overview__content">
-          <div class="overview__theme"><h3> <span>Theme:</span>  "AI, REVOLUTIONARY GAME CHANGER FOR POST COVID-19 ERA"</h3></div>
-          <div class="overview__theme"><h3><span>Time :</span> September 23-24, 2019 (2 day event)</h3></div>
-          <div class="overview__theme"><h3><span>Attendees :</span> approximately 4,500 national and international speakers, buyers, investors, and tech experts</h3></div>
+        <div class="overview__theme">
+          <h3><span>Time :</span> September 23-24, 2019 (2 day event)</h3>
         </div>
-      </div>
-    </section>
-
-    <!-- Welcome -->
-
-    <section id="welcome">
-      <div class="section">
-        <div class="welcome__container">
-          <div class="welcome__attend"><span id="colon">"</span><span id="approx">Approximately </span><span id="number">4,500</span><br>national and international speakers, buyers,
-            investors, and tech experts</div>
-          <!-- <div class="welcome__detail">
-            <div class="welcome__title">POST COVID-19<br></div>
-            <div class="welcome__subtitle">
-              REVOLUTIONARY GAME CHANGER
-            </div>
-            <div class="welcome__title">AI</div>
-            <div class="welcome__date">NOV 30 - DEC 3, 2020</div>
-          </div> -->
+        <div class="overview__theme">
+          <h3><span>Attendees :</span> approximately 4,500 national and international speakers, buyers, investors, and
+            tech experts</h3>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="mainevents">
+  <!-- Welcome -->
 
-      <div class="section">
-        <div class="line__title">
-          <h2><span>Main Events</span></h2>
+  <section id="welcome">
+    <div class="section">
+
+      <div class="welcome__attend">
+        <span id="colon">"</span>
+        <span id="approx">Approximately </span>
+        <span id="number">4,500</span>
+        <br>national and international speakers, buyers,
+        investors, and tech experts</div>
+    </div>
+  </section>
+
+
+
+  <!-- MAIN EVENT TABLE -->
+  <section class="mainevents">
+
+    <div class="section">
+
+      <h2>Main Events</h2>
+      <div class="mainevents__container">
+        <div class="mainevents__row">
+          <div class="mainevents__name"><span>
+              NAME OF EVENT</span></div>
+          <div class="mainevents__content"><span>MAIN CONTENT</span></div>
         </div>
-
-        <div class="mainevents__container">
-          <div class="mainevents__row">
-            <div class="mainevents__name"><span>
-             NAME OF EVENT</span></div>
-            <div class="mainevents__content"><span>MAIN CONTENT</span></div>
-          </div>
-          <div class="mainevents__row">
-            <div class="mainevents__name"><span>ICT
+        <div class="mainevents__row">
+          <div class="mainevents__name"><span>ICT
               Forum</span></div>
-            <div class="mainevents__content"><span>Sharing digital innovation trends and
+          <div class="mainevents__content"><span>Sharing digital innovation trends and
               technological advancements in ICT
               and SW sector</span></div>
-          </div>
-          <div class="mainevents__row">
-            <div class="mainevents__name"><span>K-Pitch</span></div>
-            <div class="mainevents__content"><span>Effective IR; engaging with investors
+        </div>
+        <div class="mainevents__row">
+          <div class="mainevents__name"><span>K-Pitch</span></div>
+          <div class="mainevents__content"><span>Effective IR; engaging with investors
               and investments for participating
               SMEs and start-ups</span></div>
-          </div>
-          <div class="mainevents__row">
-            <div class="mainevents__name"><span>I-Pitch</span></div>
-            <div class="mainevents__content"><span>Pitching from start-ups in 15 different
+        </div>
+        <div class="mainevents__row">
+          <div class="mainevents__name"><span>I-Pitch</span></div>
+          <div class="mainevents__content"><span>Pitching from start-ups in 15 different
               countries based in Silicon Valley</span></div>
-          </div>
-          <div class="mainevents__row">
-            <div class="mainevents__name"><span>AUA Session</span></div>
-            <div class="mainevents__content"><span>Questions from participating
+        </div>
+        <div class="mainevents__row">
+          <div class="mainevents__name"><span>AUA Session</span></div>
+          <div class="mainevents__content"><span>Questions from participating
               companies answered by experts in
               the form of a podcast</span></div>
-          </div>
-          <div class="mainevents__row">
-            <div class="mainevents__name"><span>Online
+        </div>
+        <div class="mainevents__row">
+          <div class="mainevents__name"><span>Online
               Partnership
               Expo</span></div>
-            <div class="mainevents__content"><span>Provide online exhibition of
+          <div class="mainevents__content"><span>Provide online exhibition of
               participating ICT corporations, as
-              well as 1:1 expert video conference 
+              well as 1:1 expert video conference
               * Export related financial partnership</span></div>
-          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-
-
-
-
-    <section id="yearlyEvent">
-      <div class="section">
-        <div class="line__title">
-          <h2><span>Yearly Event Title</span></h2>
+  <!-- Yealy event title table -->
+  <section id="yearlyEvent">
+    <div class="section">
+      <h2>Yearly Event Title</h2>
+      <div class="year__container">
+        <div class="yearly__row">
+          <div class="yearly__year"><span>YEAR</span></div>
+          <div class="yearly__theme"><span>EVENT THEME</span></div>
         </div>
-        <div class="year__container">
-          <div class="yearly__row">
-            <div class="yearly__year"><span>YEAR</span></div>
-            <div class="yearly__theme"><span>EVENT THEME</span></div>
-          </div>
-          <div class="yearly__row">
-            <div class="yearly__year">2012 (1st event)</div>
-            <div class="yearly__theme">「ICT Convergence」 Home, Healthcare, Energy, Smart Car</div>
-          </div>
-          <div class="yearly__row">
-            <div class="yearly__year">2013 (2nd event)</div>
-            <div class="yearly__theme">「Creative Economy」 Big Data&Cloud, SWFusion, Mobile Platform</div>
-          </div>
-          <div class="yearly__row">
-            <div class="yearly__year">2014 (3rd event)</div>
-            <div class="yearly__theme">「Connect Everything」  IoT based hyperconnection cooperation</div>
-          </div>
-          <div class="yearly__row">
-            <div class="yearly__year">2015 (4th event)</div>
-            <div class="yearly__theme">「Automated Future」  Human + Technology, robot, drone, etc.</div>
-          </div>
-          <div class="yearly__row">
-            <div class="yearly__year">2016 (5th event)</div>
-            <div class="yearly__theme">	「New Reality driven by 4th Industrial Revolution」 AI, AR/VR, etc.</div>
-          </div>
-          <div class="yearly__row">
-            <div class="yearly__year">2017 (6th event)</div>
-            <div class="yearly__theme">	「Collaborating for the Future in the 4th industrial revolution」 autonomous driving, AI, IoT, etc.</div>
-          </div>
-          <div class="yearly__row">
-            <div class="yearly__year">2018 (7th event)</div>
-            <div class="yearly__theme">	「Ready to Build Tomorrow?」 AI, Autonomous Vehicles, robots, etc.</div>
-          </div>
-          <div class="yearly__row">
-            <div class="yearly__year">2019 (8th event)</div>
-            <div class="yearly__theme">	「Future is on 5G」 5G Core Technologies, Infrastructure, Service, etc.</div>
-          </div>
+        <div class="yearly__row">
+          <div class="yearly__year">2012 (1st event)</div>
+          <div class="yearly__theme">「ICT Convergence」 Home, Healthcare, Energy, Smart Car</div>
         </div>
-
+        <div class="yearly__row">
+          <div class="yearly__year">2013 (2nd event)</div>
+          <div class="yearly__theme">「Creative Economy」 Big Data&Cloud, SWFusion, Mobile Platform</div>
         </div>
-
-
-
-    </section>
-
-
-        
-    <section id="events">
-      <div class="events__container section">
-
-
-        <div class="events__intro  section">
-          <div class="events__intro__title">
-            <h1>PROGRAM OVERVIEW</h1><hr>
-          </div>
+        <div class="yearly__row">
+          <div class="yearly__year">2014 (3rd event)</div>
+          <div class="yearly__theme">「Connect Everything」 IoT based hyperconnection cooperation</div>
         </div>
+        <div class="yearly__row">
+          <div class="yearly__year">2015 (4th event)</div>
+          <div class="yearly__theme">「Automated Future」 Human + Technology, robot, drone, etc.</div>
+        </div>
+        <div class="yearly__row">
+          <div class="yearly__year">2016 (5th event)</div>
+          <div class="yearly__theme"> 「New Reality driven by 4th Industrial Revolution」 AI, AR/VR, etc.</div>
+        </div>
+        <div class="yearly__row">
+          <div class="yearly__year">2017 (6th event)</div>
+          <div class="yearly__theme"> 「Collaborating for the Future in the 4th industrial revolution」 autonomous
+            driving, AI, IoT, etc.</div>
+        </div>
+        <div class="yearly__row">
+          <div class="yearly__year">2018 (7th event)</div>
+          <div class="yearly__theme"> 「Ready to Build Tomorrow?」 AI, Autonomous Vehicles, robots, etc.</div>
+        </div>
+        <div class="yearly__row">
+          <div class="yearly__year">2019 (8th event)</div>
+          <div class="yearly__theme"> 「Future is on 5G」 5G Core Technologies, Infrastructure, Service, etc.</div>
+        </div>
+        <div class="yearly__row">
+          <div class="yearly__year">2020 (9th event)</div>
+          <div class="yearly__theme"> 「POST COVID-19 REVOLUTIONARY GAME CHANGER」 </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="events__row">
+
+  <section id="events">
+    <div class="section">
+
+      <div class="events__row">
+        <div class="events__col">
           <div class="events__card">
             <div class="events__card__title">ICT Forum</div>
             <div class="events__card__description">
-              <div class="events__card__date"> Monday <span>|</span> November 30</div> <hr>
-              <div class="events__card__detail">Sharing digital innovation trends and technological advancements in ICT and SW sector<br><br><a href="#">Learn more</a></div>
-              <div class="events__card__host">
-                <img class="nipa" src="img/nipa.png" alt="">
-                <img class="kotra" src="img/kotra.png" alt="">
-              </div>
-    
+              <div class="events__card__date"> Monday <span>|</span> November 30</div>
+              <hr>
+              <div class="events__card__detail">Sharing digital innovation trends and technological advancements in ICT
+                and SW sector</div>
             </div>
           </div>
 
           <div class="events__card">
             <div class="events__card__title">K-Pitch</div>
-            <div class="events__card__host">
-              <img src="img/nipa.png" alt="">
-              <img class="kotra" src="img/kotra.png" alt="">
-            </div>
+
             <div class="events__card__description">
-              <div class="events__card__date">Tuesday <span>|</span> December 1</div> <hr>
-              <div class="events__card__detail">Effective IR; engaging with investors and investments for participating SMEs and start-ups<br><br><a href="#">Learn more</a></div>
+              <div class="events__card__date">Tuesday <span>|</span> December 1</div>
+              <hr>
+              <div class="events__card__detail">Effective IR; engaging with investors and investments for participating
+                SMEs and start-ups</div>
 
             </div>
           </div>
+        </div>
 
+        <div class="events__col">
           <div class="events__card">
             <div class="events__card__title">I-Pitch</div>
             <div class="events__card__description">
-              <div class="events__card__date">Wednesday  <span>|</span> December 2</div> <hr>
+              <div class="events__card__date">Wednesday <span>|</span> December 2</div>
+              <hr>
               <div class="events__card__detail">Pitching from start-ups in 15 different
-                countries based in Silicon Valley<br><br><a href="#">Learn more</a></div>
-                <!-- <div class="events__card__host">
+                countries based in Silicon Valley</div>
+              <!-- <div class="events__card__host">
                   <img src="img/nipa.png" alt="">
                   <img src="img/kotra.png" alt="">
                 </div> -->
@@ -384,58 +332,67 @@
               <hr>
               <div class="events__card__detail">Questions from participating
                 companies answered by experts in
-                the form of a podcast<br><br><a href="#">Learn more</a></div>
-                <!-- <div class="events__card__host">
+                the form of a podcast</div>
+              <!-- <div class="events__card__host">
                   <img src="img/nipa.png" alt="">
                   <img src="img/kotra.png" alt="">
                 </div> -->
             </div>
           </div>
         </div>
+      </div>
 
-
-        <div class="events__row2">
-          <div class="events__card">
+      <div class="events__row">
+        <div class="events__col">
+          <div class="events__card" id="events__expo">
             <div class="events__card__title">Partnership Expo</div>
             <div class="events__card__description">
               <div class="events__card__date">October 30 <span>-</span> December 3
-              </div> <hr>
-            <div class="events__card__detail">Provide online       exhibition of participating ICT corporations, 
-              as well as 1:1 expert video conference<br>
-            * Export related financial partnership<br><br><a href="#">Learn more</a>
-            </div></div>
+              </div>
+              <hr>
+              <div class="events__card__detail">Provide online exhibition of participating ICT corporations,
+                as well as 1:1 expert video conference<br>
+                * Export related financial partnership<br><br><a href="#">Learn more</a>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-
-
-    <!--Contact-->
-    <section id="contact">
-      <div class="section">
-        <div class="contact__container">
-          <div class="contact__contact__form">
-            <img src="img/kotra.png" alt="">
-            <p>3003 North First Street, San Jose, CA 95134, U.S.A<br>TEL : (1-408)432-5000 FAX : (1-408)432-5056 <br>info@kotrasv.org<br></p>
-          </div>
-          <div class="contact__description">
-            <img src="img/newkglobal.png" alt="">
-            <div class="contact__description__detail">
-              <p>K-GLOBAL @Silicon Valley 2020. All rights reserved.</p>
-          </div>
-        </div>
-
 
       </div>
-      
+  </section>
 
-    </section>
-
+      <!--Footer-->
+      <section id="footer">
+        <div class="section">
+          <div class="footer__container">
+            <div class="footer__contact__form">
+              <img src="img/kotra.png" alt="">
+              <p>3003 North First Street, San Jose, CA 95134, U.S.A<br>TEL : (1-408)432-5000 FAX : (1-408)432-5056
+                <br>info@kotrasv.org<br></p>
+            </div>
+            <div class="footer__description">
+              <img src="img/newkglobal.png" alt="">
+              <div class="footer__description__detail">
+                <p>K-GLOBAL @Silicon Valley 2020. All rights reserved.</p>
+              </div>
+            </div>
     
+    
+          </div>
+      </div>
+      
+  
+  
+    </section>
+  
+  
 
-        <!-- Introduction, but will be removed. This is just for space and testing wrapper at this moment -->
-        
 
-    <!--Footer-->
 
-  </body>
+
+
+
+
+</body>
+
 </html>
