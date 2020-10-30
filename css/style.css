@@ -284,6 +284,8 @@ p {
   padding-top: 160px;
   background: url("../img/blankbg.png") center/cover no-repeat;
   color: var(--color-white);
+  border: 2px solid white;
+  overflow-x: hidden;
 }
 
 .events__title h1 {
@@ -291,13 +293,15 @@ p {
   padding: 24px 0px;
 }
 .cont {
+  border: 1px solid red;
   position: relative;
   height: 600px;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
 }
 
 .testcontainer {
+  border: 1px solid yellow;
   position: absolute;
   height: 600px;
   width: 100%;
@@ -305,7 +309,7 @@ p {
 }
 
 .box1 {
-  /* border: 1px solid white; */
+  border: 1px solid green;
   width: 550px;
   height: 376px;
   background: url("../img/bf.png");
@@ -320,6 +324,7 @@ p {
 
 .box1::after {
   content: "";
+  border: 1px solid pink;
   position: absolute;
   width: 550px;
   height: 376px;
@@ -428,17 +433,21 @@ p {
 }
 
 .box3 {
-  position: absolute;
-  width: 1200px;
+  border: 2px solid violet;
+  position: relative;
+  width: 100%;
   height: 130px;
   bottom: -10%;
   /* background-color: yellow; */
 }
 
 .box3__container {
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  bottom: -300px;
+  width: 100%;
 }
 
 .box__container__logo1 a {
@@ -1000,7 +1009,7 @@ h4 .duration {
   right: 0;
   padding: 0;
   border-radius: 0;
-  background: #68d4cd;
+  background: var(--color-orange);
   color: #fff;
   height: 40px;
   width: 40px;
@@ -1022,7 +1031,7 @@ h4 .duration {
 }
 
 .speaker__modal__heading {
-  bottom: -42px;
+  bottom: -37px;
   position: absolute;
   right: 0;
   float: none;
@@ -1037,7 +1046,7 @@ h4 .duration {
   margin: 0 !important;
   line-height: 1 !important;
   padding: 10px 20px;
-  background: #68d4cd;
+  background: var(--color-orange);
   color: #fff;
   font-size: 26px;
   min-width: 317.8px;
@@ -1188,6 +1197,37 @@ h4 .duration {
 }
 
 @media screen and (max-width: 1024px) {
+  /* BGholder */
+
+  .box__container__logo1 a {
+    display: block;
+    width: 200px;
+    height: 134px;
+    cursor: pointer;
+  }
+
+  .box__container__logo2 a {
+    display: block;
+    width: 200px;
+    height: 96px;
+    cursor: pointer;
+  }
+
+  .box__container__logo3 a {
+    display: block;
+    width: 180px;
+    height: 121px;
+    cursor: pointer;
+  }
+
+  .box__container__logo4 a {
+    display: block;
+    width: 160px;
+    height: 136px;
+    cursor: pointer;
+  }
+
+  /* Events */
   .events__row {
     flex-direction: column;
   }
@@ -1206,6 +1246,29 @@ h4 .duration {
 /* For below 768px screen widht */
 
 @media screen and (max-width: 768px) {
+  /* BGholder */
+
+  @keyframes anim {
+    from {
+      bottom: -50%;
+    }
+    to {
+      bottom: 30%;
+    }
+  }
+
+  @keyframes anim2 {
+    from {
+      left: 0;
+      right: 0;
+      width: 550px;
+    }
+    to {
+      width: 0px;
+      left: 30px;
+    }
+  }
+
   /* Navbar  START----------*/
 
   #navbar {
