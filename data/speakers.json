@@ -1,0 +1,122 @@
+{
+  "Ashok Banerjee": {
+    "name": "Ashok Banerjee",
+    "picture": "img/speakers/ICT/ashok4.jpg",
+    "title": "CTO Enterprise Security, NortonLifeLock",
+    "category": "keynote",
+    "description": "Ashok Banerjee has been the CTO for Enterprise Security at Symantec focused on Security and Privacy across Threat Protection and Information Protection. Prior to Symantec Ashok has worked at Google, Twitter, Flipkart and other industry leading products from Google's Payment platform to Twitter's user growth platform to Google's Datawarehouse and Analytics platforms and Flipkart's ECommerce. Ashok has led the creation of industry leading products at Google Twitter, Flipkart and Symantec. He has led across a wide range of domains - ECommerce, Cybersecurity, Payments, Logistics, Data warehouse engines, Marketing, Supply Chain, and Experimentation Platforms. He has undertaken large transformations from cloud, Devops, Containers (docker- Kubernetes), NLP, AI/ML and Big Data . These changes were accomplished in widely varying contexts from Pre-IPO companies to Forutne-500 companies, to VC backed pre-IPO companies.",
+    "linkedin": "https://www.linkedin.com/in/ashokbanerjee1/"
+  },
+  "Kieun Park": {
+    "name": "Kieun Park",
+    "picture": "img/speakers/ICT/kieun.jpg",
+    "title": "CTO, Naver Cloud",
+    "category": "keynote",
+    "description": "Kieun Park is the CTO of NAVER Cloud and has more than 25 years’ experiences in IT, Software, and Cloud. He joined the NAVER at 2006 and worked as technical fellow for service platform and infrastructure technology. He is currently responsible for cloud service and technology of the NAVER Cloud. The NAVER is #1 on-line service company in Korea and investing R&D of AI, robotics, and cloud technologies and the NAVER Cloud Platform is a leading public cloud service provider in Korea, having six global cloud regions and more than 160 cloud service products. ",
+    "linkedin": "https://www.linkedin.com/in/kieun-park-487a7839/"
+  },
+  "Spence Green": {
+    "name": "Spence Green",
+    "picture": "img/speakers/panel1/Spence Green Headshot.jpg",
+    "title": "CEO, Lilt",
+    "category": "panel1",
+    "description": "Spence Green is Lilt’s CEO and Co-Founder. Prior to founding Lilt in 2015, Spence served as a fellow at XSeed Capital and spent time at Google, where he worked on Google Translate and developed a shallow syntactic language model for improving the English to Arabic translation. He was also a research intern at Johns Hopkins University and as a technical lead, project manager and software engineer at Northrop Grumman, where he worked on various large projects including a national air defense system and avionics packages for naval aircraft. Spence graduated with highest distinction from the University of Virginia with a bachelor’s degree in computer engineering. He also earned both a master’s degree with a distinction in research and a PhD in computer science from Stanford University. His research area is the intersection of natural language processing and human-computer interaction. He has published papers on statistical machine translation, statistical language parsing, and mixed-initiative systems and given talks on translator productivity.",
+    "linkedin": "https://www.linkedin.com/in/spencegreen/"
+  },
+  "Maha Achour": {
+    "name": "Maha Achour",
+    "picture": "img/speakers/panel1/Maha Achour.jpg",
+    "title": "CEO, Metawave",
+    "category": "panel1",
+    "description": "Dr. Maha Achour brings more than 25 years of proven success in the design, development, manufacturing, management and marketing of RF, microwave, and optical communication systems and subsystems. She is currently the founder, CEO, and CTO of Metawave Corporation, a startup focusing on high performance radar for highly automated vehicles and mm-wave 5G solutions. She also co-founded and led Glass Dyenamics, a startup company that is focusing on commercializing cutting-edge technologies in sensing and mobile communication markets. Previously, she held key management and technical positions at Rayspan Corporation, where she was founder and Chief Technology Officer, and also worked in leadership and technical positions for San Diego Research Center, UlmTech, Optical Access, LightPointe, and Tiernan Communications. Her responsibilities spanned from working closely with top university professors to advance research labs, and was deeply involved in advanced technologies to build Intellectual Property portfolios of 120+ patents. During her professional experience, Dr. Achour created, developed, and marketed technologies and products to consumer electronics and telecommunication system providers using direct sales and licensing business models. Her strong analytical, engineering, and physics skills have allowed her to solve challenging problems from channel modeling, coding, and modulation, to advanced RF and optical front-end optimizations using single and multiple propagating channels. Dr. Achour holds a doctorate degree in Physics from Massachusetts Institute of Technology (MIT), and she completed the Master Degree Program in Wireless Communication Theory and Systems, at University of California at San Diego (UCSD). She has authored over 30 publications in electrical engineering and physics and holds more than 50 granted patents and 70 pending applications.",
+    "linkedin": "https://www.linkedin.com/in/mahaachour/"
+  },
+  "James Chulhwee Joo": {
+    "name": "James Chulhwee Joo",
+    "picture": "img/speakers/panel1/James Chulhwee Joo.jpg",
+    "title": "CTO Enterprise Security, Symantec",
+    "category": "panel1",
+    "description": "Dr. James Chulhwee Joo is the Chief Algorithm Officer and Head of AI Lab at N3NCloud. He is currently leading the AI consulting based on N3NCloud’s machine learning pipeline platform running on the cloud. He joined N3NCloud in 2020, and before that, he worked as director-general of Korea AI Center for drug discovery, and successfully led the country's first project for AI-based drug discovery with pharmaceutical ecosystems. During 2017 and 2019, he served as a professor of software at Sejong University and contributed to developing the planning of Korea AI-based drug development. He worked as AI Watson and Cloud leaders in IBM Korea and served for more than 26 years in the software area. He has also worked as a system software developer at LGCNS and LG Electronics.",
+    "linkedin": ""
+  },
+  "Tony Lee": {
+    "name": "Tony Lee",
+    "picture": "img/speakers/panel1/tony lee.jpg",
+    "title": "CEO, Saltlux",
+    "category": "panel1",
+    "description": "Tony Lee is the president and CEO of Saltlux, Inc., the artificial intelligence and big data analytics company, headquartered in Seoul, Korea. He received B.S. and M.S. in ICT Engineering from Inha University of Korea. He holds a specially appointed professor in Hanyang University and held an adjunct professor’s position in Inha University, teaching computer science and information technology. He was a member of the Fourth Industrial Revolution Committee under the President of Korea. He is a chairman of the ‘Artificial Intelligence Industrial Association’, and a vicechairman of the ‘Intelligence and Information Forum’ and ‘Society for Computer Intelligence’. Tony is one of the few pioneers in the field of Artificial Intelligence in Asia, contributing to Korean Government’s R&D plan for AI technology and to the industrial dissemination. He was honored with ‘Best Paper Prize’ from Samsung, ‘Best Software Award’ from Korean Government and the president of Korea, and the ‘Order of Industrial Service Merit’ from Korean Government. Tony is also a member of the ISO/TC37 committee and the several EU FP7 projects. He has authored more than 60 papers, articles, and reports so far.",
+    "linkedin": "https://www.linkedin.com/in/tony-lee-9468ba18/"
+  },
+  "Mitchell Weinstock": {
+    "name": "Mitchell Weinstock",
+    "picture": "img/speakers/panel1/Mitchell Weinstock.jpg",
+    "title": "Partner, HP Tech Ventures",
+    "category": "panel1",
+    "description": "",
+    "linkedin": "https://www.linkedin.com/in/mitchellweinstock/"
+  },
+  "Yevgeniy Vahlis": {
+    "name": "Yevgeniy Vahlis",
+    "picture": "img/speakers/panel2/YevgeniyVahlis.jpg",
+    "title": "Head of AI Tech, BMO Financial Group",
+    "category": "panel2",
+    "description": "Yevgeniy Vahlis is the Head of BMO AI – Bank of Montreal’s Artificial Intelligence Capabilities group. Prior to joining BMO, Yevgeniy built machine learning research groups at Borealis AI and Georgian Partners and worked closely with startups to introduce applied research into their products. Yevgeniy kicked off his career at AT&T Labs in New York as a research scientist after completing his PhD in Computer Science at the University of Toronto and a year of postdoctoral studies at Columbia University.",
+    "linkedin": "https://www.linkedin.com/in/evahlis/"
+  },
+  "Samir Qamar": {
+    "name": "Samir Qamar",
+    "picture": "img/speakers/panel2/Samir Qamar.jpg",
+    "title": "CEO & co-founder, MedWand",
+    "category": "panel2",
+    "description": "Dr. M. Samir Qamar is the CEO of MedWand, a telehealth technology company. Dr. Qamar invented the award-winning MedWand, a medical device that allows clinicians to examine patients over the Internet on smartphones and computers. The handheld MedWand advances the telemedicine industry by allowing clinicians to remotely obtain real-time vitals, auscultate heart and lungs, look into ears and throats, obtain EKGs, and monitor chronic conditions during video visits. Dr. Qamar has been on the company's board since co-founding the company, and is also its chairman. Prior to MedWand, Dr. Qamar was one of the pioneering minds behind the rapidly-rising Direct Primary Care (DPC) industry. He created one of the nation's first Direct Primary Care (DPC) companies, MedLion DPC, in 2009 and helped catapult DPC nationwide by focusing on low-cost, high quality primary care. In 2018, MedLion DPC changed its name to MedLion Clinic, and converted to an Internet-based Virtual Primary Care model. Prior to MedLion, Dr. Qamar began one of the first concierge medical practices in California, where for many years he also served as the official house doctor for the famed Pebble Beach Resorts. Dr. Qamar completed his medical training at Penn Medicine - Lancaster General Hospital in Pennsylvania, one of the top-ranked primary care residencies in the United States. His visions on the future of primary care have been referenced in many publications, including The Wall Street Journal, Fox Business News, Forbes, and Time. Dr. Qamar is a member of the MIT Technology Review Global Panel, American Medical Association, American Academy of Family Physicians, and several other organizations. He speaks six languages, has studied and practiced in health care systems worldwide, and currently makes his home in Las Vegas, Nevada where he also maintains an active practice.",
+    "linkedin": "https://www.linkedin.com/in/samirqamar/"
+  },
+  "Josh Lee": {
+    "name": "Josh Lee",
+    "picture": "img/speakers/panel2/joshlee.jpg",
+    "title": "CEO, Swit",
+    "category": "panel2",
+    "description": "Josh Lee is CEO & Founder at Swit Technologies Inc. Swit seamlessly offers chat and task management in one app--the “collaboration essential” that guarantees teams the simplest way to work together. In February, 2020, Swit was selected as the winner of the, “Growth Startup of the Year” at Startup Grind’s Global Conference 2020, the world’s biggest independent startup community with over 600 chapters all across the globe. And in September, 2020, Swit was selected as one of the most promising remote work tech solutions by CIO Review along with collaboration unicorns like Slack and Asana. Swit raised $12M seed funding in total to accelerate its already-fast growth.",
+    "linkedin": "https://www.linkedin.com/in/josh-lee-76b99833/"
+  },
+  "Justin Nam": {
+    "name": "Justin Nam",
+    "picture": "img/speakers/panel2/justin nam.jpg",
+    "title": "VP, SoftBank Vision Fund",
+    "category": "panel2",
+    "description": "",
+    "linkedin": "https://www.linkedin.com/in/justindnam/"
+  },
+  "John Ha": {
+    "name": "John Ha",
+    "picture": "img/speakers/panel2/hajungwoo.jpg",
+    "title": "CEO, Bear Robotics",
+    "category": "panel2",
+    "description": "",
+    "linkedin": "https://www.linkedin.com/in/habals/"
+  },
+  "Andy Peart": {
+    "name": "Andy Peart",
+    "picture": "img/speakers/AMA session/Andy Peart Profile Pic - 500x500.jpg",
+    "title": "CMSO, Artificial Solutions",
+    "category": "AMA",
+    "description": "Andy Peart is CMSO of Artificial Solutions, an international business that “Makes Technology Think,” believing that people should be able to interact with technology intelligently, using their own voice, in their own terminology and across whatever channel they choose.  Using a form of AI referred to as ‘Conversational AI’, Artificial Solutions allows people to talk to applications, websites and devices in a human like, intelligent and conversational way. Its Teneo platform enables non-specialists to rapidly build and deploy enterprise strength, conversational applications and deliver customer insight and personalization using conversational data. Andy has over 25 years strategic and marketing experience within the IT and AI sector, successfully helping build innovative, technology driven organizations.",
+    "linkedin": "https://www.linkedin.com/in/anpeart/"
+  },
+  "Jay Eum": {
+    "name": "Jay Eum",
+    "picture": "img/speakers/panel2/JayEum.jpg",
+    "title": "Venture Capitalist, Translink Capital",
+    "category": "panel2",
+    "description": "",
+    "linkedin": "https://www.linkedin.com/in/jayeum/"
+  },
+  "Angelo Del Priore": {
+    "name": "Angelo Del Priore",
+    "picture": "img/speakers/panel1/Angelo Del Priore.jpg",
+    "title": "Partner, HP Tech Ventures",
+    "category": "panel1",
+    "description": "Andy Peart is CMSO of Artificial Solutions, an international business that “Makes Technology Think,” believing that people should be able to interact with technology intelligently, using their own voice, in their own terminology and across whatever channel they choose.  Using a form of AI referred to as ‘Conversational AI’, Artificial Solutions allows people to talk to applications, websites and devices in a human like, intelligent and conversational way. Its Teneo platform enables non-specialists to rapidly build and deploy enterprise strength, conversational applications and deliver customer insight and personalization using conversational data. Andy has over 25 years strategic and marketing experience within the IT and AI sector, successfully helping build innovative, technology driven organizations.",
+    "linkedin": "https://www.linkedin.com/in/angelo-del-priore-04136b1/"
+  }
+}

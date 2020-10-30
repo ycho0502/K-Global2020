@@ -90,6 +90,7 @@ button {
   padding:28px 12px;
   max-width: 1280px;
   margin: 0 auto;
+  
 
 }
 
@@ -202,6 +203,11 @@ p {
   padding-left: 24px;
 }
 
+.navbar__logo a{
+  display: block;
+
+}
+
 .navbar__menu {
   display: flex;
   
@@ -277,8 +283,8 @@ p {
 .navbar__toggle-btn {
   position: absolute;
   right: 32px;
-  font-size: 24px;
-  top:38px;
+  font-size: 34px;
+  top:29px;
   display: none;
 }
 
@@ -300,20 +306,17 @@ p {
 /* BGholder */
 
 #bgholder {
-  height: 2000px;
+  height: 5000px;
   /* margin: 0 auto; */
   padding-top: 100px;
-  background: url("../img/bgfinal.png") center/cover no-repeat;
+  background: url("../img/blankbg.png") center/cover no-repeat;
   color: var(--color-white);
 
   overflow-x: hidden;
 
 }
 
-.events__title h1{
-  color: var(--color-white);
-  padding:24px 0px;
-}
+
 .cont{
 
   position: relative;
@@ -501,13 +504,15 @@ p {
 }
 
 .box__container__logo2 a img {
-  width: 240px;
+  width: 260px;
   padding-top:24px;
+  margin-left: 18px;
 }
 
 .box__container__logo3 a img {
   width: 230px;
   /* padding-top:8px; */
+  margin-right: 24px;
 }
 
 
@@ -557,6 +562,22 @@ p {
   animation: fadeIn ease 5s;
 }
 
+
+
+
+
+
+
+
+/* ----------------------PARALLA------------- */
+
+.parall__overview {
+  margin-top:300px;
+}
+
+.parall__overview h1{
+  color: var(--color-white);
+}
 
 
 /* Slider */
@@ -747,6 +768,10 @@ h4 .duration {
   background-attachment: fixed;
 }
 
+.events__title h1{
+  color: var(--color-white);
+  padding:24px 0px;
+}
 
 .events__intro__title h1{
   text-align: center;
@@ -816,6 +841,7 @@ h4 .duration {
   padding: 15px 0;
   font-size: var(--font-regular);
   font-weight: var(--weight-regular);
+  color: var(--color-dark-grey);
 
   
 }
@@ -859,7 +885,7 @@ h4 .duration {
 
 
 #welcome {
-  background: url('../img/genralbg.png') center/cover no-repeat;
+  background: url('../img/genralbg.jpg') center/cover no-repeat;
   background-attachment: fixed;
   min-height: 300px;
   line-height: 100px;
@@ -1148,11 +1174,11 @@ h4 .duration {
   /* BGholder */
 
   .box__container__logo1 a img {
-    width: 190px;
+    width: 180px;
   }
   
   .box__container__logo2 a img {
-    width: 190px;
+    width: 180px;
   }
   
   .box__container__logo3 a img {
@@ -1163,7 +1189,7 @@ h4 .duration {
   
   
   .box__container__logo4 a img {
-    width: 140px;
+    width: 143px;
   }
   
 
@@ -1209,6 +1235,7 @@ h4 .duration {
   
   .navbar__toggle-btn {
     display: block;
+    right: 18px;
   }
 
   .navbar__wrapper {
@@ -1448,11 +1475,14 @@ h4 .duration {
 
 @media screen and (max-width: 425px) {
 
+
   
 .box1{
 
   background: url('../img/head_text.png') no-repeat;
   animation: anim 2s forwards;
+  animation: float 6s ease-in-out infinite;
+  
   
  
 }
@@ -1470,10 +1500,16 @@ h4 .duration {
   left:40px;
 
 
+
 }
 
 .testcontainer .box2 {
   left:40px;
+  margin-left: -22px;
+}
+
+#text .text__subtitle {
+  line-height: 100%;
 }
 
   @keyframes anim3{
@@ -1484,7 +1520,13 @@ h4 .duration {
     }
   }
   
+  .box__container__logo1 a img {
+    width: 160px;
+}
+
+.navbar__logo{
+  align-items: center;
+}
 
 
-  
 }

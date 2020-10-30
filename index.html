@@ -14,6 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
   <!-- Stylesheet and JS-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="css/style.css">
   <script src="js/main.js" defer></script>
 </head>
@@ -27,7 +28,6 @@
       <div class="navbar__logo">
         <a href="index.html"><img src="img/kglobal.png"></a>
       </div>
-      <a href="#"></a>
       <ul class="navbar__menu">
         
         <li class="navbar__menu__item"><a href="introduction.html">Introduction</a></li>
@@ -95,21 +95,117 @@
           </div>
         </div>
       </div>
+
+
+      <div class="parall__overview">
+       
+        <div data-aos="fade-down">
+          <h1>PROGRAM OVERVIEW</h1>
+        </div>
+        <div class="events__row">
+          <div class="events__col">
+            <div class="events__card" data-aos="fade-right">
+              <div class="events__card__title">ICT Forum</div>
+              <div class="events__card__description">
+                <div class="events__card__date"> Monday <span>|</span> November 30</div>
+                <hr>
+                <div class="events__card__detail">Sharing digital innovation trends and technological advancements in ICT
+                  and SW sector</div>
+              </div>
+            </div>
+  
+            <div class="events__card" data-aos="fade-up-right">
+              <div class="events__card__title">K-Pitch</div>
+  
+              <div class="events__card__description">
+                <div class="events__card__date">Tuesday <span>|</span> December 1</div>
+                <hr>
+                <div class="events__card__detail">Effective IR; engaging with investors and investments for participating
+                  SMEs and start-ups</div>
+  
+              </div>
+            </div>
+          </div>
+  
+          <div class="events__col">
+            <div class="events__card" data-aos="fade-up-left">
+              <div class="events__card__title">I-Pitch</div>
+              <div class="events__card__description">
+                <div class="events__card__date">Wednesday <span>|</span> December 2</div>
+                <hr>
+                <div class="events__card__detail">Pitching from start-ups in 15 different
+                  countries based in Silicon Valley</div>
+                <!-- <div class="events__card__host">
+                    <img src="img/nipa.png" alt="">
+                    <img src="img/kotra.png" alt="">
+                  </div> -->
+              </div>
+            </div>
+  
+            <div class="events__card" data-aos="fade-left">
+              <div class="events__card__title">AMA Session</div>
+              <div class="events__card__description">
+                <div class="events__card__date">Thursday <span>|</span> December 3</div>
+                <hr>
+                <div class="events__card__detail">Questions from participating
+                  companies answered by experts in
+                  the form of a podcast</div>
+                <!-- <div class="events__card__host">
+                    <img src="img/nipa.png" alt="">
+                    <img src="img/kotra.png" alt="">
+                  </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="events__row">
+          <div class="events__col">
+            <div class="events__card" id="events__expo" data-aos="fade-up">
+              <div class="events__card__title">Partnership Expo</div>
+              <div class="events__card__description">
+                <div class="events__card__date">October 30 <span>-</span> December 3
+                </div>
+                <hr>
+                <div class="events__card__detail">Provide online exhibition of participating ICT corporations,
+                  as well as 1:1 expert video conference<br>
+                  * Export related financial partnership<br><br><a href="#">Learn more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+
+
     </div>
     
   </section>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <section id="events">
     <div class="section">
-      <div class="events__title">
-        <h1>PRGRAM OVERVIEW</h1>
+      <div class="events__title" >
+        <h1>PROGRAM OVERVIEW</h1 >
       </div>
         
 
       <div class="events__row">
         <div class="events__col">
-          <div class="events__card">
+          <div class="events__card" data-aos="fade-right">
             <div class="events__card__title">ICT Forum</div>
             <div class="events__card__description">
               <div class="events__card__date"> Monday <span>|</span> November 30</div>
@@ -119,7 +215,7 @@
             </div>
           </div>
 
-          <div class="events__card">
+          <div class="events__card" data-aos="fade-up-right">
             <div class="events__card__title">K-Pitch</div>
 
             <div class="events__card__description">
@@ -133,7 +229,7 @@
         </div>
 
         <div class="events__col">
-          <div class="events__card">
+          <div class="events__card" data-aos="fade-up-left">
             <div class="events__card__title">I-Pitch</div>
             <div class="events__card__description">
               <div class="events__card__date">Wednesday <span>|</span> December 2</div>
@@ -147,7 +243,7 @@
             </div>
           </div>
 
-          <div class="events__card">
+          <div class="events__card" data-aos="fade-left">
             <div class="events__card__title">AMA Session</div>
             <div class="events__card__description">
               <div class="events__card__date">Thursday <span>|</span> December 3</div>
@@ -166,7 +262,7 @@
 
       <div class="events__row">
         <div class="events__col">
-          <div class="events__card" id="events__expo">
+          <div class="events__card" id="events__expo" data-aos="fade-up">
             <div class="events__card__title">Partnership Expo</div>
             <div class="events__card__description">
               <div class="events__card__date">October 30 <span>-</span> December 3
@@ -436,7 +532,14 @@
       </div>
     </section>
   
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
 
+        offset: 200,
+        duration: 1200
+      });
+    </script>
 </body>
 
 </html>
