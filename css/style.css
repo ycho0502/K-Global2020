@@ -574,23 +574,27 @@ hr {
 }
 
 .card__back {
-  background: white;
   transform: perspective(600px) rotateY(180deg);
 }
 
 .card__back__note {
   display: flex;
+  padding: 30px;
   width: 250px;
   height: 250px;
   position: absolute;
-  justify-content: center;
   align-items: center;
-  background: var(--color-blue);
+  background: var(--color-white);
 }
 
 .card__back__note p {
-  text-align: center;
-  color: var(--color-light-white);
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  color: var(--color-dark-grey);
 }
 
 .speaker__card__content {
@@ -642,6 +646,14 @@ h4:after {
   padding: 2px 8px;
   background-color: rgba(20, 36, 83, 0.78);
   color: var(--color-white);
+  transform: perspective(600px) rotateY(0deg);
+  overflow: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.6s linear;
+}
+
+.speaker__card:hover .speaker__card__tag {
+  transform: perspective(600px) rotateY(-180deg);
 }
 
 .speaker__card img {
@@ -655,21 +667,20 @@ h4:after {
 .speaker__card:hover .card__back {
   transform: perspective(600px) rotateY(0deg);
 }
-/* .speaker__card:hover img {
+.speaker__card:hover img {
   transform: scale(1.03);
   cursor: pointer;
   -webkit-filter: brightness(0.7);
   filter: brightness(0.7);
-} */
+}
 
-/* .speaker__card:hover .speaker__card__content__more {
+.speaker__card:hover .speaker__card__content__more {
   opacity: 1;
   cursor: pointer;
-} */
+}
 
 .speaker__card__content__more .text {
-  background-color: rgba(14, 29, 75, 0.38);
-  color: var(--color-orange);
+  background-color: rgba(14, 29, 75, 0.78);
   color: var(--color-white);
   padding: 4px 8px;
   border-radius: 5px;
@@ -677,10 +688,10 @@ h4:after {
 }
 
 .speaker__card__content__more {
-  transition: 0.5s ease;
+  transition: 2.3s ease;
   opacity: 0;
   position: absolute;
-  top: 40%;
+  top: 58%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);

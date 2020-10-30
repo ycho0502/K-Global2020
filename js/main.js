@@ -5,8 +5,6 @@ const navbar = document.querySelector("#navbar");
 const navbarHeight = navbar.getBoundingClientRect().height;
 
 document.addEventListener("scroll", () => {
-  // console.log(window.scrollY);
-  // console.log(`navbarHeight: $(navbarHeight)`);
   if (window.scrollY > navbarHeight) {
     navbar.classList.add("navbar--dark");
   } else {
@@ -23,6 +21,7 @@ const speakerModalButton = document.querySelector(
 
 speakerCard.forEach((card) => {
   card.addEventListener("click", (e) => {
+    // Speaker modal fillout
     let speakerName = document.querySelector(".speaker__modal__speakerName");
     let image = document.querySelector(".speaker__modal__img");
     let speakerTitle = document.querySelector(".speaker__modal__subTitle");
@@ -30,19 +29,12 @@ speakerCard.forEach((card) => {
       ".speaker__modal__description"
     );
     let linkedIn = document.querySelector(".speaker__modal__linkedin");
+    let name = e.currentTarget.getAttribute("value");
 
-    let selectTarget = e.target.parentElement.querySelector("h4");
-    let name;
-    if (selectTarget === null) {
-      selectTarget = e.target.parentElement.querySelector(
-        ".speaker__card__content__name"
-      );
-    }
-    name = selectTarget.textContent;
     fetch("data/speakers.json")
       .then((response) => response.json())
       .then((speaker) => {
-        console.log(name);
+        // Initiating speaker modal from data
         speakerName.textContent = name;
         image.src = speaker[name].picture;
         speakerTitle.textContent = speaker[name].title;
