@@ -1,0 +1,217 @@
+/* Event Overview */
+
+.overview__content {
+  margin: 0 auto;
+  text-align: left;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.overview__content span {
+  font-weight: var(--weight-bold);
+}
+
+/* Introduction cards v1 */
+
+#introduction {
+}
+
+.line__title {
+  padding: 24px 0px 36px 0px;
+}
+
+.line__title h2 {
+  font-weight: var(--weight-bold);
+  position: relative;
+  margin: 48px auto;
+  padding: 0 24px;
+}
+
+.line__title h2:before {
+  content: " ";
+  display: block;
+  width: 440px;
+  height: 4px;
+  background: linear-gradient(to left, black, white);
+  /* background: radial-gradient(circle, rgba(2,0,36,1) 25%, rgba(9,9,121,1) 40%, rgba(9,15,125,1) 55%, rgba(6,84,170,1) 70%, rgba(255,255,255,1) 100%); */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -2;
+}
+
+.line__title h2:after {
+  content: " ";
+  display: block;
+  width: 440px;
+  height: 4px;
+  background: linear-gradient(to right, black, white);
+  /* background: radial-gradient(circle, rgba(2,0,36,1) 25%, rgba(9,9,121,1) 40%, rgba(9,15,125,1) 55%, rgba(6,84,170,1) 70%, rgba(255,255,255,1) 100%); */
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -2;
+}
+
+.line__title span {
+  background: #fff;
+}
+
+.card__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.introduction__card {
+  width: 250px;
+}
+
+.introduction__card h4:after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  /* background-color: #fac42b; */
+  background-color: var(--color-orange);
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.introduction__card__title {
+  color: var(--color-blue);
+  padding: 16px 0;
+}
+
+.introduction__card__icon img {
+  width: 150px;
+  height: 150px;
+}
+
+.introduction__card__description {
+  padding: 8px 4px;
+  font-size: var(--font-small);
+  color: var(--color-dark-grey);
+}
+
+/* Main Events */
+
+.mainevents__container {
+  border: 2px solid var(--color-dark-grey);
+  border-radius: 5px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mainevents__row {
+  display: flex;
+}
+
+.mainevents__name {
+  width: 30%;
+  /* text-align: left; */
+  padding: 12px 12px;
+  border-right: 2px solid var(--color-dark-grey);
+  font-weight: var(--weight-semi-bold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainevents__content {
+  display: flex;
+  width: 70%;
+  padding: 12px 24px;
+  font-weight: var(--weight-semi-bold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainevents__row:nth-child(1) .mainevents__name {
+  background-color: #394867;
+  color: var(--color-white);
+}
+
+.mainevents__row:nth-child(1) .mainevents__content {
+  background-color: #394867;
+  color: var(--color-white);
+}
+
+.mainevents__row:nth-child(2n + 3) .mainevents__name {
+  background-color: var(--color-white);
+}
+
+.mainevents__row:nth-child(2n + 2) .mainevents__name {
+  background-color: var(--color-light-white);
+}
+
+.mainevents__row:nth-child(2n + 3) .mainevents__content {
+  background-color: var(--color-white);
+}
+
+.mainevents__row:nth-child(2n + 2) .mainevents__content {
+  background-color: var(--color-light-white);
+}
+
+/* Yearly Event Title */
+#yearlyEvent {
+  padding-bottom: 52px;
+}
+.year__container {
+  border: 2px solid var(--color-dark-grey);
+  border-radius: 5px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.yearly__row {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+.yearly__year {
+  width: 20%;
+  /* text-align: left; */
+  padding: 12px 12px;
+  border-right: 2px solid var(--color-dark-grey);
+  font-weight: var(--weight-semi-bold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yearly__row:nth-child(1) .yearly__year {
+  background-color: #394867;
+  color: var(--color-white);
+}
+
+.yearly__row:nth-child(1) .yearly__theme {
+  background-color: #394867;
+  color: var(--color-white);
+}
+
+.yearly__row:nth-child(2n + 3) .yearly__year {
+  background-color: var(--color-white);
+}
+
+.yearly__row:nth-child(2n + 2) .yearly__year {
+  background-color: var(--color-light-white);
+}
+
+.yearly__row:nth-child(2n + 3) .yearly__theme {
+  background-color: var(--color-white);
+}
+
+.yearly__row:nth-child(2n + 2) .yearly__theme {
+  background-color: var(--color-light-white);
+}
+
+.yearly__theme {
+  width: 80%;
+  padding: 12px 24px;
+  font-weight: var(--weight-semi-bold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

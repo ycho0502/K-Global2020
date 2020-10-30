@@ -12,7 +12,6 @@
       crossorigin="anonymous"
     ></script>
     <link rel="icon" type="image/png" href="img/favicon.png" />
-
     <!-- Google font-->
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
@@ -23,28 +22,49 @@
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/main.js" defer></script>
   </head>
+
   <body>
     <!--Navbar-->
     <nav id="navbar">
       <div class="navbar__wrapper">
         <div class="navbar__logo">
-          <a href="#"><img src="img/kglobal.png" /></a>
+          <a href="index.html"><img src="img/kglobal.png" /></a>
         </div>
         <a href="#"></a>
         <ul class="navbar__menu">
-          <li class="navbar__menu__item active">
-            <a href="#">Introduction</a>
-          </li>
-          <li class="navbar__menu__item"><a href="#">ICT Forum</a></li>
           <li class="navbar__menu__item">
-            <a href="#">Pitching Competition</a>
+            <a href="introduction.html">Introduction</a>
           </li>
-          <li class="navbar__menu__item"><a href="#">QnA</a></li>
+
+          <li class="navbar__menu__item"><a href="ict.html">ICT Forum</a></li>
+
+          <li class="navbar__menu__item sub-menu">
+            <a href="#">Pitching Competition</a>
+            <ul class="sub-menu__list">
+              <li><a href="kpitch.html">K-Pitch</a></li>
+              <li><a href="ipitch.html">International Pitch</a></li>
+            </ul>
+          </li>
+
+          <li class="navbar__menu__item"><a href="ama.html">AMA Session</a></li>
+
           <li class="navbar__menu__item">
             <a href="#">Online Partnership Expo</a>
           </li>
         </ul>
       </div>
+
+      <button class="navbar__toggle-btn">
+        <svg class="svg-icon" viewBox="0 0 20 20">
+          <path
+            fill="none"
+            d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314
+          c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743
+          s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314
+          c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z"
+          ></path>
+        </svg>
+      </button>
     </nav>
 
     <!--bgholder-->
@@ -77,119 +97,116 @@
       </div>
     </section>
 
-    <!--  CONTENTS    -->
-    <!-- migth need to use wrapper (optional)-->
-    <!--<div class="bodyWrapper"></div>-->
-
-    <!-- Introduction, but will be removed. This is just for space and testing wrapper at this moment -->
     <section id="events">
-      <div class="events__container section">
-        <div class="events__container1">
-          <div class="events__intro">
-            <div class="events__intro__title">
-              <h1>PROGRAM OVERVIEW</h1>
-              <hr />
+      <div class="section">
+        <div class="events__title">
+          <h1>PRGRAM OVERVIEW</h1>
+        </div>
+
+        <div class="events__row">
+          <div class="events__col">
+            <div class="events__card">
+              <div class="events__card__title">ICT Forum</div>
+              <div class="events__card__description">
+                <div class="events__card__date">
+                  Monday <span>|</span> November 30
+                </div>
+                <hr />
+                <div class="events__card__detail">
+                  Sharing digital innovation trends and technological
+                  advancements in ICT and SW sector
+                </div>
+              </div>
             </div>
-            <div class="events__intro__description">
-              <img src="img/kglobal.png" alt="" />
+
+            <div class="events__card">
+              <div class="events__card__title">K-Pitch</div>
+
+              <div class="events__card__description">
+                <div class="events__card__date">
+                  Tuesday <span>|</span> December 1
+                </div>
+                <hr />
+                <div class="events__card__detail">
+                  Effective IR; engaging with investors and investments for
+                  participating SMEs and start-ups
+                </div>
+              </div>
             </div>
           </div>
-          <div class="events__card">
-            <div class="events__card__title">Partnership Expo</div>
-            <div class="events__card__description">
-              <div class="events__card__date">
-                November 1 <span>-</span> December 4
+
+          <div class="events__col">
+            <div class="events__card">
+              <div class="events__card__title">I-Pitch</div>
+              <div class="events__card__description">
+                <div class="events__card__date">
+                  Wednesday <span>|</span> December 2
+                </div>
+                <hr />
+                <div class="events__card__detail">
+                  Pitching from start-ups in 15 different countries based in
+                  Silicon Valley
+                </div>
+                <!-- <div class="events__card__host">
+                  <img src="img/nipa.png" alt="">
+                  <img src="img/kotra.png" alt="">
+                </div> -->
               </div>
-              <hr />
-              <div class="events__card__detail">
-                Provide online exhibition of participating ICT corporations, as
-                well as 1:1 expert video conference<br />
-                * Export related financial partnership<br /><br /><a href="#"
-                  >Learn more</a
-                >
+            </div>
+
+            <div class="events__card">
+              <div class="events__card__title">AMA Session</div>
+              <div class="events__card__description">
+                <div class="events__card__date">
+                  Thursday <span>|</span> December 3
+                </div>
+                <hr />
+                <div class="events__card__detail">
+                  Questions from participating companies answered by experts in
+                  the form of a podcast
+                </div>
+                <!-- <div class="events__card__host">
+                  <img src="img/nipa.png" alt="">
+                  <img src="img/kotra.png" alt="">
+                </div> -->
               </div>
-              <!-- <div class="events__card__host">
-                <img src="img/nipa.png" alt="">
-                <img src="img/kotra.png" alt="">
-              </div> -->
             </div>
           </div>
         </div>
 
-        <div class="events__container2">
-          <div class="events__card">
-            <div class="events__card__title">ICT Forum</div>
-            <div class="events__card__description">
-              <div class="events__card__date">
-                Tuesday <span>|</span> December 1
+        <div class="events__row">
+          <div class="events__col">
+            <div class="events__card" id="events__expo">
+              <div class="events__card__title">Partnership Expo</div>
+              <div class="events__card__description">
+                <div class="events__card__date">
+                  October 30 <span>-</span> December 3
+                </div>
+                <hr />
+                <div class="events__card__detail">
+                  Provide online exhibition of participating ICT corporations,
+                  as well as 1:1 expert video conference<br />
+                  * Export related financial partnership<br /><br /><a href="#"
+                    >Learn more</a
+                  >
+                </div>
               </div>
-              <hr />
-              <div class="events__card__detail">
-                Sharing digital innovation trends and technological advancements
-                in ICT and SW sector<br /><br /><a href="#">Learn more</a>
-              </div>
-              <!-- <div class="events__card__host">
-                <img src="img/nipa.png" alt="">
-                <img src="img/kotra.png" alt="">
-              </div> -->
             </div>
           </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="events__card">
-            <div class="events__card__title">K-Pitch</div>
-            <div class="events__card__description">
-              <div class="events__card__date">
-                Wednesday <span>|</span> December 2
-              </div>
-              <hr />
-              <div class="events__card__detail">
-                Effective IR; engaging with investors and investments for
-                participating SMEs and start-ups<br /><br /><a href="#"
-                  >Learn more</a
-                >
-              </div>
-              <!-- <div class="events__card__host">
-                <img src="img/nipa.png" alt="">
-                <img src="img/kotra.png" alt="">
-              </div> -->
-            </div>
-          </div>
+    <!-- Welcome -->
 
-          <div class="events__card">
-            <div class="events__card__title">I-Pitch</div>
-            <div class="events__card__description">
-              <div class="events__card__date">
-                Thursday <span>|</span> December 3
-              </div>
-              <hr />
-              <div class="events__card__detail">
-                Pitching from start-ups in 15 different countries based in
-                Silicon Valley<br /><br /><a href="#">Learn more</a>
-              </div>
-              <!-- <div class="events__card__host">
-                  <img src="img/nipa.png" alt="">
-                  <img src="img/kotra.png" alt="">
-                </div> -->
-            </div>
-          </div>
-
-          <div class="events__card">
-            <div class="events__card__title">Q&amp;A Interview</div>
-            <div class="events__card__description">
-              <div class="events__card__date">
-                Friday <span>|</span> December 4
-              </div>
-              <hr />
-              <div class="events__card__detail">
-                Questions from participating companies answered by experts in
-                the form of a podcast<br /><br /><a href="#">Learn more</a>
-              </div>
-              <!-- <div class="events__card__host">
-                  <img src="img/nipa.png" alt="">
-                  <img src="img/kotra.png" alt="">
-                </div> -->
-            </div>
-          </div>
+    <section id="welcome">
+      <div class="section">
+        <div class="welcome__attend">
+          <span id="colon">"</span>
+          <span id="approx">Approximately </span>
+          <span id="number">4,500</span>
+          <br />national and international speakers, buyers, investors, and tech
+          experts
         </div>
       </div>
     </section>
@@ -197,76 +214,75 @@
     <!-- Speakers -->
 
     <section id="speaker">
-      <div class="speaker__container">
+      <div class="section">
         <div class="speaker__title">ICT Forum: Keynote Speakers</div>
-
         <div class="speakers">
-          <div class="speaker__card" value="Kieun Park">
-            <div class="card__middle">
-              <div class="card__front">
-                <img
-                  src="img/speakers/ICT/kieun.jpg"
-                  class="speaker__card__img"
-                  alt=""
-                />
-              </div>
-              <div class="card__back">
-                <div class="card__back__note">
-                  <p value="Kieun Park">
-                    Kieun Park is the CTO of NAVER Cloud and has more than 25
-                    years’ experiences in IT, Software, and Cloud. He joined the
-                    NAVER at 2006 and worked as technical fellow for service
-                    platform and infrastructure technology.
-                  </p>
+          <div class="spaker__col">
+            <div class="speaker__card" value="Kieun Park">
+              <div class="card__middle">
+                <div class="card__front">
+                  <img
+                    src="img/speakers/ICT/kieun.jpg"
+                    class="speaker__card__img"
+                    alt=""
+                  />
+                </div>
+                <div class="card__back">
+                  <div class="card__back__note">
+                    <p>
+                      Kieun Park is the CTO of NAVER Cloud and has more than 25
+                      years’ experiences in IT, Software, and Cloud. He joined
+                      the NAVER at 2006 and worked as technical fellow for
+                      service platform and infrastructure technology.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="speaker__card__content">
-              <div class="speaker__card__content__name">Kieun Park<br /></div>
-              <div class="speaker__card__content__line">
-                <hr />
+              <div class="speaker__card__content">
+                <div class="speaker__card__content__name">
+                  <h4>Kieun Park</h4>
+                  <p>CTO, Naver Cloud</p>
+                </div>
               </div>
-              <div class="speaker__card__content__company">
-                CTO, Naver Cloud
+              <div class="speaker__card__content__more">
+                <div class="text">Read more</div>
               </div>
             </div>
-            <div class="speaker__card__content__more">
-              <div class="text">Read more</div>
-            </div>
-          </div>
 
-          <div class="speaker__card" value="Ashok Banerjee">
-            <div class="card__middle">
-              <div class="card__front">
-                <img
-                  src="img/speakers/ICT/ashok4.jpg"
-                  class="speaker__card__img"
-                  alt=""
-                />
-              </div>
-              <div class="card__back">
-                <div class="card__back__note">
-                  <p>
-                    DevOps, NLP, AI, and other Big Data expert, #1 in corporate
-                    cybersecurity worldwide among Fortune 500 companies
-                  </p>
+            <div class="speaker__card" value="Ashok Banerjee">
+              <div class="card__middle">
+                <div class="card__front">
+                  <img
+                    src="img/speakers/ICT/ashok4.jpg"
+                    class="speaker__card__img"
+                    alt=""
+                  />
+                </div>
+                <div class="card__back">
+                  <div class="card__back__note">
+                    <p>
+                      DevOps, NLP, AI, and other Big Data expert, #1 in
+                      corporate cybersecurity worldwide among Fortune 500
+                      companies
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="speaker__card__content">
-              <div class="speaker__card__content__name">
-                <h4>Ashok Banerjee</h4>
-                <p>CTO Enterprise Security, Symantec</p>
+              <div class="speaker__card__content">
+                <div class="speaker__card__content__name">
+                  <h4>Ashok Banerjee</h4>
+                  <p>CTO Enterprise Security, Symantec</p>
+                </div>
               </div>
-            </div>
-            <div class="speaker__card__content__more">
-              <div class="text">Read more</div>
+              <div class="speaker__card__content__more">
+                <div class="text">Read more</div>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="speaker__container">
+      <div class="section">
         <div class="speaker__title">
           ICT Forum: Session 1 Moderator &amp; Panelists
         </div>
@@ -292,22 +308,15 @@
             </div>
 
             <div class="speaker__card__content">
-              <div class="speaker__card__content__name">Mitchell Weinstock</div>
-              <div class="speaker__card__content__line">
-                <hr />
-              </div>
-              <div class="speaker__card__content__company">
-                Partner, HP Tech Ventures
+              <div class="speaker__card__content__name">
+                <h4>Mitchell Weinstock</h4>
+                <p>Partner, HP Tech Ventures</p>
               </div>
             </div>
+            <div class="speaker__card__tag">Moderator</div>
             <div class="speaker__card__content__more">
               <div class="text">Read more</div>
             </div>
-            <div class="speaker__card__tag">Moderator</div>
-
-            <!-- <div class="speaker__card__content__more">
-              <div class="text"><a href="#">More Info</a></div>
-            </div> -->
           </div>
 
           <div class="speaker__card" value="Spence Green">
@@ -328,7 +337,6 @@
                 </div>
               </div>
             </div>
-
             <div class="speaker__card__content">
               <div class="speaker__card__content__name">
                 <h4>Spence Green</h4>
@@ -358,7 +366,6 @@
                 </div>
               </div>
             </div>
-
             <div class="speaker__card__content">
               <div class="speaker__card__content__name">
                 <h4>Maha Achour</h4>
@@ -388,7 +395,6 @@
                 </div>
               </div>
             </div>
-
             <div class="speaker__card__content">
               <div class="speaker__card__content__name">
                 <h4>Tony Lee</h4>
@@ -419,7 +425,6 @@
                 </div>
               </div>
             </div>
-
             <div class="speaker__card__content">
               <div class="speaker__card__content__name">
                 <h4>James Chulhwee Joo</h4>
@@ -433,41 +438,68 @@
         </div>
       </div>
 
-      <div class="speaker__container">
+      <div class="section">
         <div class="speaker__title">
           ICT Forum: Session 2 Moderator &amp; Panelists
         </div>
-
         <div class="speakers">
-          <div class="speaker__card" value="Justin Nam">
+          <div class="speaker__card" value="Jay Eum">
             <div class="card__middle">
               <div class="card__front">
                 <img
-                  src="img/speakers/panel2/justin nam.jpg"
+                  src="img/speakers/panel2/JayEum.jpg"
                   class="speaker__card__img"
                   alt=""
                 />
               </div>
               <div class="card__back">
                 <div class="card__back__note">
-                  <p>$100 billion Vision Fund</p>
+                  <p>[[[[need to fill]]]]</p>
                 </div>
               </div>
             </div>
-
             <div class="speaker__card__content">
-              <div class="speaker__card__content__name">Justin Nam</div>
-              <div class="speaker__card__content__line">
-                <hr />
+              <div class="speaker__card__content__name">
+                <h4>Jay Eum</h4>
+                <p>Venture Capitalist, Translink Capital</p>
               </div>
-              <div class="speaker__card__content__company">
-                VP, SoftBank Vision Fund
+            </div>
+            <div class="speaker__card__tag">Moderator</div>
+            <div class="speaker__card__content__more">
+              <div class="text">Read more</div>
+            </div>
+            <!-- <div class="speaker__card__content__more">
+            <div class="text"><a href="#">More Info</a></div>
+          </div> -->
+          </div>
+
+          <div class="speaker__card" value="Samir Qamar">
+            <div class="card__middle">
+              <div class="card__front">
+                <img
+                  src="img/speakers/panel2/Samir Qamar.jpg"
+                  class="speaker__card__img"
+                  alt=""
+                />
+              </div>
+              <div class="card__back">
+                <div class="card__back__note">
+                  <p>
+                    Solution to demand for virtual physicians, CES 2020
+                    Innovation Awards Honoree; partnership with Dell, Intel, MS
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="speaker__card__content">
+              <div class="speaker__card__content__name">
+                <h4>Samir Qamar</h4>
+                <p>CEO, MedWand</p>
               </div>
             </div>
             <div class="speaker__card__content__more">
               <div class="text">Read more</div>
             </div>
-            <div class="speaker__card__tag">Moderator</div>
           </div>
 
           <div class="speaker__card" value="Yevgeniy Vahlis">
@@ -489,41 +521,10 @@
                 </div>
               </div>
             </div>
-
             <div class="speaker__card__content">
               <div class="speaker__card__content__name">
                 <h4>Yevgeniy Vahlis</h4>
                 <p>Head of AI Tech, BMO Financial Group</p>
-              </div>
-            </div>
-            <div class="speaker__card__content__more">
-              <div class="text">Read more</div>
-            </div>
-          </div>
-
-          <div class="speaker__card" value="Samir Qamar">
-            <div class="card__middle">
-              <div class="card__front">
-                <img
-                  src="img/speakers/panel2/Samir Qamar.jpg"
-                  class="speaker__card__img"
-                  alt=""
-                />
-              </div>
-              <div class="card__back">
-                <div class="card__back__note">
-                  <p>
-                    Solution to demand for virtual physicians, CES 2020
-                    Innovation Awards Honoree; partnership with Dell, Intel, MS
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="speaker__card__content">
-              <div class="speaker__card__content__name">
-                <h4>Samir Qamar</h4>
-                <p>CEO &amp; co-founder, MedWand</p>
               </div>
             </div>
             <div class="speaker__card__content__more">
@@ -549,7 +550,6 @@
                 </div>
               </div>
             </div>
-
             <div class="speaker__card__content">
               <div class="speaker__card__content__name">
                 <h4>John Ha</h4>
@@ -579,7 +579,6 @@
                 </div>
               </div>
             </div>
-
             <div class="speaker__card__content">
               <div class="speaker__card__content__name">
                 <h4>Josh Lee</h4>
@@ -640,9 +639,9 @@
             <p>
               "If you want to know what's happening in the world and want to
               know what's happening from a new technology perspective, I highly
-              recommend coming to K-Global here in Silicon"
+              recommend coming to K-Global here in Silicon"<br /><br />
+              <span class="name">Jonathan Davidson / Senior VP, Cisco</span>
             </p>
-            <p class="name">Jonathan Davidson / Senior VP, Cisco</p>
           </div>
         </div>
         <div class="testimonial">
@@ -654,9 +653,11 @@
               There's always very strong speakers that represent both the
               startup ecosystem corporates as well as investors that you can
               interact with and hear from so I encourage you to join K-Global
-              for extra of thate"
+              for extra of that"<br /><br />
+              <span class="name"
+                >Jay Eum / Venture Capitalist, Translink Capital</span
+              >
             </p>
-            <p class="name">Jay Eum / Venture Capitalist, Translink Capital</p>
           </div>
           <img
             src="img/testimonial/JayEum.jpg"
@@ -667,27 +668,25 @@
       </div>
     </section>
 
-    <!--Contact-->
-    <section id="contact">
+    <!--Footer-->
+    <section id="footer">
       <div class="section">
-        <div class="contact__container">
-          <div class="contact__contact__form">
+        <div class="footer__container">
+          <div class="footer__contact__form">
             <img src="img/kotra.png" alt="" />
             <p>
               3003 North First Street, San Jose, CA 95134, U.S.A<br />TEL :
               (1-408)432-5000 FAX : (1-408)432-5056 <br />info@kotrasv.org<br />
             </p>
           </div>
-          <div class="contact__description">
+          <div class="footer__description">
             <img src="img/newkglobal.png" alt="" />
-            <div class="contact__description__detail">
+            <div class="footer__description__detail">
               <p>K-GLOBAL @Silicon Valley 2020. All rights reserved.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!--Footer-->
   </body>
 </html>

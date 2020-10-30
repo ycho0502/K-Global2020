@@ -12,6 +12,25 @@ document.addEventListener("scroll", () => {
   }
 });
 
+//Toggle hamburger menu
+
+const navbarMenu = document.querySelector(".navbar__menu");
+
+const navbarToggleBtn = document.querySelector(".navbar__toggle-btn");
+
+navbarToggleBtn.addEventListener("click", () => {
+  console.log("ttt");
+  console.log(navbarMenu);
+  navbarMenu.classList.toggle("open");
+});
+
+const subMenu = document.querySelector(".sub-menu");
+const subMenuList = document.querySelector(".sub-menu__list");
+
+subMenu.addEventListener("click", () => {
+  subMenuList.classList.toggle("open");
+});
+
 // Speaker popup modal
 const speakerCard = document.querySelectorAll(".speaker__card");
 const speakerModal = document.querySelector(".speaker__modal");
