@@ -13,10 +13,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheet and JS-->
-    <link rel="stylesheet" href="css/introduction.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/introduction.css">
 
-    <script src="js/main.js" defer></script>
+    <script src="js/ama.js" defer></script>
   </head>
   <body>
 
@@ -104,6 +104,60 @@
   <div class="section">
     <h2>Company List</h2>
   </div>
+  
+  <!-- Company Cards -->
+  <div id="cardList">
+    <div id="category__smartAppliances" class="cardList__Category">
+      <h4 class="cardList__Category__title">Smart Appliances</h4>
+      <hr />
+      <ul id="cardList__smartAppliances" class="container__cardList"></ul>
+    </div>
+    <div id="category__telecomunications" class="cardList__Category">
+      <h4 class="cardList__Category__title">Telecomunications</h4>
+      <hr />
+      <ul id="cardList__telecomunications" class="container__cardList"></ul>
+    </div>
+    <div id="category__biotech" class="cardList__Category">
+      <h4 class="cardList__Category__title">Biotech</h4>
+      <hr />
+      <ul id="cardList__biotech" class="container__cardList"></ul>
+    </div>
+    <div id="category__security" class="cardList__Category">
+      <h4 class="cardList__Category__title">Security</h4>
+      <hr />
+      <ul id="cardList__security" class="container__cardList"></ul>
+    </div>
+    <div id="category__adas" class="cardList__Category">
+      <h4 class="cardList__Category__title">ADAS</h4>
+      <hr />
+      <ul id="cardList__adas" class="container__cardList"></ul>
+    </div>
+    <div id="category__robotics" class="cardList__Category">
+      <h4 class="cardList__Category__title">Robotics</h4>
+      <hr />
+      <ul id="cardList__robotics" class="container__cardList"></ul>
+    </div>
+    <div id="category__itServices" class="cardList__Category">
+      <h4 class="cardList__Category__title">IT Services</h4>
+      <hr />
+      <ul id="cardList__itServices" class="container__cardList"></ul>
+    </div>
+  </div>
+
+        <!-- Partner Panel -->
+        <div class="partnerPanel" id="partnerPanel">
+          <div class="partnerPanel__header">
+  
+            <div class="partnerPanel__imgContainer">
+              <img class="partnerPanel__logo" />
+            </div>
+  
+            <button class="partnerPanel__closeBtn">&times;</button>
+          </div>
+  
+        </div>
+        <!-- Darken rest of the screen when company card is clicked  -->
+        <div id="companyCardOverlay"></div>
 </section>
 
     

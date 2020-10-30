@@ -1083,7 +1083,7 @@ h4 .duration {
 }
 
 /* background darkens when card clicked */
-#overlay {
+#speakerOverlay {
   position: fixed;
   opacity: 0;
   transition: 700ms ease-in-out;
@@ -1100,7 +1100,7 @@ h4 .duration {
   transform: translate3d(0, 0, 0);
 }
 
-#overlay.active {
+#speakerOverlay.active {
   opacity: 1;
   pointer-events: all; /*Prevents button events out outside of the panel*/
 }

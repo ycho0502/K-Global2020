@@ -853,25 +853,11 @@ hr {
   background-color: var(--color-white);
   min-height: 100vh;
   max-height: 100%;
-
-  /* Trasition from middle */
-  /* position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  transition: 700ms ease-in-out;
-  border-radius: 11px;
-  z-index: 10;
-  background-color: var(--color-white);
-  max-width: 80%; */
 }
 
 .partnerPanel.active {
   /* Trasition from right side */
   transform: translate3d(-13%, 0, 0);
-
-  /* Trasition from middle */
-  /* transform: translate(-50%, -50%) scale(1); */
 }
 
 .partnerPanel__header {
@@ -909,22 +895,7 @@ hr {
   background: none;
   font-size: 1.5rem;
   font-weight: bold;
-
-  /* Trasition from middle */
-  /* position: absolute;
-  top: 1%;
-  right: 2.5%;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  background: none;
-  font-size: 1.5rem;
-  font-weight: bold; */
 }
-
-/* .partnerPanel__content {
-  padding: 20px 30px;
-} */
 
 /* background darkens when card clicked */
 #overlay {
