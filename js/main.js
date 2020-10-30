@@ -280,14 +280,18 @@ speakerCard.forEach((card) => {
   });
 });
 
-speakerModalButton.addEventListener("click", () => {
-  closeSpeakerModal();
-});
+if (speakerModalButton !== null) {
+  speakerModalButton.addEventListener("click", () => {
+    closeSpeakerModal();
+  });
+}
 
-// Closing panel when outside of the panel is also clicked
-speakerOverlay.addEventListener("click", () => {
-  closeSpeakerModal();
-});
+if (speakerOverlay !== null) {
+  // Closing panel when outside of the panel is also clicked
+  speakerOverlay.addEventListener("click", () => {
+    closeSpeakerModal();
+  });
+}
 
 function openSpeakerModal() {
   const body = document.body;

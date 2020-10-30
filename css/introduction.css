@@ -531,7 +531,7 @@
   /* Trasition from right side */
   position: fixed;
   top: 0%;
-  right: -5%;
+  right: 0%;
   transform: translate3d(100%, 0, 0);
   transition: 900ms ease-in-out;
   border-radius: 11px;
@@ -543,7 +543,7 @@
 
 .partnerPanel.active {
   /* Trasition from right side */
-  transform: translate3d(-13%, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .partnerPanel__header {
