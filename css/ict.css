@@ -130,6 +130,7 @@ h4 .duration {
 #cardList {
   display: flex;
   flex-direction: column;
+  /* justify-content: space-around; */
   flex-wrap: wrap;
   max-width: 1000px;
   margin-left: auto;
@@ -235,7 +236,7 @@ h4 .duration {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  justify-content: flex-start;
+  justify-content: space-around;
   height: 100%;
   padding: 1.1em;
   background: var(--color-white);

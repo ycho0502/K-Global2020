@@ -79,21 +79,6 @@ if (smartAppliancesList !== null) {
       console.error(err);
     });
 }
-// fetch("data/companies.json")
-//   .then((response) => response.json())
-//   .then((companies) => {
-//     //Categorize
-//     categorizeCompany(companies);
-
-//     //Alphabetize
-//     sortCompany();
-
-//     renderCompanies();
-//   })
-//   .catch((err) => {
-//     console.error("Error fetching data");
-//     console.error(err);
-//   });
 
 function categorizeCompany(companies) {
   const SMARTAPPLIANCES = "smart appliances";
@@ -203,6 +188,8 @@ function cardCreate(item) {
 
   // Adding event listener for panel to popup when clicked
   card.addEventListener("click", () => {
+    let panelLogo = document.querySelector(".partnerPanel__logo");
+    panelLogo.src = "";
     openCompanyModal(item);
   });
 

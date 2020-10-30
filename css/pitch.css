@@ -309,62 +309,6 @@
   margin-bottom: 20px;
 }
 
-.partnerPanel {
-  /* Trasition from right side */
-  position: fixed;
-  top: 0%;
-  right: 0%;
-  transform: translate3d(100%, 0, 0);
-  transition: 900ms ease-in-out;
-  border-radius: 11px;
-  z-index: 10;
-  background-color: var(--color-white);
-  min-height: 100%;
-  max-height: 100%;
-}
-
-.partnerPanel.active {
-  /* Trasition from right side */
-  transform: translate3d(0, 0, 0);
-}
-
-.partnerPanel__header {
-  width: inherit;
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 11px;
-}
-
-.partnerPanel__imgContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: inherit;
-  height: 100vh;
-  border-radius: 11px;
-}
-
-.partnerPanel__logo {
-  width: inherit;
-  height: inherit;
-  border-radius: 11px;
-}
-
-.partnerPanel__closeBtn {
-  /* Trasition from right side */
-  position: absolute;
-  top: 1%;
-  right: 2.5%;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  background: none;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
 /* background darkens when card clicked */
 #companyCardOverlay {
   position: fixed;

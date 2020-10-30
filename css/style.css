@@ -1022,16 +1022,24 @@ h4 .duration {
 
 .speaker__modal__imgwrap {
   overflow: hidden;
+  min-width: 640px;
+  min-height: 640px;
+  max-width: 640px;
   max-height: 640px;
+  height: auto;
+  width: auto;
 }
 
 .speaker__modal__img {
-  width: 100%;
+  max-width: 640px;
+  max-height: 640px;
+  min-width: 640px;
+  min-height: 640px;
   border-radius: 0;
 }
 
 .speaker__modal__heading {
-  bottom: -37px;
+  bottom: -41.5px;
   position: absolute;
   right: 0;
   float: none;
@@ -1148,6 +1156,64 @@ h4 .duration {
   padding: 4px 8px;
   border-radius: 5px;
   font-weight: var(--weight-bold);
+}
+
+/* company modal */
+.partnerPanel {
+  /* Trasition from right side */
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  transform: translate3d(100%, 0, 0);
+  max-width: 72vh;
+  transition: 900ms ease-in-out;
+  border-radius: 11px;
+  z-index: 10;
+  background-color: var(--color-white);
+  min-height: 100vh;
+  max-height: 100%;
+}
+
+.partnerPanel__header {
+  position: relative;
+}
+
+.partnerPanel__closeBtn {
+  /* Trasition from right side */
+  position: absolute;
+  top: 0.8%;
+  right: 2%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: all 0.2s ease-out;
+}
+
+.partnerPanel__imgContainer {
+  border-radius: 11px;
+
+  min-width: 72vh;
+  min-height: 100vh;
+  max-width: 72vh;
+  max-height: 100vh;
+  height: auto;
+  width: auto;
+}
+
+.partnerPanel__logo {
+  max-width: 72vh;
+  max-height: 100vh;
+  min-width: 72vh;
+  min-height: 100vh;
+  border-radius: 11px;
+}
+
+.partnerPanel.active {
+  /* Trasition from right side */
+  transform: translate3d(0, 0, 0);
 }
 
 /* TESTIMONIAL */
