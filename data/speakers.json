@@ -111,12 +111,76 @@
     "description": "",
     "linkedin": "https://www.linkedin.com/in/jayeum/"
   },
+  "Eva Reder": {
+    "name": "Eva Reder",
+    "picture": "img/speakers/Ipitch/eva reder.jpg",
+    "title": "Program Manager, Manos Accelerator",
+    "category": "ipitch",
+    "description": "",
+    "linkedin": "https://www.linkedin.com/in/evareder/"
+  },
+  "Kiichiro DeLuca": {
+    "name": "Kiichiro DeLuca",
+    "picture": "img/speakers/Ipitch/Kiichiro DeLuca.jpg",
+    "title": "VC, Weru Investment",
+    "category": "ipitch",
+    "description": "",
+    "linkedin": "https://www.linkedin.com/in/kiichiro/"
+  },
   "Angelo Del Priore": {
     "name": "Angelo Del Priore",
     "picture": "img/speakers/panel1/Angelo Del Priore.jpg",
     "title": "Partner, HP Tech Ventures",
     "category": "panel1",
-    "description": "Andy Peart is CMSO of Artificial Solutions, an international business that “Makes Technology Think,” believing that people should be able to interact with technology intelligently, using their own voice, in their own terminology and across whatever channel they choose.  Using a form of AI referred to as ‘Conversational AI’, Artificial Solutions allows people to talk to applications, websites and devices in a human like, intelligent and conversational way. Its Teneo platform enables non-specialists to rapidly build and deploy enterprise strength, conversational applications and deliver customer insight and personalization using conversational data. Andy has over 25 years strategic and marketing experience within the IT and AI sector, successfully helping build innovative, technology driven organizations.",
+    "description": "",
     "linkedin": "https://www.linkedin.com/in/angelo-del-priore-04136b1/"
+  },
+  "Jeff Clavier": {
+    "name": "Jeff Clavier",
+    "picture": "img/speakers/Ipitch/jeff_clavier.jpg",
+    "title": "Managing Partner, Uncork Capital",
+    "category": "ipitch",
+    "description": "",
+    "linkedin": "https://www.linkedin.com/in/jeffclavier/"
+  },
+  "Thomas Jueng": {
+    "name": "Thomas Jueng",
+    "picture": "img/speakers/Ipitch/thomasjueng.jpg",
+    "title": "Managing Director, Samsung Ventures",
+    "category": "ipitch",
+    "description": "",
+    "linkedin": "https://www.linkedin.com/in/thomassp/"
+  },
+  "Andrew Tang": {
+    "name": "Andrew Tang",
+    "picture": "img/speakers/kpitch/andrew_tang.jpg",
+    "title": "CEO, Draper University",
+    "category": "kpitch",
+    "description": "",
+    "linkedin": "https://www.linkedin.com/in/andytangvc/"
+  },
+  "Bill Reichert": {
+    "name": "Bill Reichert",
+    "picture": "img/speakers/kpitch/billreichert.jpg",
+    "title": "Partner, Pegasus Tech Ventures",
+    "category": "kpitch",
+    "description": "",
+    "linkedin": "https://www.linkedin.com/in/billreichert/"
+  },
+  "Phil Yoon": {
+    "name": "Phil Yoon",
+    "picture": "img/speakers/kpitch/phillyoon.jpg",
+    "title": "CEO, BigBasin Capital",
+    "category": "kpitch",
+    "description": "",
+    "linkedin": "https://www.linkedin.com/in/philyoon/"
+  },
+  "Kiha Lee": {
+    "name": "Kiha Lee",
+    "picture": "img/speakers/kpitch/kihalee.jpg",
+    "title": "CEO, Sazze Partners",
+    "category": "kpitch",
+    "description": "",
+    "linkedin": "https://www.linkedin.com/in/kiha-lee/"
   }
 }

@@ -1,119 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>K-Global 2020</title>
+    <meta name="author" content="KOTRA" />
+    <meta name="description" content="K-Global at silicon valley 2020" />
+    <!-- Might not need fonrawesome-->
+    <script
+      src="https://kit.fontawesome.com/939867400f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <!-- Google font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>K-Global 2020</title>
-  <meta name="author" content="KOTRA">
-  <meta name="description" content="K-Global at silicon valley 2020">
-  <!-- Might not need fonrawesome-->
-  <script src="https://kit.fontawesome.com/939867400f.js" crossorigin="anonymous"></script>
-  <link rel="icon" type="image/png" href="img/favicon.png">
-  <!-- Google font-->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Stylesheet and JS-->
+    <link rel="stylesheet" href="css/pitch.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
-  <!-- Stylesheet and JS-->
-  <link rel="stylesheet" href="css/pitch.css">
-  <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+  </head>
 
-  <script src="js/main.js" defer></script>
-</head>
+  <body>
+    <!--Navbar-->
+    <nav id="navbar">
+      <div class="navbar__wrapper">
+        <div class="navbar__logo">
+          <a href="index.html"><img src="img/kglobal.png" /></a>
+        </div>
+        <a href="#"></a>
+        <ul class="navbar__menu">
+          <li class="navbar__menu__item">
+            <a href="introduction.html">Introduction</a>
+          </li>
 
-<body>
+          <li class="navbar__menu__item"><a href="ict.html">ICT Forum</a></li>
 
-  <!--Navbar-->
-  <nav id="navbar">
-    <div class="navbar__wrapper">
-      <div class="navbar__logo">
-        <a href="index.html"><img src="img/kglobal.png"></a>
+          <li class="navbar__menu__item sub-menu">
+            <a href="#">Pitching Competition</a>
+            <ul class="sub-menu__list">
+              <li><a href="kpitch.html">K-Pitch</a></li>
+              <li class="navbar__menu__item active">
+                <a href="ipitch.html">International Pitch</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="navbar__menu__item"><a href="ama.html">AMA Session</a></li>
+
+          <li class="navbar__menu__item">
+            <a href="#">Online Partnership Expo</a>
+          </li>
+        </ul>
       </div>
-      <a href="#"></a>
-      <ul class="navbar__menu">
-        
-        <li class="navbar__menu__item "><a href="introduction.html">Introduction</a></li>
-        
-        <li class="navbar__menu__item"><a href="ict.html">ICT Forum</a></li>
-        
-        <li class="navbar__menu__item sub-menu"><a href="#">Pitching Competition</a>
-          <ul class="sub-menu__list">
-            <li><a href="kpitch.html">K-Pitch</a></li>
-            <li class="navbar__menu__item active"><a href="ipitch.html">International Pitch</a></li>
-          </ul>
 
-        <li class="navbar__menu__item"><a href="ama.html">AMA Session</a></li>
-        
-        <li class="navbar__menu__item"><a href="#">Online Partnership Expo</a></li>
-      </ul>
-    </div>
-
-    <button class="navbar__toggle-btn">
-      <svg class="svg-icon" viewBox="0 0 20 20">
-        <path fill="none"
-          d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314
+      <button class="navbar__toggle-btn">
+        <svg class="svg-icon" viewBox="0 0 20 20">
+          <path
+            fill="none"
+            d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314
           c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743
           s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314
-          c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z">
-        </path>
-      </svg>
-    </button>
+          c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z"
+          ></path>
+        </svg>
+      </button>
+    </nav>
 
-  </nav>
-
-  <!-- Slider -->
-  <section id="slider">
-    <!-- <div class="slider__container"> <img src="img/notextbg.png" id="bg" alt=""></div> -->
-    <div class="section">
-      <div id="slider__text">
-        <div class="slider__text__title">POST COVID-19<br></div>
-        <div class="slider__text__subtitle">
-          REVOLUTIONARY GAME CHANGER
-        </div>
-        <div class="slider__text__title">AI</div>
-        <div class="slider__text__date">NOV 30 - DEC 3, 2020</div>
-        <button class="bgholder__register"><a href="#">REGISTER</a></button>
-      </div>
-    </div>
-  </section>
-
-
-
-  <!-- K - pitch Comptietion overview -->
-
-  <section id="overview">
-    <div class="section">
-      <h2>Pitching Competition</h2>
-      <div class="overview__content">
-
-        <div class="overview__theme">
-          <h3><span>Time :</span> 2020. 12. 3 (Thu) (* Korean Standard Time)
-            * (US) 2020. 12. 2 (Wed), 16:45 ~ 19:00</h3>
-        </div>
-
-
-        <div class="overview__theme">
-          <h3><span>Location:</span> Online (Virtual Pitch Competition)</h3>
-        </div>
-
-        <div class="overview__theme">
-          <h3><span>Host:</span> NIPA, KIC-SV</h3>
-        </div>
-
-        <div class="overview__theme">
-          <h3><span>Participants:</span> Participants: About 100 people, including Ministry of Science and ICT
-            of Korea, NIPA, KIC-SV, 선발기업 팀(about 10 teams),
-            Consulate General from various countries, local investors, and
-            other audiences</h3>
-        </div>
-        <div class="overview__description">
-          확인
-          International Pitch competition is a global pitch event hosted by IIA that brings together promising startups, VCs, entrepreneurs and international government organizations from all over the world
+    <!-- Slider -->
+    <section id="slider">
+      <!-- <div class="slider__container"> <img src="img/notextbg.png" id="bg" alt=""></div> -->
+      <div class="section">
+        <div id="slider__text">
+          <div class="slider__text__title">POST COVID-19<br /></div>
+          <div class="slider__text__subtitle">REVOLUTIONARY GAME CHANGER</div>
+          <div class="slider__text__title">AI</div>
+          <div class="slider__text__date">NOV 30 - DEC 3, 2020</div>
+          <button class="bgholder__register"><a href="#">REGISTER</a></button>
         </div>
       </div>
+    </section>
 
+    <!-- K - pitch Comptietion overview -->
 
-    </div>
-  </section>
+    <section id="overview">
+      <div class="section">
+        <h2>Pitching Competition</h2>
+        <div class="overview__content">
+          <div class="overview__theme">
+            <h3>
+              <span>Time :</span> 2020. 12. 3 (Thu) (* Korean Standard Time) *
+              (US) 2020. 12. 2 (Wed), 16:45 ~ 19:00
+            </h3>
+          </div>
+
+          <div class="overview__theme">
+            <h3><span>Location:</span> Online (Virtual Pitch Competition)</h3>
+          </div>
+
+          <div class="overview__theme">
+            <h3><span>Host:</span> NIPA, KIC-SV</h3>
+          </div>
+
+          <div class="overview__theme">
+            <h3>
+              <span>Participants:</span> Participants: About 100 people,
+              including Ministry of Science and ICT of Korea, NIPA, KIC-SV,
+              선발기업 팀(about 10 teams), Consulate General from various
+              countries, local investors, and other audiences
+            </h3>
+          </div>
+          <div class="overview__description">
+            확인 International Pitch competition is a global pitch event hosted
+            by IIA that brings together promising startups, VCs, entrepreneurs
+            and international government organizations from all over the world
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Ipitch Judges -->
 
@@ -121,148 +129,475 @@
       <div class="section">
         <div class="speaker__title">
           International Pitch Competition Moderator and Judges
-        </div> 
+        </div>
         <div class="speakers">
-          <div class="spaker__col">
-            <div class="speaker__card" value="Eva Reder">
-              <div class="card__middle">
-                <div class="card__front">
-                  <img
-                    src="img/speakers/Ipitch/eva reder.jpg"
-                    class="speaker__card__img"
-                    alt=""
-                  />
+          <div class="speaker__card" value="Eva Reder">
+            <div class="card__middle">
+              <div class="card__front">
+                <img
+                  src="img/speakers/Ipitch/eva reder.jpg"
+                  class="speaker__card__img"
+                  alt=""
+                />
+              </div>
+              <div class="card__back">
+                <div class="card__back__note">
+                  <p>need to fill</p>
                 </div>
-                <div class="card__back">
-                  <div class="card__back__note">
-                    <p>
-                      need to fill
-                    </p>
+              </div>
+            </div>
+            <div class="speaker__card__content">
+              <div class="speaker__card__content__name">
+                <h4>Eva Reder</h4>
+                <p>Program Manager, Manos Accelerator</p>
+              </div>
+            </div>
+            <div class="speaker__card__tag">Moderator</div>
+            <div class="speaker__card__content__more">
+              <div class="text">Read more</div>
+            </div>
+          </div>
+
+          <div class="speaker__card" value="Kiichiro DeLuca">
+            <div class="card__middle">
+              <div class="card__front">
+                <img
+                  src="img/speakers/Ipitch/Kiichiro DeLuca.jpg"
+                  class="speaker__card__img"
+                  alt=""
+                />
+              </div>
+              <div class="card__back">
+                <div class="card__back__note">
+                  <p>need fill</p>
+                </div>
+              </div>
+            </div>
+            <div class="speaker__card__content">
+              <div class="speaker__card__content__name">
+                <h4>Kiichiro DeLuca</h4>
+                <p>VC, Weru Investment</p>
+              </div>
+            </div>
+            <div class="speaker__card__content__more">
+              <div class="text">Read more</div>
+            </div>
+          </div>
+
+          <div class="speaker__card" value="Jeff Clavier">
+            <div class="card__middle">
+              <div class="card__front">
+                <img
+                  src="img/speakers/Ipitch/jeff_clavier.jpg"
+                  class="speaker__card__img"
+                  alt=""
+                />
+              </div>
+              <div class="card__back">
+                <div class="card__back__note">
+                  <p>need fill</p>
+                </div>
+              </div>
+            </div>
+            <div class="speaker__card__content">
+              <div class="speaker__card__content__name">
+                <h4>Jeff Clavier</h4>
+                <p>Managing Partner, Uncork Capital</p>
+              </div>
+            </div>
+            <div class="speaker__card__content__more">
+              <div class="text">Read more</div>
+            </div>
+          </div>
+          <div class="speaker__card" value="Thomas Jueng">
+            <div class="card__middle">
+              <div class="card__front">
+                <img
+                  src="img/speakers/Ipitch/thomasjueng.jpg"
+                  class="speaker__card__img"
+                  alt=""
+                />
+              </div>
+              <div class="card__back">
+                <div class="card__back__note">
+                  <p>need fill</p>
+                </div>
+              </div>
+            </div>
+            <div class="speaker__card__content">
+              <div class="speaker__card__content__name">
+                <h4>Thomas Jueng</h4>
+                <p>Managing Director, Samsung Ventures</p>
+              </div>
+            </div>
+            <div class="speaker__card__content__more">
+              <div class="text">Read more</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Speaker popup modal -->
+      <div class="speaker__modal">
+        <div class="speaker__modal__header">
+          <button class="speaker__modal__closeButton">
+            &times;
+            <!-- <i></i>  might not need -->
+          </button>
+          <div class="speaker__modal__imgwrap">
+            <img class="speaker__modal__img" src="" />
+          </div>
+          <div class="speaker__modal__heading">
+            <h3 class="speaker__modal__speakerName"></h3>
+            <div class="speaker__modal__subTitle"></div>
+          </div>
+        </div>
+
+        <div class="speaker__modal__content">
+          <p class="speaker__modal__description"></p>
+          <p>
+            <a class="speaker__modal__linkedin" href="" target="new"
+              ><img
+                src="https://kglobal.tech/2019/wp-content/uploads/2019/07/lkd.jpg"
+            /></a>
+          </p>
+        </div>
+      </div>
+
+      <div id="speakerOverlay"></div>
+    </section>
+
+    <!-- Schedule -->
+
+    <section id="ipitch__schedule">
+      <div class="section">
+        <h2>Agenda Details</h2>
+        <div class="schedule__container">
+          <div class="schedule__card">
+            <div class="schedule__card__time">
+              9:45 AM<br />(PST)<br />4:45 PM<br />(KST)
+            </div>
+
+            <div class="schedule__card__description">
+              <div class="description__time">9:45 AM(PST) | 4:45 PM(KST)</div>
+              <div class="description__content">
+                <h4>
+                  Access virtual platform<span class="duration"> • 15mins</span>
+                </h4>
+              </div>
+              <!-- <div class="description__topic">
+              <h3></h3>
+            </div> -->
+              <!-- <div class="description__speaker"></div> -->
+            </div>
+          </div>
+
+          <div class="schedule__card">
+            <div class="schedule__card__time">
+              10:00 AM<br />(PST)<br />5:00 PM<br />(KST)
+            </div>
+
+            <div class="schedule__card__description ss1">
+              <div class="description__time">10:00 AM(PST) | 5:00 PM(KST)</div>
+              <div class="description__content">
+                <h4>Opening Remarks <span class="duration"> • 5mins</span></h4>
+              </div>
+              <div class="description__topic">
+                <h3>Ministry of science and ICT of Korea</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="schedule__card">
+            <div class="schedule__card__time">
+              10:10 AM<br />(PST)<br />5:10 PM<br />(KST)
+            </div>
+
+            <div class="schedule__card__description ss1">
+              <div class="description__time">10:10 AM(PST) | 5:10 PM(KST)</div>
+              <div class="description__content">
+                <h4>
+                  International pitching (about 10 teams)<span class="duration">
+                    • 80mins</span
+                  >
+                </h4>
+              </div>
+              <div class="description__topic">
+                <h3>3 minutes pitching, 3 minutes Q&amp;A</h3>
+              </div>
+              <div class="description__speaker">
+                <div class="speaker__img">
+                  <img src="img/speakers/Ipitch/eva reder.jpg" alt="" />
+                </div>
+                <div class="speaker__bio">
+                  <div class="speaker__bio__name">Eva Reder</div>
+                  <div class="speaker__bio__title">
+                    Program Manager, Manos Accelerator
                   </div>
                 </div>
               </div>
-              <div class="speaker__card__content">
-                <div class="speaker__card__content__name">
-                  <h4>Eva Reder</h4>
-                <p>Program Manager, 
-                  Manos Accelerator</p>
+              <div class="description__speaker">
+                <div class="speaker__img">
+                  <img src="img/speakers/kpitch/billreichert.jpg" alt="" />
+                </div>
+                <div class="speaker__bio">
+                  <div class="speaker__bio__name">Kiichiro DeLuca</div>
+                  <div class="speaker__bio__title">VC, Weru Investment</div>
                 </div>
               </div>
-              <div class="speaker__card__tag">Moderator</div>
-              <div class="speaker__card__content__more">
-                <div class="text">Read more</div>
+              <div class="description__speaker">
+                <div class="speaker__img">
+                  <img src="img/speakers/kpitch/phillyoon.jpg" alt="" />
+                </div>
+                <div class="speaker__bio">
+                  <div class="speaker__bio__name">Jeff Clavier</div>
+                  <div class="speaker__bio__title">
+                    Managing Partner, Uncork Capital
+                  </div>
+                </div>
+              </div>
+              <div class="description__speaker">
+                <div class="speaker__img">
+                  <img src="img/speakers/kpitch/kihalee.jpg" alt="" />
+                </div>
+                <div class="speaker__bio">
+                  <div class="speaker__bio__name">Thomas Jueng</div>
+                  <div class="speaker__bio__title">
+                    Managing Director, Samsung Ventures
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="schedule__card">
+            <div class="schedule__card__time">
+              11:30 AM<br />(PST)<br />6:30 PM<br />(KST)
+            </div>
+
+            <div class="schedule__card__description ss1">
+              <div class="description__time">11:30 AM(PST) | 6:30 PM(KST)</div>
+              <div class="description__content">
+                <h4>Results<span class="duration"> • 10mins</span></h4>
+              </div>
+              <div class="description__topic">
+                <h3>Presnet Promotional Video</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="schedule__card">
+            <div class="schedule__card__time">
+              11:40 AM<br />(PST)<br />6:40 PM<br />(KST)
+            </div>
+
+            <div class="schedule__card__description ss2">
+              <div class="description__content">
+                <h4>
+                  Announcement of Results and Closing<span class="duration">
+                    • 15mins</span
+                  >
+                </h4>
+              </div>
+              <div class="description__topic">
+                <h3>Moderator</h3>
+              </div>
+              <div class="description__speaker"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About International Innovation Alliance -->
+
+    <section id="overview">
+      <div class="section">
+        <h2>About International Innovation Alliance</h2>
+        <img id="iia" src="img/iia.jpg" alt="" />
+        <div class="overview__content">
+          <div class="overview__theme">
+            <h3>
+              <span></span> International Innovation Alliance (IIA) started from
+              international organizations who have a presence in Silicon Valley
+              and believe that the collaboration between different countries
+              around the world can create innovation and build startup ecosystem
+              in Silicon Valley.
+            </h3>
+          </div>
+
+          <div class="overview__theme">
+            <h3>
+              <span></span>Entrepreneurs from IIA member countries will be able
+              to use the International Innovation Alliance platform to find more
+              opportunities in global market
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CompanyList -->
+    <section id="companylist">
+      <div class="section">
+        <h2>Compay List</h2>
+      </div>
+      <!-- Company Cards -->
+      <div id="cardList">
+        <div id="category__smartAppliances" class="cardList__Category">
+          <h4 class="cardList__Category__title">Smart Appliances</h4>
+          <hr />
+          <ul id="cardList__smartAppliances" class="container__cardList"></ul>
+        </div>
+        <div id="category__telecomunications" class="cardList__Category">
+          <h4 class="cardList__Category__title">Telecomunications</h4>
+          <hr />
+          <ul id="cardList__telecomunications" class="container__cardList"></ul>
+        </div>
+        <div id="category__biotech" class="cardList__Category">
+          <h4 class="cardList__Category__title">Biotech</h4>
+          <hr />
+          <ul id="cardList__biotech" class="container__cardList"></ul>
+        </div>
+        <div id="category__security" class="cardList__Category">
+          <h4 class="cardList__Category__title">Security</h4>
+          <hr />
+          <ul id="cardList__security" class="container__cardList"></ul>
+        </div>
+        <div id="category__adas" class="cardList__Category">
+          <h4 class="cardList__Category__title">ADAS</h4>
+          <hr />
+          <ul id="cardList__adas" class="container__cardList"></ul>
+        </div>
+        <div id="category__robotics" class="cardList__Category">
+          <h4 class="cardList__Category__title">Robotics</h4>
+          <hr />
+          <ul id="cardList__robotics" class="container__cardList"></ul>
+        </div>
+        <div id="category__itServices" class="cardList__Category">
+          <h4 class="cardList__Category__title">IT Services</h4>
+          <hr />
+          <ul id="cardList__itServices" class="container__cardList"></ul>
+        </div>
+      </div>
+
+      <!-- Partner Panel -->
+      <div class="partnerPanel" id="partnerPanel">
+        <div class="partnerPanel__header">
+          <div class="partnerPanel__imgContainer">
+            <img class="partnerPanel__logo" />
+          </div>
+
+          <button class="partnerPanel__closeBtn">&times;</button>
+        </div>
+      </div>
+      <!-- Darken rest of the screen when company card is clicked  -->
+      <div id="companyCardOverlay"></div>
+    </section>
+
+    <!-- Welcome -->
+    <section id="welcome">
+      <div class="section">
+        <div class="welcome__attend">
+          <span id="colon">"</span>
+          <span id="approx">Approximately </span>
+          <span id="number">4,500</span>
+          <br />national and international speakers, buyers, investors, and tech
+          experts
+        </div>
+      </div>
+    </section>
+
+    <!-- Event Overview -->
+
+    <section id="events">
+      <div class="section">
+        <div class="events__row">
+          <div class="events__col">
+            <div class="events__card">
+              <div class="events__card__title">ICT Forum</div>
+              <div class="events__card__description">
+                <div class="events__card__date">
+                  Monday <span>|</span> November 30
+                </div>
+                <hr />
+                <div class="events__card__detail">
+                  Sharing digital innovation trends and technological
+                  advancements in ICT and SW sector
+                </div>
               </div>
             </div>
 
-            <div class="speaker__card" value="Kiichiro DeLuca">
-              <div class="card__middle">
-                <div class="card__front">
-                  <img
-                    src="img/speakers/Ipitch/Kiichiro DeLuca.jpg"
-                    class="speaker__card__img"
-                    alt=""
-                  />
+            <div class="events__card">
+              <div class="events__card__title">K-Pitch</div>
+
+              <div class="events__card__description">
+                <div class="events__card__date">
+                  Tuesday <span>|</span> December 1
                 </div>
-                <div class="card__back">
-                  <div class="card__back__note">
-                    <p>
-                      need fill
-                    </p>
-                  </div>
+                <hr />
+                <div class="events__card__detail">
+                  Effective IR; engaging with investors and investments for
+                  participating SMEs and start-ups
                 </div>
               </div>
-              <div class="speaker__card__content">
-                <div class="speaker__card__content__name">
-                  <h4>Kiichiro DeLuca</h4>
-                  <p>VC,  
-                    Weru Investment</p>
+            </div>
+          </div>
+
+          <div class="events__col">
+            <div class="events__card">
+              <div class="events__card__title">I-Pitch</div>
+              <div class="events__card__description">
+                <div class="events__card__date">
+                  Wednesday <span>|</span> December 2
                 </div>
-              </div>
-              <div class="speaker__card__content__more">
-                <div class="text">Read more</div>
+                <hr />
+                <div class="events__card__detail">
+                  Pitching from start-ups in 15 different countries based in
+                  Silicon Valley
+                </div>
+                <!-- <div class="events__card__host">
+                <img src="img/nipa.png" alt="">
+                <img src="img/kotra.png" alt="">
+              </div> -->
               </div>
             </div>
 
-            <div class="speaker__card" value="Kiichiro DeLuca">
-              <div class="card__middle">
-                <div class="card__front">
-                  <img
-                    src="img/speakers/Ipitch/Kiichiro DeLuca.jpg"
-                    class="speaker__card__img"
-                    alt=""
-                  />
+            <div class="events__card">
+              <div class="events__card__title">AMA Session</div>
+              <div class="events__card__description">
+                <div class="events__card__date">
+                  Thursday <span>|</span> December 3
                 </div>
-                <div class="card__back">
-                  <div class="card__back__note">
-                    <p>
-                      need fill
-                    </p>
-                  </div>
+                <hr />
+                <div class="events__card__detail">
+                  Questions from participating companies answered by experts in
+                  the form of a podcast
                 </div>
-              </div>
-              <div class="speaker__card__content">
-                <div class="speaker__card__content__name">
-                  <h4>Kiichiro DeLuca</h4>
-                  <p>VC,  
-                    Weru Investment</p>
-                </div>
-              </div>
-              <div class="speaker__card__content__more">
-                <div class="text">Read more</div>
+                <!-- <div class="events__card__host">
+                <img src="img/nipa.png" alt="">
+                <img src="img/kotra.png" alt="">
+              </div> -->
               </div>
             </div>
           </div>
         </div>
 
-
-        <!-- =========================================== -->
-        <div class="speakers">
-    
-          <div class="speaker__card">      
-            <img src="img/speakers/Ipitch/eva reder.jpg" class="speaker__card__img" alt="">
-            <div class="speaker__card__content">
-              <div class="speaker__card__content__name">
-                <h4>Eva Reder</h4>
-                <p>Program Manager, 
-                  Manos Accelerator</p>
-              </div>
-            </div>
-            <div class="speaker__card__tag">Moderator</div>
-            
-          </div>
-    
-          <div class="speaker__card">      
-            <img src="img/speakers/Ipitch/Kiichiro DeLuca.jpg" class="speaker__card__img" alt="">
-            <div class="speaker__card__content">
-              <div class="speaker__card__content__name">
-                <h4>Kiichiro DeLuca</h4>
-                <p>VC,  
-                  Weru Investment</p>
-              </div>
-            </div>
-            
-    
-          </div>
-    
-          <div class="speaker__card">      
-            <img src="img/speakers/Ipitch/jeff_clavier.jpg" class="speaker__card__img" alt="">
-            <div class="speaker__card__content">
-              <div class="speaker__card__content__name">
-                <h4>Jeff Clavier</h4>
-                <p>Managing Partner, 
-                  Uncork Capital</p>
-              </div>
-            </div>
-    
-          </div>
-    
-          <div class="speaker__card">      
-            <img src="img/speakers/Ipitch/thomasjueng.jpg" class="speaker__card__img" alt="">
-            <div class="speaker__card__content">
-              <div class="speaker__card__content__name">
-                <h4>Thomas Jueng</h4>
-                <p>Managing Director, 
-                  Samsung Ventures</p>
+        <div class="events__row">
+          <div class="events__col">
+            <div class="events__card" id="events__expo">
+              <div class="events__card__title">Partnership Expo</div>
+              <div class="events__card__description">
+                <div class="events__card__date">
+                  October 30 <span>-</span> December 3
+                </div>
+                <hr />
+                <div class="events__card__detail">
+                  Provide online exhibition of participating ICT corporations,
+                  as well as 1:1 expert video conference<br />
+                  * Export related financial partnership<br /><br /><a href="#"
+                    >Learn more</a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -270,288 +605,25 @@
       </div>
     </section>
 
-
-  <!-- Schedule -->
-
-  <section id="ipitch__schedule">
-
-
-    <div class="section">
-      <h2>Agenda Details</h2>
-      <div class="schedule__container">
-
-        <div class="schedule__card">
-          <div class="schedule__card__time">
-            9:45 AM<br>(PST)<br>4:45 PM<br>(KST)
-          </div>
-
-          <div class="schedule__card__description">
-            <div class="description__time"> 9:45 AM(PST) |  4:45 PM(KST)</div>
-            <div class="description__content">
-              <h4>Access virtual platform<span class="duration"> • 15mins</span></h4>
-            </div>
-            <!-- <div class="description__topic">
-              <h3></h3>
-            </div> -->
-            <!-- <div class="description__speaker"></div> -->
-          </div>
-        </div>
-
-        <div class="schedule__card">
-          <div class="schedule__card__time">
-            10:00 AM<br>(PST)<br>5:00 PM<br>(KST)
-          </div>
-
-          <div class="schedule__card__description  ss1">
-            <div class="description__time"> 10:00 AM(PST) |  5:00 PM(KST)</div>
-            <div class="description__content">
-              <h4>Opening Remarks <span class="duration"> • 5mins</span> </h4></h4>
-            </div>
-            <div class="description__topic">
-              <h3>Ministry of science and ICT of
-
-                Korea</h3>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="schedule__card">
-          <div class="schedule__card__time">
-            10:10 AM<br>(PST)<br>5:10 PM<br>(KST)
-          </div>
-
-          <div class="schedule__card__description  ss1">
-            <div class="description__time"> 10:10 AM(PST) |  5:10 PM(KST)</div>
-            <div class="description__content">
-              <h4>International pitching (about 10 teams)<span class="duration"> • 80mins</span></h4>
-            </div>
-            <div class="description__topic">
-              <h3>3 minutes pitching, 3
-                minutes Q&amp;A</h3>
-            </div>
-            <div class="description__speaker">
-              <div class="speaker__img"><img src="img/speakers/Ipitch/eva reder.jpg" alt=""></div>
-              <div class="speaker__bio">
-                <div class="speaker__bio__name">Eva Reder</div>
-                <div class="speaker__bio__title">Program Manager, Manos Accelerator</div>
-              </div>
-            </div>
-            <div class="description__speaker">
-              <div class="speaker__img"><img src="img/speakers/kpitch/billreichert.jpg" alt=""></div>
-              <div class="speaker__bio">
-                <div class="speaker__bio__name">Kiichiro DeLuca</div>
-                <div class="speaker__bio__title">VC, Weru Investment</div>
-              </div>
-            </div>
-            <div class="description__speaker">
-              <div class="speaker__img"><img src="img/speakers/kpitch/phillyoon.jpg" alt=""></div>
-              <div class="speaker__bio">
-                <div class="speaker__bio__name">Jeff Clavier</div>
-                <div class="speaker__bio__title">Managing Partner, Uncork Capital</div>
-              </div>
-            </div>
-            <div class="description__speaker">
-              <div class="speaker__img"><img src="img/speakers/kpitch/kihalee.jpg" alt=""></div>
-              <div class="speaker__bio">
-                <div class="speaker__bio__name">Thomas Jueng</div>
-                <div class="speaker__bio__title">Managing Director, Samsung Ventures</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="schedule__card">
-          <div class="schedule__card__time">
-            11:30 AM<br>(PST)<br>6:30 PM<br>(KST)
-          </div>
-
-          <div class="schedule__card__description  ss1">
-            <div class="description__time"> 11:30 AM(PST) |  6:30 PM(KST)</div>
-            <div class="description__content">
-              <h4>Results<span class="duration"> • 10mins</span></h4>
-            </div>
-            <div class="description__topic">
-              <h3>Presnet Promotional Video</h3>
-            </div>
-          </div>
-        </div>
-
-        <div class="schedule__card">
-          <div class="schedule__card__time">
-            11:40 AM<br>(PST)<br>6:40 PM<br>(KST)
-          </div>
-
-          <div class="schedule__card__description ss2">
-            <div class="description__content">
-              <h4>Announcement of Results and Closing<span class="duration"> • 15mins</span></h4>
-            </div>
-            <div class="description__topic">
-              <h3>Moderator</h3>
-            </div>
-            <div class="description__speaker"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-
-
-<!-- About International Innovation Alliance -->
-
-<section id="overview">
-  <div class="section">
-    <h2>About International Innovation Alliance</h2>
-    <img id="iia" src="img/iia.jpg" alt="">
-    <div class="overview__content">
-
-      <div class="overview__theme">
-        <h3><span></span> International Innovation Alliance (IIA) started from international organizations who have a presence in Silicon Valley and believe that the collaboration between different countries around the world can create innovation and build startup ecosystem in Silicon Valley.
-        </h3>
-      </div>
-
-
-      <div class="overview__theme">
-        <h3><span></span>Entrepreneurs from IIA member countries will be able to use the International Innovation Alliance platform to find more opportunities in global market</h3>
-      </div>
-
-     
-    </div>
-
-
-  </div>
-</section>
-
-
-<!-- CompanyList -->
-<section id="companylist">
-
-  <div class="section">
-    <h2>Compay List</h2>
-  </div>
-</section>
-
-
-<!-- Welcome -->
-<section id="welcome">
-  <div class="section">
-
-    <div class="welcome__attend">
-      <span id="colon">"</span>
-      <span id="approx">Approximately </span>
-      <span id="number">4,500</span>
-      <br>national and international speakers, buyers,
-      investors, and tech experts</div>
-  </div>
-</section>
-
-
-
-
-<!-- Event Overview -->
-
-<section id="events">
-  <div class="section">
-
-    <div class="events__row">
-      <div class="events__col">
-        <div class="events__card">
-          <div class="events__card__title">ICT Forum</div>
-          <div class="events__card__description">
-            <div class="events__card__date"> Monday <span>|</span> November 30</div>
-            <hr>
-            <div class="events__card__detail">Sharing digital innovation trends and technological advancements in ICT
-              and SW sector</div>
-          </div>
-        </div>
-
-        <div class="events__card">
-          <div class="events__card__title">K-Pitch</div>
-
-          <div class="events__card__description">
-            <div class="events__card__date">Tuesday <span>|</span> December 1</div>
-            <hr>
-            <div class="events__card__detail">Effective IR; engaging with investors and investments for participating
-              SMEs and start-ups</div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="events__col">
-        <div class="events__card">
-          <div class="events__card__title">I-Pitch</div>
-          <div class="events__card__description">
-            <div class="events__card__date">Wednesday <span>|</span> December 2</div>
-            <hr>
-            <div class="events__card__detail">Pitching from start-ups in 15 different
-              countries based in Silicon Valley</div>
-            <!-- <div class="events__card__host">
-                <img src="img/nipa.png" alt="">
-                <img src="img/kotra.png" alt="">
-              </div> -->
-          </div>
-        </div>
-
-        <div class="events__card">
-          <div class="events__card__title">AMA Session</div>
-          <div class="events__card__description">
-            <div class="events__card__date">Thursday <span>|</span> December 3</div>
-            <hr>
-            <div class="events__card__detail">Questions from participating
-              companies answered by experts in
-              the form of a podcast</div>
-            <!-- <div class="events__card__host">
-                <img src="img/nipa.png" alt="">
-                <img src="img/kotra.png" alt="">
-              </div> -->
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="events__row">
-      <div class="events__col">
-        <div class="events__card" id="events__expo">
-          <div class="events__card__title">Partnership Expo</div>
-          <div class="events__card__description">
-            <div class="events__card__date">October 30 <span>-</span> December 3
-            </div>
-            <hr>
-            <div class="events__card__detail">Provide online exhibition of participating ICT corporations,
-              as well as 1:1 expert video conference<br>
-              * Export related financial partnership<br><br><a href="#">Learn more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-</section>
-
     <!--Footer-->
     <section id="footer">
       <div class="section">
         <div class="footer__container">
           <div class="footer__contact__form">
-            <img src="img/kotra.png" alt="">
-            <p>3003 North First Street, San Jose, CA 95134, U.S.A<br>TEL : (1-408)432-5000 FAX : (1-408)432-5056
-              <br>info@kotrasv.org<br></p>
+            <img src="img/kotra.png" alt="" />
+            <p>
+              3003 North First Street, San Jose, CA 95134, U.S.A<br />TEL :
+              (1-408)432-5000 FAX : (1-408)432-5056 <br />info@kotrasv.org<br />
+            </p>
           </div>
           <div class="footer__description">
-            <img src="img/newkglobal.png" alt="">
+            <img src="img/newkglobal.png" alt="" />
             <div class="footer__description__detail">
               <p>K-GLOBAL @Silicon Valley 2020. All rights reserved.</p>
             </div>
           </div>
-  
-  
         </div>
-    </div>
-  </section>
-
-</body>
-
+      </div>
+    </section>
+  </body>
 </html>

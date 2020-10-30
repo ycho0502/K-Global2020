@@ -15,7 +15,7 @@ const roboticsList = document.getElementById("cardList__robotics");
 const itServiceList = document.getElementById("cardList__itServices");
 
 // Init etc
-const overlay = document.getElementById("overlay");
+const companyOverlay = document.getElementById("companyCardOverlay");
 const panelLogo = document.querySelector(".partnerPanel__logo");
 const partnerPanel = document.querySelector(".partnerPanel");
 const closeBtn = document.querySelector(".partnerPanel__closeBtn");
@@ -173,17 +173,17 @@ function cardCreate(item) {
 
   // Adding event listener for panel to popup when clicked
   card.addEventListener("click", () => {
-    openPanel(item);
+    openCompanyModal(item);
   });
 
   // closing panel when close button is clicked
   closeBtn.addEventListener("click", () => {
-    closePanel(item);
+    closeCompanyModal(item);
   });
 
   // Closing panel when outside of the panel is also clicked
-  overlay.addEventListener("click", () => {
-    closePanel(item);
+  companyOverlay.addEventListener("click", () => {
+    closeCompanyModal(item);
   });
 
   hover.appendChild(hoverText);
@@ -195,7 +195,7 @@ function cardCreate(item) {
   return card;
 }
 
-function openPanel(item) {
+function openCompanyModal(item) {
   // const header = document.querySelector(".partnerPanel__header");
   // let imgContainer = document.querySelector(".partnerPanel__imgContainer");
   let panelLogo = document.querySelector(".partnerPanel__logo");
@@ -209,14 +209,14 @@ function openPanel(item) {
   // header.appendChild(panelDescription);
 
   // Enable overlay
-  overlay.classList.add("active");
+  companyOverlay.classList.add("active");
 
   // Enables panel
   partnerPanel.classList.add("active");
 }
 
-function closePanel(item) {
+function closeCompanyModal(item) {
   // Disables panel
-  overlay.classList.remove("active");
+  companyOverlay.classList.remove("active");
   partnerPanel.classList.remove("active");
 }
