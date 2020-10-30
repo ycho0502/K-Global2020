@@ -61,21 +61,39 @@ subMenu.addEventListener("click", () => {
 
 //Fetching company data from json file
 //Usually gives error unless json is provided from the server
-fetch("data/companies.json")
-  .then((response) => response.json())
-  .then((companies) => {
-    //Categorize
-    categorizeCompany(companies);
 
-    //Alphabetize
-    sortCompany();
+if (smartAppliancesList !== null) {
+  fetch("data/companies.json")
+    .then((response) => response.json())
+    .then((companies) => {
+      //Categorize
+      categorizeCompany(companies);
 
-    renderCompanies();
-  })
-  .catch((err) => {
-    console.error("Error fetching data");
-    console.error(err);
-  });
+      //Alphabetize
+      sortCompany();
+
+      renderCompanies();
+    })
+    .catch((err) => {
+      console.error("Error fetching data");
+      console.error(err);
+    });
+}
+// fetch("data/companies.json")
+//   .then((response) => response.json())
+//   .then((companies) => {
+//     //Categorize
+//     categorizeCompany(companies);
+
+//     //Alphabetize
+//     sortCompany();
+
+//     renderCompanies();
+//   })
+//   .catch((err) => {
+//     console.error("Error fetching data");
+//     console.error(err);
+//   });
 
 function categorizeCompany(companies) {
   const SMARTAPPLIANCES = "smart appliances";
