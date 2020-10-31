@@ -303,4 +303,6 @@ function closeSpeakerModal() {
   body.style.top = "";
   body.style.height = "";
   body.style.overflowY = "";
+
+  subMenuList.classList.toggle("open");
 }
