@@ -316,7 +316,7 @@ p {
 /* BGholder */
 
 #bgholder {
-  height: 6000px;
+  height: 6500px;
   /* margin: 0 auto; */
   padding-top: 80px;
   background: url("../img/blankbggra.jpg") center/cover no-repeat;
@@ -653,13 +653,15 @@ p {
 }
 
 .testimonial__speechbubble{
+  align-items: center;
   background-color: #26272b;
   color: #e1e4e9;
   font-size: var(--font-regular);
   line-height: 1.6;
   padding: 15px 50px;
   max-width: 550px;
-  margin-bottom: 100px;
+  margin: 100px auto 200px auto;
+  position: relative;
 
 }
 
@@ -698,6 +700,7 @@ p {
 
 
 .testimonial__speechbubble .testimonial__avatar{
+  display: block;
   margin-bottom: 0px;
   position: absolute;
   width: 100px;
@@ -1212,7 +1215,7 @@ h4 .duration {
 
 #testimonials{
   
-  background: url('../img/bg4.jpg');
+  /* background: url('../img/bg4.jpg'); */
 
   height: 100%;
 
