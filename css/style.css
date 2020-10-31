@@ -1489,7 +1489,7 @@ h4 .duration {
 
 .partnerPanel__closeBtn {
   /* Trasition from right side */
-  position: absolute;
+  /* position: absolute;
   top: 0.8%;
   right: 2%;
   cursor: pointer;
@@ -1498,6 +1498,21 @@ h4 .duration {
   background: none;
   font-size: 1.5rem;
   font-weight: bold;
+  transition: all 0.2s ease-out; */
+  font-size: 1rem;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  padding: 0;
+  border-radius: 5px;
+  background: var(--color-blue);
+  color: #fff;
+  height: 1.7em;
+  width: 1.7em;
+  box-shadow: none;
+  text-decoration: none;
+  cursor: pointer;
+  /* border: none; */
   transition: all 0.2s ease-out;
 }
 
@@ -1832,6 +1847,13 @@ h4 .duration {
     min-width: 65vw;
     min-height: 100vh;
     max-height: 100vh;
+  }
+
+  .partnerPanel__closeBtn {
+    font-size: 11px;
+
+    height: 1.9em;
+    width: 1.9em;
   }
 
   /* Speaker */
