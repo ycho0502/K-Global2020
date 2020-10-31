@@ -926,7 +926,6 @@ h4 .duration {
   width: 40px;
   height: 2px;
   margin: 0 auto;
-  /* background-color: #fac42b; */
   background-color: var(--color-orange);
   margin-top: 10px;
   margin-bottom: 5px;
@@ -1106,7 +1105,6 @@ h4 .duration {
   font-size: 16px;
 }
 
-/* background darkens when card clicked */
 #speakerOverlay {
   position: fixed;
   opacity: 0;
@@ -1127,6 +1125,146 @@ h4 .duration {
 #speakerOverlay.active {
   opacity: 1;
   pointer-events: all; /*Prevents button events out outside of the panel*/
+}
+
+/* company cards */
+
+#cardList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.5em;
+}
+
+.cardList__Category {
+  margin: 8px 0px 40px 0px;
+  max-width: 1280px;
+  min-width: 200px;
+  min-height: 200px;
+  border: 1px solid rgba(202, 205, 211, 0.5);
+  border-radius: 6px;
+}
+
+#category__smartAppliances hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    #967cfd,
+    var(--color-white)
+  );
+  /* background: #9c91c6; */
+}
+#category__telecomunications hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    #569cd5,
+    var(--color-white)
+  );
+  /* background: #569cd5; */
+}
+#category__biotech hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    #688dc9,
+    var(--color-white)
+  );
+  /* background: #688dc9; */
+}
+#category__security hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    #f69785,
+    var(--color-white)
+  );
+  /* background: #f69785; */
+}
+#category__adas hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    #86e68e,
+    var(--color-white)
+  );
+  /* background: #a0d4a4; */
+}
+#category__robotics hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    #f89f71,
+    var(--color-white)
+  );
+  /* background: #f89f71; */
+}
+#category__itServices hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    #7fd0d8,
+    var(--color-white)
+  );
+  /* background: #7fd0d8; */
+}
+
+.cardList__Category__title {
+  font-size: var(--font-regular);
+  text-align: center;
+  color: var(--color-dark-grey);
+  margin: 8px 24px 8px 24px;
+}
+
+.container__cardList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 1.1em;
+  background: var(--color-white);
+}
+
+.container__cardList__card__container {
+  height: 100px;
+  position: relative;
+}
+
+.container__cardList__card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 11px;
+  border: 1px solid rgba(202, 205, 211, 0.5);
+  box-shadow: -4px 4px 0 -2px rgba(202, 205, 211, 0.5);
+
+  -webkit-filter: grayscale(0) blur(0);
+  filter: grayscale(0) blur(0);
+  transition: 0.2s ease-in-out;
 }
 
 #cardList__smartAppliances .speaker__card__content__more {
@@ -1164,6 +1302,50 @@ h4 .duration {
   border-radius: 5px;
 }
 
+.container__cardList__card__img {
+  max-width: 180px;
+  max-height: 100px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.container__cardList__card__title {
+  text-align: center;
+  width: inherit;
+  word-wrap: break-word;
+  font-weight: var(--weight-semi-bold);
+  padding: 0.5em;
+  color: var(--color-grey);
+}
+
+.container__cardList__card:hover .container__cardList__card__title {
+  -webkit-filter: grayscale(100%) blur(2px);
+  filter: grayscale(100%) blur(2px);
+  transition: 0.4s ease-in-out;
+}
+
+.container__cardList__card:hover .container__cardList__card__container {
+  -webkit-filter: grayscale(100%) blur(2px);
+  filter: grayscale(100%) blur(2px);
+  transition: 0.4s ease-in-out;
+}
+
+.speaker__card__content__more {
+  transition: 0.3s ease;
+  opacity: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 5px;
+}
+
 .speaker__card__content__more .text {
   /* background-color: rgba(14, 29, 75, 1); */
   background-color: var(--color-white);
@@ -1174,6 +1356,116 @@ h4 .duration {
   font-weight: var(--weight-bold);
 }
 
+.container__cardList__card:hover .speaker__card__content__more {
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+
+.container__cardList__card__title {
+  text-align: center;
+  width: inherit;
+  word-wrap: break-word;
+  font-weight: var(--weight-semi-bold);
+  padding: 0.5em;
+  color: var(--color-grey);
+}
+
+#cardList__smartAppliances .container__cardList__card__title::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  /* background-color: #fac42b; */
+  background-color: #967cfd;
+  margin-bottom: 20px;
+}
+
+#cardList__telecomunications .container__cardList__card__title::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  /* background-color: #fac42b; */
+  background-color: #569cd5;
+  margin-bottom: 20px;
+}
+
+#cardList__biotech .container__cardList__card__title::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  /* background-color: #fac42b; */
+  background-color: #688dc9;
+  margin-bottom: 20px;
+}
+
+#cardList__security .container__cardList__card__title::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  /* background-color: #fac42b; */
+  background-color: #f69785;
+  margin-bottom: 20px;
+}
+
+#cardList__adas .container__cardList__card__title::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  /* background-color: #fac42b; */
+  background-color: #86e68e;
+  margin-bottom: 20px;
+}
+
+#cardList__robotics .container__cardList__card__title::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  /* background-color: #fac42b; */
+  background-color: #f89f71;
+  margin-bottom: 20px;
+}
+
+#cardList__itServices .container__cardList__card__title::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  /* background-color: #fac42b; */
+  background-color: #7fd0d8;
+  margin-bottom: 20px;
+}
+
+/* background darkens when card clicked */
+#companyCardOverlay {
+  position: fixed;
+  opacity: 0;
+  transition: 700ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none; /*Allows button events by default*/
+}
+
+#companyCardOverlay.active {
+  opacity: 1;
+  pointer-events: all; /*Prevents button events out outside of the panel*/
+}
+
 /* company modal */
 .partnerPanel {
   /* Trasition from right side */
@@ -1181,7 +1473,8 @@ h4 .duration {
   top: 0%;
   right: 0%;
   transform: translate3d(100%, 0, 0);
-  max-width: 72vh;
+  max-width: 37vw;
+  min-width: 37vw;
   transition: 900ms ease-in-out;
   border-radius: 11px;
   z-index: 10;
@@ -1211,18 +1504,18 @@ h4 .duration {
 .partnerPanel__imgContainer {
   border-radius: 11px;
 
-  min-width: 72vh;
+  min-width: 37vw;
   min-height: 100vh;
-  max-width: 72vh;
+  max-width: 37vw;
   max-height: 100vh;
   height: auto;
   width: auto;
 }
 
 .partnerPanel__logo {
-  max-width: 72vh;
+  max-width: 37vw;
   max-height: 100vh;
-  min-width: 72vh;
+  min-width: 37vw;
   min-height: 100vh;
   border-radius: 11px;
 }
@@ -1499,6 +1792,41 @@ h4 .duration {
     color: var(--color-orange);
   }
 
+  .partnerPanel {
+    /* Trasition from right side */
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    transform: translate3d(100%, 0, 0);
+    max-width: 70vw;
+    min-width: 70vw;
+    transition: 900ms ease-in-out;
+    border-radius: 11px;
+    z-index: 10;
+    background-color: var(--color-white);
+    min-height: 100vh;
+    max-height: 100vh;
+  }
+
+  .partnerPanel__imgContainer {
+    border-radius: 11px;
+
+    min-width: 70vw;
+    min-height: 100vh;
+    max-width: 70vw;
+    max-height: 100vh;
+    height: auto;
+    width: auto;
+  }
+
+  .partnerPanel__logo {
+    max-width: 70vw;
+    max-height: 100vh;
+    min-width: 70vw;
+    min-height: 100vh;
+    border-radius: 11px;
+  }
+
   /* Speaker */
 
   .spaker__col {
@@ -1624,5 +1952,74 @@ h4 .duration {
 
   .navbar__logo {
     align-items: center;
+  }
+
+  .speaker__modal {
+    background: #fff;
+    color: #556270;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    transform: translate3d(100%, 0, 0);
+    transition: 900ms ease-in-out;
+    z-index: 10;
+    max-height: 100%;
+    min-height: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .speaker__modal__imgwrap {
+    overflow: hidden;
+    min-width: 100vw;
+    min-height: 55vh;
+    max-width: 100vw;
+    max-height: 55vh;
+    height: auto;
+    width: auto;
+  }
+
+  .speaker__modal__img {
+    min-width: 100vw;
+    min-height: 55vh;
+    max-width: 100vw;
+    max-height: 55vh;
+    border-radius: 0;
+  }
+
+  .partnerPanel {
+    /* Trasition from right side */
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    transform: translate3d(100%, 0, 0);
+    max-width: 100vw;
+    min-width: 100vw;
+    transition: 900ms ease-in-out;
+    border-radius: 11px;
+    z-index: 10;
+    background-color: var(--color-white);
+    min-height: 80vh;
+    max-height: 80vh;
+  }
+
+  .partnerPanel__imgContainer {
+    border-radius: 11px;
+
+    min-width: 100vw;
+    min-height: 80vh;
+    max-width: 100vw;
+    max-height: 80vh;
+    height: auto;
+    width: auto;
+  }
+
+  .partnerPanel__logo {
+    max-width: 100vw;
+    max-height: 80vh;
+    min-width: 100vw;
+    min-height: 80vh;
+    border-radius: 11px;
   }
 }

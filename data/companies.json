@@ -26,8 +26,8 @@
     },
     {
       "name": "KMS PARTNER",
-      "logo": "img/logos/KMS PARTNER.png",
-      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_KMS PARTNER.jpg",
+      "logo": "img/logos/KMS_PARTNER.png",
+      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_KMS_PARTNER.jpg",
       "category": "smart appliances"
     },
     {
@@ -158,7 +158,7 @@
     },
     {
       "name": "AIZEN GLOBAL",
-      "logo": "img/logos/AIZEN GLOBAL.png",
+      "logo": "img/logos/AIZEN_GLOBAL.png",
       "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_AIZEN_GLOBAL.jpg",
       "category": "it services"
     },
@@ -272,7 +272,7 @@
     },
     {
       "name": "KINETIC LAB",
-      "logo": "img/logos/KINETIC LAB.png",
+      "logo": "img/logos/KINETIC_LAB.png",
       "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_KINETIC_LAB.jpg",
       "category": "it services"
     },
