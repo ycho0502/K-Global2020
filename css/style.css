@@ -1488,17 +1488,6 @@ h4 .duration {
 }
 
 .partnerPanel__closeBtn {
-  /* Trasition from right side */
-  /* position: absolute;
-  top: 0.8%;
-  right: 2%;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  background: none;
-  font-size: 1.5rem;
-  font-weight: bold;
-  transition: all 0.2s ease-out; */
   font-size: 1rem;
   position: absolute;
   top: 0%;
