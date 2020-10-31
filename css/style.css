@@ -36,16 +36,20 @@
 
 /* Universal tags */
 
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  
   
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
   cursor: default;
+  width: 100%;
+ 
   
 }
 
@@ -92,6 +96,7 @@ button {
   padding:28px 12px;
   max-width: 1280px;
   margin: 0 auto;
+  overflow-x: hidden;
   
 
 }
@@ -308,10 +313,10 @@ p {
 /* BGholder */
 
 #bgholder {
-  height: 5000px;
+  height: 7000px;
   /* margin: 0 auto; */
   padding-top: 100px;
-  background: url("../img/blankbg.png") center/cover no-repeat;
+  background: url("../img/blankbggra.jpg") center/cover no-repeat;
   color: var(--color-white);
 
   overflow-x: hidden;
@@ -924,7 +929,7 @@ h4 .duration {
 
 /* Speakers */
 #speaker{
-  background-color: #F5F5F5 ;
+  background-color: #F8F8F8 ;
 }
 
 
@@ -1528,6 +1533,12 @@ h4 .duration {
 
 .navbar__logo{
   align-items: center;
+}
+
+.testimonial__avatar {
+  display: none;
+  width: 80px;
+  height: 80px;
 }
 
 

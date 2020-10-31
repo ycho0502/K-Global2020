@@ -1,5 +1,8 @@
 'use strict'
 
+window.onscroll = function () {
+  window.scrollTo(0,window.scrollY);
+};
 // Navbar TransperTransparencyancy
 const navbar = document.querySelector('#navbar');
 const navbarHeight = navbar.getBoundingClientRect().height;
