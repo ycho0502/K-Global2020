@@ -1,0 +1,292 @@
+{
+  "company": [
+    {
+      "name": "CPD",
+      "logo": "img/logos/cpdgroup.png",
+      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_CPD.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "AIDUS",
+      "logo": "img/logos/aidus.png",
+      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_AIDUS.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "DYNAIR",
+      "logo": "img/logos/dynair.png",
+      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_DYNAIR.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "REMYDE",
+      "logo": "img/logos/remyde.png",
+      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_REMYDE.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "KMS PARTNER",
+      "logo": "img/logos/kms_partner.png",
+      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_KMS_PARTNER.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "RWAVE",
+      "logo": "img/logos/rwave.png",
+      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_RWAVE.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "WHOBORN",
+      "logo": "img/logos/whoborn.png",
+      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_WHOBORN.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "R.O.C.K",
+      "logo": "img/logos/rock.png",
+      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_ROCK.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "STATIC",
+      "logo": "img/logos/static.png",
+      "panel": "img/panel/01_SMART_APPLIANCES/KOTRA_SMART_APP_STATIC.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "APULSETECHNOLOGY",
+      "logo": "img/logos/apulsetechnology.png",
+      "panel": "img/panel/02_TELECOMMUNICATIONS/KOTRA_TELECOMMUNICATIONS_APULSETECHNOLOGY.jpg",
+      "category": "telecommunications"
+    },
+    {
+      "name": "ERT",
+      "logo": "img/logos/ert.png",
+      "panel": "img/panel/02_TELECOMMUNICATIONS/KOTRA_TELECOMMUNICATIONS_ERT.jpg",
+      "category": "telecommunications"
+    },
+    {
+      "name": "INSOPACK",
+      "logo": "img/logos/insopack.png",
+      "panel": "img/panel/02_TELECOMMUNICATIONS/KOTRA_TELECOMMUNICATIONS_INSOPACK.jpg",
+      "category": "telecommunications"
+    },
+    {
+      "name": "IT TELECOM",
+      "logo": "img/logos/it_telecom.png",
+      "panel": "img/panel/02_TELECOMMUNICATIONS/KOTRA_TELECOMMUNICATIONS_IT_TELECOM.jpg",
+      "category": "telecommunications"
+    },
+    {
+      "name": "NST",
+      "logo": "img/logos/nst.png",
+      "panel": "img/panel/02_TELECOMMUNICATIONS/KOTRA_TELECOMMUNICATIONS_NST.jpg",
+      "category": "telecommunications"
+    },
+    {
+      "name": "UBCS",
+      "logo": "img/logos/ubcs.png",
+      "panel": "img/panel/02_TELECOMMUNICATIONS/KOTRA_TELECOMMUNICATIONS_UBCS.jpg",
+      "category": "telecommunications"
+    },
+    {
+      "name": "BRAINTECH",
+      "logo": "img/logos/braintech.png",
+      "panel": "img/panel/03_BIOTECH/KOTRA_BIOTECH_BRAINTECH.jpg",
+      "category": "biotech"
+    },
+    {
+      "name": "DEEP BIO",
+      "logo": "img/logos/deepbio.png",
+      "panel": "img/panel/03_BIOTECH/KOTRA_BIOTECH_DEEP_BIO.jpg",
+      "category": "biotech"
+    },
+    {
+      "name": "DTRON",
+      "logo": "img/logos/dtron.png",
+      "panel": "img/panel/03_BIOTECH/KOTRA_BIOTECH_DTRON.jpg",
+      "category": "biotech"
+    },
+    {
+      "name": "HANCOM INTELLIGENCE",
+      "logo": "img/logos/hancom_intelligence.png",
+      "panel": "img/panel/03_BIOTECH/KOTRA_BIOTECH_HANCOM_INTELLIGENCE.jpg",
+      "category": "biotech"
+    },
+    {
+      "name": "MONITOR CORPORATION",
+      "logo": "img/logos/monitor_corporation.png",
+      "panel": "img/panel/03_BIOTECH/KOTRA_BIOTECH_MONITOR_CORPORATION.jpg",
+      "category": "biotech"
+    },
+    {
+      "name": "SALTED",
+      "logo": "img/logos/salted.png",
+      "panel": "img/panel/03_BIOTECH/KOTRA_BIOTECH_SALTED.jpg",
+      "category": "biotech"
+    },
+    {
+      "name": "SMART DIAGNOSIS",
+      "logo": "img/logos/smart_diagnosis.png",
+      "panel": "img/panel/03_BIOTECH/KOTRA_BIOTECH_SMART_DIAGNOSIS.jpg",
+      "category": "biotech"
+    },
+    {
+      "name": "ELLEXI",
+      "logo": "img/logos/ellexi.png",
+      "panel": "img/panel/04_SECURITY/KOTRA_SECURITY_ELLEXI.jpg",
+      "category": "security"
+    },
+    {
+      "name": "GSIL",
+      "logo": "img/logos/gsil.png",
+      "panel": "img/panel/04_SECURITY/KOTRA_SECURITY_GSIL.jpg",
+      "category": "security"
+    },
+    {
+      "name": "OMNIS LABS",
+      "logo": "img/logos/omnis_labs.png",
+      "panel": "img/panel/04_SECURITY/KOTRA_SECURITY_OMNIS_LABS.jpg",
+      "category": "security"
+    },
+    {
+      "name": "STORAGEAN",
+      "logo": "img/logos/storagean.png",
+      "panel": "img/panel/04_SECURITY/KOTRA_SECURITY_STORAGEAN.jpg",
+      "category": "security"
+    },
+    {
+      "name": "AIZEN GLOBAL",
+      "logo": "img/logos/aizen_global.png",
+      "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_AIZEN_GLOBAL.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "UMAIN",
+      "logo": "img/logos/umain.png",
+      "panel": "img/panel/04_SECURITY/KOTRA_SECURITY_UMAIN.jpg",
+      "category": "security"
+    },
+    {
+      "name": "4S MAPPER",
+      "logo": "img/logos/4s_mapper.png",
+      "panel": "img/panel/05_ADAS/KOTRA_ADAS_4SMAPPER.jpg",
+      "category": "adas"
+    },
+    {
+      "name": "CODEMIND",
+      "logo": "img/logos/codemind.png",
+      "panel": "img/panel/05_ADAS/KOTRA_ADAS_CODEMIND.jpg",
+      "category": "adas"
+    },
+    {
+      "name": "MOBILETECH",
+      "logo": "img/logos/mobiltech.png",
+      "panel": "img/panel/05_ADAS/KOTRA_ADAS_MOBILTECH.jpg",
+      "category": "adas"
+    },
+    {
+      "name": "MOVON",
+      "logo": "img/logos/movon.png",
+      "panel": "img/panel/05_ADAS/KOTRA_ADAS_MOVON.jpg",
+      "category": "adas"
+    },
+    {
+      "name": "CYGBOT",
+      "logo": "img/logos/cygbot.png",
+      "panel": "img/panel/06_ROBOTICS/KOTRA_ROBOTICS_CYGBOT.jpg",
+      "category": "robotics"
+    },
+    {
+      "name": "HANCOM ROBOTICS",
+      "logo": "img/logos/hancom_robotics.png",
+      "panel": "img/panel/06_ROBOTICS/KOTRA_ROBOTICS_HANCOM_ROBOTICS.jpg",
+      "category": "robotics"
+    },
+    {
+      "name": "IGIS",
+      "logo": "img/logos/igis.png",
+      "panel": "img/panel/06_ROBOTICS/KOTRA_ROBOTICS_IGIS.jpg",
+      "category": "robotics"
+    },
+    {
+      "name": "NUVI LAB",
+      "logo": "img/logos/nuvi_lab.png",
+      "panel": "img/panel/06_ROBOTICS/KOTRA_ROBOTICS_NUVI_LAB.jpg",
+      "category": "robotics"
+    },
+    {
+      "name": "ROBORISEN",
+      "logo": "img/logos/roborisen.png",
+      "panel": "img/panel/06_ROBOTICS/KOTRA_ROBOTICS_ROBORISEN.jpg",
+      "category": "robotics"
+    },
+    {
+      "name": "WONDERFUL PLATFORM",
+      "logo": "img/logos/wonderful_platform.png",
+      "panel": "img/panel/06_ROBOTICS/KOTRA_ROBOTICS_WONDERFUL_PLATFORM.jpg",
+      "category": "robotics"
+    },
+    {
+      "name": "BNF TECHNOLOGY",
+      "logo": "img/logos/bnf_technology.png",
+      "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_BNF_TECHNOLOGY.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "CELLBIG",
+      "logo": "img/logos/cellbig.png",
+      "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_CELLBIG.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "CNA",
+      "logo": "img/logos/cna.png",
+      "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_CNA.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "ELMCAD",
+      "logo": "img/logos/elmcad.png",
+      "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_ELMCAD.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "HYMATICS",
+      "logo": "img/logos/hymatics.png",
+      "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_HYMATICS.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "I-ON COMMUNICATIONS",
+      "logo": "img/logos/i_on_communications.png",
+      "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_I_ON_COMMUNICATIONS.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "MLAB",
+      "logo": "img/logos/mlab.png",
+      "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_MLAB.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "KINETIC LAB",
+      "logo": "img/logos/KINETIC_LAB.png",
+      "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_KINETIC_LAB.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "MTPOWER",
+      "logo": "img/logos/MTPOWER.png",
+      "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_MTPOWER.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "ROBORUS",
+      "logo": "img/logos/ROBORUS.png",
+      "panel": "img/panel/07_IT_SERVICES/KOTRA_IT_SERVICES_ROBORUS.jpg",
+      "category": "it services"
+    }
+  ]
+}
