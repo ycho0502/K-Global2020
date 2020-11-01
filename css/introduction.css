@@ -15,8 +15,8 @@
 }
 
 .overview__wrapper{
-  height: 1000px;
-  border:1px solid blue;
+  height: 500px;
+  
 }
 
 .overview__container {
@@ -24,21 +24,19 @@
   border-top:2px solid var(--color-light-white);
   border-bottom:2px solid var(--color-light-white);
   width: 95%;
-  height: 450px;
+  min-height: 550px;
   margin: 0 auto;
   margin-top: 50px;
-  background-color: var(--color-light-white);
+  background-color: rgb(234,238,236);
   
   
 }
 
 .overview__picture {
   position: absolute;
- 
-  /* background: url('../img/intro_overview.jpg'); */
   background-color: var(--color-blue);
   width: 400px;
-  height: 500px;
+  min-height: 500px;
   top: -50px;
   z-index: 2;
 }
@@ -76,7 +74,10 @@
 
 .overview__description {
   margin-left: 424px;
+ 
   text-align: left;
+  font-weight: var(--weight-semi-bold);
+  padding-right:12px;
   
   
 }
@@ -118,12 +119,9 @@
   padding-right: 10px;
   font-weight: var(--weight-bold);
 }
-.ovewview__description__theme__col1 {
-  
-}
 
-.ovewview__description__theme__col2{
-  
+.overview__description__theme {
+  margin-bottom: 4px;;
 }
 
 
@@ -363,3 +361,101 @@
 
 
 
+@media screen and (max-width: 768px) {
+
+  .overview__wrapper {
+    
+    width: 100%;
+  }
+
+  .overview__content {
+    margin:0 auto;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 40px;
+    border:1px solid black;
+  }
+  
+  .overview__content span {
+    font-weight: var(--weight-bold);
+  }
+  
+  .overview__wrapper{
+    height: 500px;
+    
+  }
+  
+  .overview__container {
+    border:2px solid yellow;
+    position: relative;
+    border-top:2px solid var(--color-light-white);
+    border-bottom:2px solid var(--color-light-white);
+    width: 95%;
+   
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgb(234,238,236);
+    
+    flex-direction: column;
+    
+    
+  }
+  
+
+
+  
+  .overview__description {
+    margin-left: 12px;
+    border: 2px solid red;
+    margin-top:480px;
+    text-align: left;
+    font-weight: var(--weight-semi-bold);
+    padding-right:12px;
+    padding-bottom: 24px;
+    
+    
+  }
+
+  .overview__description__theme {
+    padding-left: 8px;
+  }
+  
+
+
+
+
+
+}
+
+@media screen and (max-width: 425px) {
+
+  .overview__picture {
+    position: absolute;
+    background-color: var(--color-blue);
+    width: 330px;
+    height: 500px;
+    top: -50px;
+    z-index: 2;
+  }
+  
+  .overview__picture__layout {
+    position: absolute;
+   
+    background-color:#394867;
+    opacity: 1;
+    width: 310px;
+    height: 480px;
+    margin: 10px 10px;
+    top: -50px;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  
+  }
+
+
+
+}
