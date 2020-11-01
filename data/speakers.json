@@ -105,7 +105,7 @@
   },
   "Jay Eum": {
     "name": "Jay Eum",
-    "picture": "img/speakers/panel2/JayEum.jpg",
+    "picture": "img/speakers/panel2/jayeum.jpg",
     "title": "Venture Capitalist, Translink Capital",
     "category": "panel2",
     "description": "",
@@ -121,7 +121,7 @@
   },
   "Kiichiro DeLuca": {
     "name": "Kiichiro DeLuca",
-    "picture": "img/speakers/Ipitch/Kiichiro.jpg",
+    "picture": "img/speakers/Ipitch/kiichiro.jpg",
     "title": "VC, Weru Investment",
     "category": "ipitch",
     "description": "",
@@ -150,6 +150,22 @@
     "category": "ipitch",
     "description": "",
     "linkedin": "https://www.linkedin.com/in/thomassp/"
+  },
+  "Michael Falcon": {
+    "name": "Michael Falcon",
+    "picture": "img/speakers/Ipitch/michaelfalcon.jpg",
+    "title": "Director, LG Technology Ventures",
+    "category": "ipitch",
+    "description": "Michael Falcon has over twenty years of venture capital and operating experience, with an emphasis on Deep Tech and information technology industry sectors. Prior to LG Technology Ventures, Michael was a Managing Partner of Bandgap Ventures, which focuses on physical science technology investing in the areas of advanced materials, manufacturing, and electronics. Michael began his work in venture capital at Alara Capital (formerly Guggenheim Venture Partners), which was the venture capital group of Guggenheim Partners, a global financial services firm with more than $200 billion in assets under management. Michael has held senior positions in operating companies including Director of Marketing and Business Development at Molecular Imprints, a venture-backed semiconductor equipment company that was acquired by Canon. Michael also served as a Captain at the US Air Force Research Laboratory, where he led a multi-million dollar semiconductor laser research and development program at Kirtland Air Force Base in New Mexico. Michael has also worked at Texas Instruments and Teradyne Corporation and has authored multiple technical publications. Michael has four degrees from the Massachusetts Institute of Technology, including an M.S. in Electrical Engineering and Computer Science, an M.S. in Materials Science and Engineering, a B.S. in Electrical Engineering, and an M.B.A. from the MIT Sloan School of Management, where he was a Leaders for Global Operations Fellow and a recipient of the Patrick G. McGovern Award for Entrepreneurship. Michael lives with his wife and teenage daughter and enjoys playing golf and exercising.",
+    "linkedin": "https://www.linkedin.com/in/michael-falcon-1b047/"
+  },
+  "Bryan Chang": {
+    "name": "Bryan Chang",
+    "picture": "img/speakers/Ipitch/bryanchang.jpg",
+    "title": "Principal at Collaborative Fund",
+    "category": "ipitch",
+    "description": "",
+    "linkedin": "https://www.linkedin.com/in/bryankchang/"
   },
   "Andrew Tang": {
     "name": "Andrew Tang",
