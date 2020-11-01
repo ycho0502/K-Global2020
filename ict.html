@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheet and JS-->
-    <link rel="stylesheet" href="css/ict.css">
-    <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="js/main.js" defer></script>
   </head>
   <body>
@@ -81,50 +81,87 @@
 
     </section>
 
-<!-- ICT Overview -->
-    <section id="ict__overview">
-      <div class="section">
-        <div class="ict__container">
-          <h2>ICT Forum</h2>
-          <div class="overview__content">
-            <div class="overview__theme"><h3> <span>Topic:</span>  "AI, REVOLUTIONARY GAME CHANGER FOR POST COVID-19 ERA"</h3></div>
-            <div class="overview__theme"><h3><span>Time :</span> 2020. 12. 1(Tue) (* Korean Standard Time) / 
-              * (US) 2020. 11. 30 (Mon), 16:30 ~ 19:00</h3></div>
-            <div class="overview__theme"><h3><span>Location:</span> K-Global online event page (* Zoom, You Tube Live)</h3></div>
-            <div class="overview__theme"><h3><span>Host:</span> Ministry of Science and ICT of Korea / KOTRA (Trade/IT
-              Center), NIPA, KIC-SV</h3></div>
-            <div class="overview__theme"><h3><span>Participants:</span> 1,400 total - (US) 400 local investors and buyers - (Korea) about 1,000 participants, including government officials,
-              entrepreneurs, and scholars </h3></div>
-            <div class="overview__theme"><h3><span>Event Structure:</span> Online webinar + live Q&amp;A</h3></div>
+        <!--  ICT Event Overview with design -->
+  
+        <section id="eventoverview">
+          <div class="section">
+      
+            <div class="overview__wrapper">
+              <div class="overview__container">
+                <div class="overview__picture">
+                </div>
+                <div class="overview__picture__layout">
+                  <h1>About<br> ICT Forum</h1>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum dignissimos libero magnam at sunt dolorem adipisci cum? Unde magni a assumenda quam! Ullam harum eligendi quasi veritatis? Totam, fuga vero.</p>
+                </div>
+      
+                <div class="overview__description">
+                  <div class="overview__description__title">
+                    <h1>EVENT OVERVIEW</h1>
+                  </div>
+                  <div class="overview__description__theme">
+                    <h3><span>TOPIC</span> <br>"AI, REVOLUTIONARY GAME CHANGER FOR POST COVID-19 ERA"</h3>
+                  </div>
+                  <div class="overview__description__theme">
+                    <h3><span>TIME</span><br> 2020. 12. 1(Tue) (Korean Standard Time) / (US) 2020. 11. 30 (Mon), 16:30 ~ 19:00</h3>
+                  </div>
+                  <div class="overview__description__theme">
+                    <h3><span>LOCATION</span><br> approximately 4,500 national and international speakers, buyers, investors, and tech experts</h3>
+                  </div>
+                  <div class="overview__description__theme">
+                    <h3><span>HOST</span><br> Ministry of Science and ICT of Korea / KOTRA (Trade/IT
+                      Center), NIPA, KIC-SV</h3>
+                  </div>
+                  <div class="overview__description__theme">
+                    <h3><span>PARTICIPANTS</span><br> 1,400 total - (US) 400 local investors and buyers - (Korea) about 1,000 participants, including government officials,
+                      entrepreneurs, and scholars </h3>
+                  </div>
+                  <div class="overview__description__theme">
+                    <h3><span>EVENT STRUCTURE</span><br> Online webinar + live Q&amp;A</h3>
+                  </div>
+
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
+        </section>
+
+
+        
+      
+
 
     
 <!-- ICT Forum Event Details -->
 
-    <section class="ict__event">
+    <section id="ict__event">
       <div class="section">
-        <div class="ict__container">
-          <h2>TOPIC</h2>
-  
-          <div class="overview__content">
-            <div class="overview__theme"><h3> <span>AI: THE REVOLUTIONARY GAME CHANGER FOR
-              POST COVID-19 ERA</span> </h3></div>
-  
-  
-            <div class="overview__theme"><h3><span>(1) Keynote Speech:</span>  Changes in AI core technologies post COVID-19
-            era</h3></div>
-            <div class="overview__theme"><h3><span>(2) Panel Discussion: </span>Business opportunities and AI tech applications in
-              the new normal brought on by COVID-19</h3></div>
-          </div>
-        </div>
-        
-
+        <table class="block">
+          <tr>
+            <td>
+              <h1>TOPIC</h1>
+              <hr />
+              <div class="ict__container">
+              <div class="overview__content">
+              <div class="overview__theme"><h3> <span>AI: THE REVOLUTIONARY GAME CHANGER FOR
+                POST COVID-19 ERA</span> </h3></div>
+    
+    
+              <div class="overview__theme"><h3><span>(1) Keynote Speech:</span>  Changes in AI core technologies post COVID-19
+              era</h3></div>
+              <div class="overview__theme"><h3><span>(2) Panel Discussion: </span>Business opportunities and AI tech applications in
+                the new normal brought on by COVID-19</h3></div>
+            </div>
+         
+            </td>
+          </tr>
+        </table>  
 
       </div>
     </section>
+
+
+    <!-- ====== ICT SPEAKERS ======== -->
 
     <section id="speaker">
       <div class="section">
@@ -544,7 +581,7 @@
 
     
     <div class="section">
-      <h2>Program Schedule</h2>
+      <h1>Program Schedule</h1>
       <div class="schedule__container">
         <div class="schedule__card">
           <div class="schedule__card__time">
@@ -780,83 +817,76 @@
 <section id="companylist">
 
   <div class="section">
-    <h1>Company List</h1>
+    <h1 id="companylist__title">COMPANY LIST</h1>
   </div>
 </section>
-
-<!-- Welcome -->
-<section id="welcome">
-  <div class="section">
-
-    <div class="welcome__attend">
-      <span id="colon">"</span>
-      <span id="approx">Approximately </span>
-      <span id="number">4,500</span>
-      <br>national and international speakers, buyers,
-      investors, and tech experts</div>
-  </div>
-</section>
-
-
-
-
-<!-- Event Overview -->
-
+<!--========= PROGRMA OVERVIEW================= -->
 <section id="events">
   <div class="section">
-
+    <div class="events__title">
+      <h1>PROGRAM OVERVIEW</h1>
+    </div>
     <div class="events__row">
       <div class="events__col">
-        <div class="events__card">
+        <div class="events__card" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="350">
           <div class="events__card__title">ICT Forum</div>
           <div class="events__card__description">
             <div class="events__card__date"> Monday <span>|</span> November 30</div>
             <hr>
-            <div class="events__card__detail">Sharing digital innovation trends and technological advancements in ICT
-              and SW sector</div>
+            <div class="events__card__detail">Sharing digital innovation trends and technological advancements in
+              ICT
+              and SW sector<br><br><a href="ict.html">Learn more</a></div>
+            <div class="events__card__host">
+              <img id="nipacolor" src="img/nipacolor.png" alt="">
+              <img id="kotracolor" src="img/kotracolor.png" alt="">
+            </div>
           </div>
         </div>
 
-        <div class="events__card">
+        <div class="events__card" data-aos="fade-up-right" data-aos-duration="1500" data-aos-offset="300">
           <div class="events__card__title">K-Pitch</div>
 
           <div class="events__card__description">
             <div class="events__card__date">Tuesday <span>|</span> December 1</div>
             <hr>
-            <div class="events__card__detail">Effective IR; engaging with investors and investments for participating
-              SMEs and start-ups</div>
+            <div class="events__card__detail">Effective IR; engaging with investors and investments for
+              participating
+              SMEs and start-ups<br><br><a href="kpitch.html">Learn more</a></div>
+            <div class="events__card__host">
+              <img id="nipacolor" src="img/nipacolor.png" alt="">
+              <img id="kiccolor" src="img/kiccolor.png" alt="">
+            </div>
 
           </div>
         </div>
       </div>
 
       <div class="events__col">
-        <div class="events__card">
+        <div class="events__card" data-aos="fade-up-left" data-aos-duration="1500" data-aos-offset="300">
           <div class="events__card__title">I-Pitch</div>
           <div class="events__card__description">
             <div class="events__card__date">Wednesday <span>|</span> December 2</div>
             <hr>
             <div class="events__card__detail">Pitching from start-ups in 15 different
-              countries based in Silicon Valley</div>
-            <!-- <div class="events__card__host">
-                <img src="img/nipa.png" alt="">
-                <img src="img/kotra.png" alt="">
-              </div> -->
+              countries based in Silicon Valley<br><br><a href="ipitch.html">Learn more</a></div>
+            <div class="events__card__host">
+              <img id="nipacolor" src="img/nipacolor.png" alt="">
+              <img id="kiccolor" src="img/kiccolor.png" alt="">
+            </div>
           </div>
         </div>
 
-        <div class="events__card">
+        <div class="events__card" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="300">
           <div class="events__card__title">AMA Session</div>
           <div class="events__card__description">
             <div class="events__card__date">Thursday <span>|</span> December 3</div>
             <hr>
             <div class="events__card__detail">Questions from participating
               companies answered by experts in
-              the form of a podcast</div>
-            <!-- <div class="events__card__host">
-                <img src="img/nipa.png" alt="">
-                <img src="img/kotra.png" alt="">
-              </div> -->
+              the form of a podcast<br><br><a href="ama.html">Learn more</a></div>
+            <div class="events__card__host">
+              <img id="kotracolor" src="img/kotracolor.png" alt="">
+            </div>
           </div>
         </div>
       </div>
@@ -864,7 +894,7 @@
 
     <div class="events__row">
       <div class="events__col">
-        <div class="events__card" id="events__expo">
+        <div class="events__card" id="events__expo" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500">
           <div class="events__card__title">Partnership Expo</div>
           <div class="events__card__description">
             <div class="events__card__date">October 30 <span>-</span> December 3
@@ -872,35 +902,84 @@
             <hr>
             <div class="events__card__detail">Provide online exhibition of participating ICT corporations,
               as well as 1:1 expert video conference<br>
-              * Export related financial partnership<br><br><a href="#">Learn more</a>
+              * Export related financial partnership<br><br><a href="expo.html">Learn more</a>
+            </div>
+            <div class="events__card__host">
+              <img id="kotracolor" src="img/kotracolor.png" alt="">
             </div>
           </div>
         </div>
       </div>
-
     </div>
 </section>
 
-    <!--Footer-->
-    <section id="footer">
-      <div class="section">
-        <div class="footer__container">
-          <div class="footer__contact__form">
-            <img src="img/kotra.png" alt="">
-            <p>3003 North First Street, San Jose, CA 95134, U.S.A<br>TEL : (1-408)432-5000 FAX : (1-408)432-5056
-              <br>info@kotrasv.org<br></p>
-          </div>
-          <div class="footer__description">
-            <img src="img/newkglobal.png" alt="">
-            <div class="footer__description__detail">
-              <p>K-GLOBAL @Silicon Valley 2020. All rights reserved.</p>
-            </div>
-          </div>
-  
-  
-        </div>
+
+  <!-- Welcome -->
+
+  <section id="welcome">
+    <div class="section">
+
+      <div class="welcome__attend">
+        <span id="colon">"</span>
+        <span id="approx">Approximately </span>
+        <span id="number">4,500</span>
+        <br>national and international speakers, buyers,
+        investors, and tech experts
+      </div>
+      <div class="welcome__button">
+        <button class="bgholder__register"><a href="#">REGISTER</a></button>
     </div>
   </section>
 
+
+
+<!--Footer-->
+<section id="footer">
+  <div class="section">
+    <div class="footer__container">
+
+      <div class="footer__col" id="footer__col1">
+        <div class="footer__kotra">
+          <img src="img/kotra.png" alt="">
+          <p>3003 North First Street, San Jose, CA 95134, U.S.A<br>TEL : (1-408)432-5000 <br>info@kotrasv.org<br></p>
+        </div>
+        <div class="footer__quicklink">
+          <h3>QUICK LINK</h3>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="introduction.html">INTRODUCTION</a></li>
+            <li><a href="ict.html">ICT FORUM</a></li>
+            <li><a href="kpitch.html">K-PITCH</a></li>
+            <li><a href="ipitch.html">I-PITCH</a></li>
+            <li><a href="ama.html">AMA SESSION</a></li>
+            <li><a href="expo.html">ONLINE PARTNERSHIP EXPO</a></li>
+            <li><a href="#">NAVER EXPO</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__col" id="footer__col2">
+        <div class="footer__sns">
+          <h3>FOLLOW US</h3>
+          <ul>
+            <li><a href=""><img src="img/facebookicon.png" alt=""></a></li>
+            <li><a href=""><img src="img/youtubeicon.png" alt=""></a></li>
+            <li><a href=""><img src="img/instaicon.png" alt=""></a></li>
+          </ul>
+        </div>
+        <div class="footer__kglobal">
+          <img src="img/newkglobal.png" alt="">
+          <p>K-GLOBAL @Silicon Valley 2020. <br>All rights reserved.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>

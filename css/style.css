@@ -41,11 +41,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  
-  
 }
-
-
 
 html, body {
   font-family: 'Open Sans', sans-serif;
@@ -53,8 +49,7 @@ html, body {
   width: 100%;
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
-  
-  
+
 }
 
 body{
@@ -107,6 +102,16 @@ button {
   
 }
 
+#companylist .section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+#companylist__title {
+  margin-bottom: 42px;
+  font-weight: var(--weight-bold);
+}
+
+
 /* Typography */
 
 h1 {
@@ -155,7 +160,6 @@ p {
   width: 440px;
   height:4px;
   background: linear-gradient(to left, black, white);
-/* background: radial-gradient(circle, rgba(2,0,36,1) 25%, rgba(9,9,121,1) 40%, rgba(9,15,125,1) 55%, rgba(6,84,170,1) 70%, rgba(255,255,255,1) 100%); */
   position: absolute;
   left: 0;
   top: 50%;
@@ -169,7 +173,6 @@ p {
   width: 440px;
   height:4px;
   background: linear-gradient(to right, black, white);
-  /* background: radial-gradient(circle, rgba(2,0,36,1) 25%, rgba(9,9,121,1) 40%, rgba(9,15,125,1) 55%, rgba(6,84,170,1) 70%, rgba(255,255,255,1) 100%); */
   position: absolute;
   right: 0;
   top: 50%;
@@ -181,7 +184,7 @@ p {
   }
 
 
-/* Navbar */
+/* ===========     Navbar   START ============*/
 
 #navbar {
   position: fixed;
@@ -231,16 +234,6 @@ p {
 
   position: relative;
 }
-/* 컴페티션 뒤에 오는 아이콘 나중에 확인 */
-/* .navbar__menu__item.sub-menu:before{
-  content: '+';
-  position: absolute;
-  color: var(--color-white);
-  right: 0px;
-  top:12px;
-  
-} */
-
 
 .navbar__menu__item ul {
   position: absolute;
@@ -318,10 +311,13 @@ p {
 }
 
 
-/* BGholder */
+/* ===========     Navbar   END ============*/
+
+
+/*============    BGholder    START ========== */
 
 #bgholder {
-  height: 6500px;
+  height: 5500px;
   /* margin: 0 auto; */
   padding-top: 80px;
   background: url("../img/blankbggra.jpg") center/cover no-repeat;
@@ -439,7 +435,6 @@ p {
   font-size: var(--font-regular);
   font-weight: var(--weight-bold);
   margin-top:4px;
-  /* padding: 8px 12px; */
   border: 2px solid var(--color-white);
   border-radius: var(--size-border-radius);
   background-color: var(--color-dark-blue);
@@ -488,9 +483,7 @@ p {
   position: relative;
   width: 100%;
   height: 130px;
-  bottom: -10%;
-  /* background-color: yellow; */
-  
+  bottom: -10%;  
 }
 
 
@@ -529,7 +522,6 @@ p {
 
 .box__container__logo3 a img {
   width: 230px;
-  /* padding-top:8px; */
   margin-right: 24px;
 }
 
@@ -549,10 +541,7 @@ p {
   
 
 .box3__container .box__container__logo1{
-/*   
-  width: 220px;
-  height: 134px; */
-  /* background: url('../img/ksi.png'); */
+
   animation: fadeIn ease 5s;
 }
 
@@ -581,17 +570,15 @@ p {
 }
 
 
+/*============    BGholder    END ========== */
 
 
 
 
 
+/* -========    PARALLAX START  =========== */
 
-/* ----------------------PARALLA------------- */
 
-#scrollinfo {
-  /* border: 2px solid red; */
-}
 .parall {
   margin-top:300px;
 }
@@ -629,9 +616,6 @@ p {
 
 /* 나중에 이벤트로 옮깃것 */
 
-.parall .events__card {
-
-}
 
 .events__card__host img{
   width: 150px;
@@ -704,7 +688,16 @@ p {
 }
 
 
-.testimonial__speechbubble .testimonial__avatar{
+.testimonial__speechbubble:nth-child(2n+1) .testimonial__avatar{
+  display: block;
+  margin-bottom: 0px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 1;
+}
+
+.testimonial__speechbubble:nth-child(2n) .testimonial__avatar{
   display: block;
   margin-bottom: 0px;
   position: absolute;
@@ -717,6 +710,7 @@ p {
 
 
 
+/* -========    PARALLAX END  =========== */
 
 
 
@@ -724,8 +718,7 @@ p {
 
 
 
-
-/* Slider */
+/* ===========   SlIDER    START ============= */
 
 #slider{
 
@@ -757,12 +750,16 @@ p {
 }
 
 
+/* ===========   SlIDER   END  ============= */
 
 
 
-/* OVERVIEW */
+/* OVERVIEW   디자인 넣고 지울 예정  */
 
-
+#ict__event {
+  margin-top:80px;
+  margin-bottom: 120px;
+}
 .overview__content {
   margin:0 auto;
   text-align: left;
@@ -779,8 +776,12 @@ p {
 }
 
 
-/* Schedule Card ----- */
+/*  ==============  Schedule Card START ======== */
 
+
+#ict__schedule, #ipitch__schedule, #kpitch__schedule{
+  margin-top:120px;
+}
 
 
 #schedule{
@@ -843,7 +844,6 @@ h4 .duration {
 
   color: var(--color-dark-grey);
   font-weight: var(--weight-semi-bold);
-  /* padding: 4px 4px; */
   border-bottom: 2px solid var(--color-dark-grey);
   line-height: 40px;
   display: none;
@@ -903,7 +903,11 @@ h4 .duration {
 
 
 
-/* EVENTS */
+/*  ==============  Schedule Card END  ======== */
+
+
+
+/* ===============  EVENTS (overview program) START ================= */
 
 
 #events {
@@ -982,7 +986,7 @@ h4 .duration {
   
 }
 .events__card__date {
-  /* width: 80%; */
+
   margin: 0 auto;
   padding: 15px 0;
   font-size: var(--font-regular);
@@ -1026,8 +1030,10 @@ h4 .duration {
 }
 
 
+/* ===============   EVENTS (overview program) END ================= */
 
-/* Welcome */
+
+/* ==============    Welcome  START ===========*/
 
 
 #welcome {
@@ -1065,12 +1071,14 @@ h4 .duration {
 
 
 
+/* ==============    Welcome  END  ===========*/
 
-/* Speakers */
+
+
+/* ============== Speakers   START ================*/
 #speaker{
-  background-color: #F8F8F8 ;
+  background-color: #F9F9F9 ;
 }
-
 
 .spaker__col {
   display: flex;
@@ -1107,7 +1115,6 @@ h4 .duration {
 .speaker__card {
   height: 350px;
   width: 250px;
-  /* padding: 24px 4px; */
   margin-top:24px;
   position: relative;
   
@@ -1216,7 +1223,11 @@ h4 .duration {
 
 
 
-/* TESTIMONIAL */
+/* ============== Speakers   START ================*/
+
+
+
+/* =========== TESTIMONIAL  START ============== */
 
 #testimonials{
   
@@ -1274,7 +1285,11 @@ h4 .duration {
   font-weight: var(--weight-semi-bold);
 }
 
-/* Footer */
+
+
+/* =========== TESTIMONIAL END ============== */
+
+/* ============    Footer   START ==========*/
 #footer {
   
   background-color: var(--color-blue);
@@ -1385,69 +1400,431 @@ h4 .duration {
   line-height: 30px;
 }
 
+/* ============    Footer   END ==========*/
 
 
 
+/* =======   Designed Event Overview  SATRT ======*/
+
+#eventoverview {
+  margin-top:64px;
+}
+
+#ama__eventoverview{
+  margin-top:64px;
+  margin-bottom: 64px;    
+}
+
+#expo__eventoverview{
+  margin-bottom: 64px;
+  margin-top:65px;
+}
 
 
+#kpitch__eventoverview {
+  margin-top:64px;
+  margin-bottom: 168px;
+}
 
-@media screen and (max-width: 1024px) {
-
-  /* BGholder */
-
-  .box__container__logo1 a img {
-    width: 180px;
-  }
+.overview__content {
+  margin:0 auto;
+  text-align: left;
+  width: 80%;
+  margin-bottom: 40px;
   
-  .box__container__logo2 a img {
-    width: 180px;
-  }
+}
+
+.overview__content span {
+  font-weight: var(--weight-bold);
+}
+
+.overview__wrapper{
+  height: 500px;
   
-  .box__container__logo3 a img {
-    margin-top:12px;
-    width: 160px;
-  }
-  
-  .box__container__logo4 a img {
-    width: 143px;
-  }
-  
+}
 
-  /* Events */
-  .events__row{
-    flex-direction: column;
-  }
-
-  .events__col {
-    width: 100%;
-  }
-
-  .events__row .events__card {
-
-    width: 300px;
-    margin: 24px 8px;
-    flex-wrap: wrap;
-    
-  }
-
-    /* Footer */
-
-    #footer__col2 {
-      flex-direction: column;
-      justify-content: start;
-      margin-left: 24px;
-    }
-  
-    .footer__kglobal img {
-      width: 260px;
-      margin-left:12px;
-      margin-top:28px;
-    }
+.overview__container {
+  position: relative;
+  border-top:2px solid var(--color-light-white);
+  border-bottom:2px solid var(--color-light-white);
+  width: 95%;
+  min-height: 452px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: rgb(234,238,236);
   
   
 }
 
+.overview__picture {
+  position: absolute;
+  background-color: var(--color-blue);
+  width: 400px;
+  min-height: 500px;
+  top: -50px;
+  z-index: 2;
+}
 
+.overview__picture__layout {
+  position: absolute;
+ 
+  background-color:#394867;
+  opacity: 1;
+  width: 380px;
+  height: 480px;
+  margin: 10px 10px;
+  top: -50px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.overview__picture__layout h1 {
+  display: inline-block;
+  color: var(--color-white);
+  border-bottom: 3px solid var(--color-orange);
+}
+
+
+
+.overview__picture__layout p {
+  color: var(--color-white);
+  
+}
+
+.overview__description {
+  margin-left: 424px;
+ 
+  text-align: left;
+  font-weight: var(--weight-semi-bold);
+  padding-right:12px;
+  
+  
+}
+
+.overview__description__title h1{
+  margin-top:24px;
+  color: var(--color-blue);
+  margin-bottom: 24px;
+  text-align: left;
+  
+}
+
+.overview__description__theme h3::before{
+  content: '-';
+  color: var(--color-orange);
+  padding-right: 10px;
+  font-weight: var(--weight-bold);
+}
+
+.overview__description__title h1::before {
+  content: '|';
+  color: var(--color-orange);
+  padding-right: 10px;
+  font-weight: var(--weight-bold);
+}
+
+.overview__description__theme span{
+  font-weight: var(--weight-bold);
+}
+
+.overview__description__theme2 {
+  display: flex;
+}
+
+.ovewview__description__theme__col1
+ h3::before{
+  content: '-';
+  color: var(--color-orange);
+  padding-right: 10px;
+  font-weight: var(--weight-bold);
+}
+
+.overview__description__theme {
+  margin-bottom: 4px;;
+}
+
+
+/* =======   Designed Event Overview  END ======*/
+
+
+
+/* ==============Introduction cards START  ======= */
+
+#introduction {
+
+  margin-top:112px;
+  margin-bottom: 112px;
+  
+
+}
+
+.line__title {
+  padding: 24px 0px 36px 0px;
+}
+
+.line__title h2 {
+  font-weight: var(--weight-bold);
+  position:relative;
+  margin: 48px auto;
+  padding: 0 24px;
+
+}
+
+.line__title h2:before{
+  content: " ";
+  display:block;
+  width: 440px;
+  height:4px;
+  background: linear-gradient(to left, black, white);
+/* background: radial-gradient(circle, rgba(2,0,36,1) 25%, rgba(9,9,121,1) 40%, rgba(9,15,125,1) 55%, rgba(6,84,170,1) 70%, rgba(255,255,255,1) 100%); */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -2;
+  
+}
+
+.line__title h2:after{
+  content: " ";
+  display:block;
+  width: 440px;
+  height:4px;
+  background: linear-gradient(to right, black, white);
+  /* background: radial-gradient(circle, rgba(2,0,36,1) 25%, rgba(9,9,121,1) 40%, rgba(9,15,125,1) 55%, rgba(6,84,170,1) 70%, rgba(255,255,255,1) 100%); */
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -2;
+}
+
+.line__title span{
+  background: #fff
+  }
+
+
+
+.card__container {
+  display: flex;
+  justify-content: space-around
+}
+
+.introduction__card{
+  width: 250px;
+}
+
+.introduction__card h4:after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  /* background-color: #fac42b; */
+  background-color: var(--color-orange);
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
+
+.introduction__card__title {
+  color: var(--color-blue);
+  padding: 16px 0;
+}
+
+
+
+.introduction__card__icon img {
+  width: 150px;
+  height: 150px;
+}
+
+
+.introduction__card__description {
+  padding: 8px 4px;
+  font-size: var(--font-small);
+  color: var(--color-dark-grey);
+}
+
+
+/* ==============Introduction cards END  ======= */
+
+
+/*======= Main Events TABLE====== */
+
+
+#mainevents {
+  padding-top: 122px;
+}
+.mainevents__container{
+  border: 3px solid var(--color-dark-grey);
+  border-radius: 5px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top:42px;
+  
+}
+
+.mainevents__row{
+  display: flex;
+}
+
+.mainevents__name {
+  width: 30%;
+  padding: 12px 12px;
+  border-right: 2px solid var(--color-dark-grey);
+  font-weight: var(--weight-semi-bold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainevents__content{
+  display: flex;
+  width: 70%;
+  padding: 12px 24px;
+  font-weight: var(--weight-semi-bold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.mainevents__row:nth-child(1) .mainevents__name{
+  background-color: #394867;
+  color:var(--color-white);
+}
+
+.mainevents__row:nth-child(1) .mainevents__content{
+  background-color:  #394867;
+  color:var(--color-white);
+}
+
+.mainevents__row:nth-child(2n+3) .mainevents__name{
+  background-color: var(--color-white);
+
+}
+
+.mainevents__row:nth-child(2n+2) .mainevents__name{
+  background-color: var(--color-light-white);
+
+}
+
+.mainevents__row:nth-child(2n+3) .mainevents__content{
+  background-color: var(--color-white);
+
+}
+
+.mainevents__row:nth-child(2n+2) .mainevents__content{
+  background-color: var(--color-light-white);
+  
+
+}
+
+
+
+/* =======Yearly Event Title TABLE==== */
+#yearlyEvent {
+  padding-top:64px;
+  padding-bottom: 52px;
+}
+.year__container {
+  border: 3px solid var(--color-dark-grey);
+  border-radius: 5px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top:42px;
+  margin-bottom: 42px;
+}
+
+.yearly__row{
+  display: flex;
+
+}
+
+.yearly__year {
+  width: 20%;
+
+  padding: 12px 12px;
+  border-right: 2px solid var(--color-dark-grey);
+  font-weight: var(--weight-semi-bold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yearly__row:nth-child(1) .yearly__year{
+  background-color: #394867;
+  color:var(--color-white);
+}
+
+.yearly__row:nth-child(1) .yearly__theme{
+  background-color: #394867;
+  color:var(--color-white);
+}
+
+.yearly__row:nth-child(2n+3) .yearly__year{
+  background-color: var(--color-white);
+
+}
+
+.yearly__row:nth-child(2n+2) .yearly__year{
+  background-color: var(--color-light-white);
+
+}
+
+.yearly__row:nth-child(2n+3) .yearly__theme{
+  background-color: var(--color-white);
+
+}
+
+.yearly__row:nth-child(2n+2) .yearly__theme{
+  background-color: var(--color-light-white);
+
+}
+
+
+
+.yearly__theme{
+
+  width: 80%;
+  padding: 12px 24px;
+  font-weight: var(--weight-semi-bold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+/* About International Innovation Alliance */
+#iia__event{
+  margin-top:64px;
+}
+#iia__event .block {
+  background-color: var(--color-white);
+}
+
+#iia__event .overview__theme {
+  margin-top: 24px;
+}
+#iia {
+  display: block;
+  max-width: 500px;
+  margin:52px auto;
+
+}
+
+#iia2 {
+  display: blokc;
+ width: 80%;
+ margin: 52px auto;
+}
 /* 윤호코드----------------------------- */
 
 /* Speakers */
@@ -2187,7 +2564,83 @@ h4 .duration {
 
 
 
-/* For below 768px screen widht */
+/* ============    SCREEN 1024px ==========*/
+
+
+@media screen and (max-width: 1024px) {
+
+  /* BGholder */
+
+  .box__container__logo1 a img {
+    width: 180px;
+  }
+  
+  .box__container__logo2 a img {
+    width: 180px;
+  }
+  
+  .box__container__logo3 a img {
+    margin-top:12px;
+    width: 160px;
+  }
+  
+  .box__container__logo4 a img {
+    width: 143px;
+  }
+  
+
+  /* Events */
+  .events__row{
+    flex-direction: column;
+  }
+
+  .events__col {
+    width: 100%;
+  }
+
+  .events__row .events__card {
+
+    width: 300px;
+    margin: 24px 8px;
+    flex-wrap: wrap;
+    
+  }
+
+    /* Footer */
+
+    #footer__col2 {
+      flex-direction: column;
+      justify-content: start;
+      margin-left: 24px;
+    }
+  
+    .footer__kglobal img {
+      width: 260px;
+      margin-left:12px;
+      margin-top:28px;
+    }
+
+    /* ICT TOPIC  */
+    #ict__event {
+      margin-top:200px;
+    }
+
+    #expo__eventoverview{
+      margin-bottom: 200px;
+ 
+    }
+  
+  
+}
+
+
+
+
+
+
+
+
+/* ============  SCREEN 768px   ============ */
 
 @media screen and (max-width: 768px) {
 
@@ -2227,7 +2680,7 @@ h4 .duration {
     position: relative;
   }
   .navbar__menu__item ul li {
-    /* display: block; */
+
     width: 100%;
     height: 40px;
     text-align: center;
@@ -2241,12 +2694,6 @@ h4 .duration {
     padding-top:140px;
   }
 
-  /* .navbar__menu__item.sub-menu:before{
-  
-    right: 500px;
-  
-    
-  } */
 
   .sub-menu__list {
     display: none;
@@ -2355,9 +2802,13 @@ h4 .duration {
 
   /* INTRODUCTION START------- */
 
+
   .card__container{
     flex-direction: column;
     margin: 0 auto;
+    margin-top: 260px;
+    margin-bottom: 42px;
+    
   }
 
   .introduction__card {
@@ -2368,7 +2819,7 @@ h4 .duration {
   /* WELCOME SECTION */
 
   #welcome {
- 
+    
     line-height: 50px;
     
   
@@ -2415,32 +2866,111 @@ h4 .duration {
     justify-content: space-evenly;
   }
 
-      /* Footer */
+  /* ICT TOPIC  */
+  #ict__event {
+    margin-top:600px;
+  }
 
-     
-      .footer__kotra  {
-        width: 60%;
-        margin:0 auto;
-      }
-      .footer__kotra img {
-        width: 180px;
-        margin-left:0px;
-        margin-top:28px;
-      }
+  #ama__eventoverview {
+    margin-bottom: 500px;
+  }
 
-      .footer__quicklink{
-        display: none;
-      }
-      
-      #footer__col2 {
-        width: 100%;
-      }
+  #kpitch__eventoverview {
+    
+    margin-bottom: 600px;
+  }
 
-      .footer__kglobal img {
-        width: 180px;
-      }
+  
+  #expo__eventoverview{
+    margin-bottom: 600px;
+
+  }
+
+  /* Footer */
+
+  
+  .footer__kotra  {
+    width: 60%;
+    margin:0 auto;
+  }
+  .footer__kotra img {
+    width: 180px;
+    margin-left:0px;
+    margin-top:28px;
+  }
+
+  .footer__quicklink{
+    display: none;
+  }
+  
+  #footer__col2 {
+    width: 100%;
+  }
+
+  .footer__kglobal img {S
+    width: 180px;
+  }
 
 
+  /* designed OVERVIEW PROGRAM */
+
+
+  .overview__wrapper {
+    
+    width: 100%;
+  }
+
+  .overview__content {
+    margin:0 auto;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 40px;
+  
+  }
+  
+  .overview__content span {
+    font-weight: var(--weight-bold);
+  }
+  
+  .overview__wrapper{
+    height: 500px;
+    
+  }
+  
+  .overview__container {
+   
+    position: relative;
+    border-top:2px solid var(--color-light-white);
+    border-bottom:2px solid var(--color-light-white);
+    width: 95%;
+   
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgb(234,238,236);
+    
+    flex-direction: column;
+    
+    
+  }
+  
+
+  
+  .overview__description {
+    margin-left: 12px;
+  
+    margin-top:480px;
+    text-align: left;
+    font-weight: var(--weight-semi-bold);
+    padding-right:12px;
+    padding-bottom: 24px;
+    
+    
+  }
+
+  .overview__description__theme {
+    padding-left: 8px;
+  }
+  
 
 
 
@@ -2519,10 +3049,16 @@ h4 .duration {
   
 }
 
+
+
+
+/* ==============  SCREEN   425 ============ */
+
 @media screen and (max-width: 425px) {
 
   #bgholder {
-   
+
+    height: 7200px;
     padding-top: 70px;
 
   
@@ -2620,6 +3156,24 @@ h4 .duration {
   height: 80px;
 }
 
+  /* ICT TOPIC  */
+  #ict__event {
+    margin-top:800px;
+
+  }
+
+  #kpitch__eventoverview {
+    
+    margin-bottom: 800px;
+  }
+
+  
+  
+  #expo__eventoverview{
+    margin-bottom: 800px;
+
+  }
+
 /* Footer  */
 
 .footer__container {
@@ -2659,6 +3213,39 @@ h4 .duration {
   width: 260px;
   
 }
+
+/*  ============ DESIGNED OVER VIEW ========== */
+
+.overview__picture {
+  position: absolute;
+  background-color: var(--color-blue);
+  width: 330px;
+  height: 500px;
+  top: -50px;
+  z-index: 2;
+}
+
+.overview__picture__layout {
+  position: absolute;
+  background-color:#394867;
+  opacity: 1;
+  width: 310px;
+  height: 480px;
+  margin: 10px 10px;
+  top: -50px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+#introduction {
+  margin-top:220px;
+}
+
 
 
 
@@ -2764,20 +3351,23 @@ h4 .duration {
 /* Expo Overview (expo.html) */
 .block {
   background: #f5f5f5;
-  max-width: 50rem;
+  max-width: 1000px;
   margin: auto;
 }
 .block td {
   vertical-align: top;
 }
 .block h2 {
-  font-size: 18px;
-  font-weight: 600;
+  
+  font-weight: var(--weight-bold);
   margin: 0 0 0.5rem 0;
+  padding: 12px 8px;
 }
 
 .block p {
-  font-size: 16px;
+  font-size: var(--font-regular);
+  line-height: 34px;
+  font-weight: var(--weight-semi-bold);
 }
 
 .block hr {
