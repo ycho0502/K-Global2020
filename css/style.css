@@ -1905,6 +1905,11 @@ h4 .duration {
   font-size: 16px;
 }
 
+.speaker__modal__linkedin img {
+  width: 77px;
+  height: 19px;
+}
+
 #speakerOverlay {
   position: fixed;
   opacity: 0;
