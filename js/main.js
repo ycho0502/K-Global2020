@@ -289,7 +289,7 @@ function openSpeakerModal() {
   speakerModal.classList.add("active");
 
   // Disable scrolls other then modal
-  body.style.height = "100vh";
+  // body.style.height = "100vh";
   body.style.overflowY = "hidden";
 }
 

@@ -132,66 +132,144 @@
   </section>
 
 
-  <!-- Kpitch Judges -->
+   <!-- Kpitch Judges -->
 
-  <section id="speaker">
+   <section id="speaker">
     <div class="section">
-      <div class="speaker__title">
-        K-Pitch Panelists and Judges
-      </div>
+      <div class="speaker__title">K-Pitch Panelists and Judges</div>
       <div class="speakers">
-        <div class="speaker__card">
-          <img src="img/speakers/kpitch/andrewtang.jpg" class="speaker__card__img" alt="">
+        <div class="speaker__card" value="Andrew Tang">
+          <div class="card__middle">
+            <div class="card__front">
+              <img
+                src="img/speakers/kpitch/andrewtang.jpg"
+                class="speaker__card__img"
+                alt=""
+              />
+            </div>
+            <div class="card__back">
+              <div class="card__back__note">
+                <p>need to fill</p>
+              </div>
+            </div>
+          </div>
           <div class="speaker__card__content">
             <div class="speaker__card__content__name">
               <h4>Andrew Tang</h4>
-              <p>CEO,
-                Draper University</p>
+              <p>CEO, Draper University</p>
             </div>
           </div>
-
+          <div class="speaker__card__content__more">
+            <div class="text">Read more</div>
+          </div>
         </div>
 
-        <div class="speaker__card">
-          <img src="img/speakers/kpitch/billreichert.jpg" class="speaker__card__img" alt="">
+        <div class="speaker__card" value="Bill Reichert">
+          <div class="card__middle">
+            <div class="card__front">
+              <img
+                src="img/speakers/kpitch/billreichert.jpg"
+                class="speaker__card__img"
+                alt=""
+              />
+            </div>
+            <div class="card__back">
+              <div class="card__back__note">
+                <p>need fill</p>
+              </div>
+            </div>
+          </div>
           <div class="speaker__card__content">
             <div class="speaker__card__content__name">
               <h4>Bill Reichert</h4>
-              <p>Managing Director,
-                Garage Venture</p>
+              <p>Partner, Pegasus Tech Ventures</p>
             </div>
           </div>
-
+          <div class="speaker__card__content__more">
+            <div class="text">Read more</div>
+          </div>
         </div>
 
-        <div class="speaker__card">
-          <img src="img/speakers/kpitch/phillyoon.jpg" class="speaker__card__img" alt="">
+        <div class="speaker__card" value="Phil Yoon">
+          <div class="card__middle">
+            <div class="card__front">
+              <img
+                src="img/speakers/kpitch/phillyoon.jpg"
+                class="speaker__card__img"
+                alt=""
+              />
+            </div>
+            <div class="card__back">
+              <div class="card__back__note">
+                <p>need fill</p>
+              </div>
+            </div>
+          </div>
           <div class="speaker__card__content">
             <div class="speaker__card__content__name">
               <h4>Phil Yoon</h4>
-              <p>CEO,
-                BigBasin Capital</p>
+              <p>CEO, BigBasin Capital</p>
             </div>
           </div>
-
+          <div class="speaker__card__content__more">
+            <div class="text">Read more</div>
+          </div>
         </div>
-
-        <div class="speaker__card">
-          <img src="img/speakers/kpitch/kihalee.jpg" class="speaker__card__img" alt="">
+        <div class="speaker__card" value="Kiha Lee">
+          <div class="card__middle">
+            <div class="card__front">
+              <img
+                src="img/speakers/kpitch/kihalee.jpg"
+                class="speaker__card__img"
+                alt=""
+              />
+            </div>
+            <div class="card__back">
+              <div class="card__back__note">
+                <p>need fill</p>
+              </div>
+            </div>
+          </div>
           <div class="speaker__card__content">
             <div class="speaker__card__content__name">
               <h4>Kiha Lee</h4>
-              <p>CEO,
-                Sazze Partners</p>
+              <p>CEO, Sazze Partners</p>
             </div>
           </div>
-
+          <div class="speaker__card__content__more">
+            <div class="text">Read more</div>
+          </div>
         </div>
-
       </div>
     </div>
   </section>
 
+  
+    <!-- Speaker popup modal -->
+    <div class="speaker__modal">
+      <div class="speaker__modal__header">
+        <button class="speaker__modal__closeButton">&times;</button>
+        <div class="speaker__modal__imgwrap">
+          <img class="speaker__modal__img" src="" />
+        </div>
+        <div class="speaker__modal__heading">
+          <h3 class="speaker__modal__speakerName"></h3>
+          <div class="speaker__modal__subTitle"></div>
+        </div>
+      </div>
+
+      <div class="speaker__modal__content">
+        <p class="speaker__modal__description"></p>
+        <p>
+          <a class="speaker__modal__linkedin" href="" target="new"
+            ><img
+              src="https://kglobal.tech/2019/wp-content/uploads/2019/07/lkd.jpg"
+          /></a>
+        </p>
+      </div>
+    </div>
+    <!-- Darken rest of the screen when company card is clicked  -->
+    <div id="speakerOverlay"></div>
 
     <!-- Schedule -->
 

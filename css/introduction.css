@@ -14,6 +14,117 @@
   font-weight: var(--weight-bold);
 }
 
+.overview__wrapper{
+  height: 1000px;
+  border:1px solid blue;
+}
+
+.overview__container {
+  position: relative;
+  border-top:2px solid var(--color-light-white);
+  border-bottom:2px solid var(--color-light-white);
+  width: 95%;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: var(--color-light-white);
+  
+  
+}
+
+.overview__picture {
+  position: absolute;
+ 
+  /* background: url('../img/intro_overview.jpg'); */
+  background-color: var(--color-blue);
+  width: 400px;
+  height: 500px;
+  top: -50px;
+  z-index: 2;
+}
+
+.overview__picture__layout {
+  position: absolute;
+ 
+  background-color:#394867;
+  opacity: 1;
+  width: 380px;
+  height: 480px;
+  margin: 10px 10px;
+  top: -50px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.overview__picture__layout h1 {
+  display: inline-block;
+  color: var(--color-white);
+  border-bottom: 3px solid var(--color-orange);
+}
+
+
+
+.overview__picture__layout p {
+  color: var(--color-white);
+  
+}
+
+.overview__description {
+  margin-left: 424px;
+  text-align: left;
+  
+  
+}
+
+.overview__description__title h1{
+  margin-top:24px;
+  color: var(--color-blue);
+  margin-bottom: 24px;
+  text-align: left;
+  
+}
+
+.overview__description__theme h3::before{
+  content: '-';
+  color: var(--color-orange);
+  padding-right: 10px;
+  font-weight: var(--weight-bold);
+}
+
+.overview__description__title h1::before {
+  content: '|';
+  color: var(--color-orange);
+  padding-right: 10px;
+  font-weight: var(--weight-bold);
+}
+
+.overview__description__theme span{
+  font-weight: var(--weight-bold);
+}
+
+.overview__description__theme2 {
+  display: flex;
+}
+
+.ovewview__description__theme__col1
+ h3::before{
+  content: '-';
+  color: var(--color-orange);
+  padding-right: 10px;
+  font-weight: var(--weight-bold);
+}
+.ovewview__description__theme__col1 {
+  
+}
+
+.ovewview__description__theme__col2{
+  
+}
 
 
 
