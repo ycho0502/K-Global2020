@@ -1,5 +1,14 @@
 "use strict";
 
+// Speaker popup modal
+const speakerCard = document.querySelectorAll(".speaker__card");
+const speakerModal = document.querySelector(".speaker__modal");
+const speakerModalButton = document.querySelector(
+  ".speaker__modal__closeButton"
+);
+const speakerCardFront = document.querySelector(".card__front");
+const speakerCardBack = document.querySelector(".card__back");
+
 // Init. category element
 const smartAppliancesList = document.getElementById(
   "cardList__smartAppliances"
@@ -229,13 +238,6 @@ function closeCompanyModal() {
   partnerPanel.classList.remove("active");
 }
 
-// Speaker popup modal
-const speakerCard = document.querySelectorAll(".speaker__card");
-const speakerModal = document.querySelector(".speaker__modal");
-const speakerModalButton = document.querySelector(
-  ".speaker__modal__closeButton"
-);
-
 speakerCard.forEach((card) => {
   card.addEventListener("click", (e) => {
     // Speaker modal fillout
@@ -303,3 +305,6 @@ function closeSpeakerModal() {
   body.style.overflowY = "";
   document.querySelector("html").style.overflowY = "";
 }
+
+speakerModal.style.transition = "900ms ease-in-out";
+partnerPanel.style.transition = "900ms ease-in-out";
