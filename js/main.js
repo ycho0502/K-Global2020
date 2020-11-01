@@ -306,6 +306,7 @@ function closeSpeakerModal() {
   document.querySelector("html").style.overflowY = "";
 }
 
+// Enable animation after content loaded
 if (speakerModal !== null) {
   speakerModal.style.transition = "900ms ease-in-out";
 }
