@@ -1,0 +1,292 @@
+{
+  "company": [
+    {
+      "name": "CPD",
+      "logo": "img/logos/cpdgroup.png",
+      "panel": "img/panel/01_smart_appliances/cpd.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "AIDUS",
+      "logo": "img/logos/aidus.png",
+      "panel": "img/panel/01_smart_appliances/aidus.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "DYNAIR",
+      "logo": "img/logos/dynair.png",
+      "panel": "img/panel/01_smart_appliances/dynair.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "REMYDE",
+      "logo": "img/logos/remyde.png",
+      "panel": "img/panel/01_smart_appliances/remyde.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "KMS PARTNER",
+      "logo": "img/logos/kms_partner.png",
+      "panel": "img/panel/01_smart_appliances/kms_partner.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "RWAVE",
+      "logo": "img/logos/rwave.png",
+      "panel": "img/panel/01_smart_appliances/rwave.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "WHOBORN",
+      "logo": "img/logos/whoborn.png",
+      "panel": "img/panel/01_smart_appliances/whoborn.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "R.O.C.K",
+      "logo": "img/logos/rock.png",
+      "panel": "img/panel/01_smart_appliances/rock.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "STATIC",
+      "logo": "img/logos/static.png",
+      "panel": "img/panel/01_smart_appliances/static.jpg",
+      "category": "smart appliances"
+    },
+    {
+      "name": "APULSETECHNOLOGY",
+      "logo": "img/logos/apulsetechnology.png",
+      "panel": "img/panel/02_telecommunications/apulsetechnology.jpg",
+      "category": "telecommunications"
+    },
+    {
+      "name": "ERT",
+      "logo": "img/logos/ert.png",
+      "panel": "img/panel/02_telecommunications/ert.jpg",
+      "category": "telecommunications"
+    },
+    {
+      "name": "INSOPACK",
+      "logo": "img/logos/insopack.png",
+      "panel": "img/panel/02_telecommunications/insopack.jpg",
+      "category": "telecommunications"
+    },
+    {
+      "name": "IT TELECOM",
+      "logo": "img/logos/it_telecom.png",
+      "panel": "img/panel/02_telecommunications/it_telecom.jpg",
+      "category": "telecommunications"
+    },
+    {
+      "name": "NST",
+      "logo": "img/logos/nst.png",
+      "panel": "img/panel/02_telecommunications/nst.jpg",
+      "category": "telecommunications"
+    },
+    {
+      "name": "UBCS",
+      "logo": "img/logos/ubcs.png",
+      "panel": "img/panel/02_telecommunications/ubcs.jpg",
+      "category": "telecommunications"
+    },
+    {
+      "name": "BRAINTECH",
+      "logo": "img/logos/braintech.png",
+      "panel": "img/panel/03_biotech/braintech.jpg",
+      "category": "biotech"
+    },
+    {
+      "name": "DEEP BIO",
+      "logo": "img/logos/deepbio.png",
+      "panel": "img/panel/03_biotech/deepbio.jpg",
+      "category": "biotech"
+    },
+    {
+      "name": "DTRON",
+      "logo": "img/logos/dtron.png",
+      "panel": "img/panel/03_biotech/dtron.jpg",
+      "category": "biotech"
+    },
+    {
+      "name": "HANCOM INTELLIGENCE",
+      "logo": "img/logos/hancom_intelligence.png",
+      "panel": "img/panel/03_biotech/hancom_intelligence.jpg",
+      "category": "biotech"
+    },
+    {
+      "name": "MONITOR CORPORATION",
+      "logo": "img/logos/monitor_corporation.png",
+      "panel": "img/panel/03_biotech/monitor_corporation.jpg",
+      "category": "biotech"
+    },
+    {
+      "name": "SALTED",
+      "logo": "img/logos/salted.png",
+      "panel": "img/panel/03_biotech/salted.jpg",
+      "category": "biotech"
+    },
+    {
+      "name": "SMART DIAGNOSIS",
+      "logo": "img/logos/smart_diagnosis.png",
+      "panel": "img/panel/03_biotech/smart_diagnosis.jpg",
+      "category": "biotech"
+    },
+    {
+      "name": "ELLEXI",
+      "logo": "img/logos/ellexi.png",
+      "panel": "img/panel/04_security/ellexi.jpg",
+      "category": "security"
+    },
+    {
+      "name": "GSIL",
+      "logo": "img/logos/gsil.png",
+      "panel": "img/panel/04_security/gsil.jpg",
+      "category": "security"
+    },
+    {
+      "name": "OMNIS LABS",
+      "logo": "img/logos/omnis_labs.png",
+      "panel": "img/panel/04_security/omnis_labs.jpg",
+      "category": "security"
+    },
+    {
+      "name": "STORAGEAN",
+      "logo": "img/logos/storagean.png",
+      "panel": "img/panel/04_security/storagean.jpg",
+      "category": "security"
+    },
+    {
+      "name": "AIZEN GLOBAL",
+      "logo": "img/logos/aizen_global.png",
+      "panel": "img/panel/07_it_services/aizen_global.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "UMAIN",
+      "logo": "img/logos/umain.png",
+      "panel": "img/panel/04_security/umain.jpg",
+      "category": "security"
+    },
+    {
+      "name": "4S MAPPER",
+      "logo": "img/logos/4s_mapper.png",
+      "panel": "img/panel/05_adas/4s_mapper.jpg",
+      "category": "adas"
+    },
+    {
+      "name": "CODEMIND",
+      "logo": "img/logos/codemind.png",
+      "panel": "img/panel/05_adas/codemind.jpg",
+      "category": "adas"
+    },
+    {
+      "name": "MOBILETECH",
+      "logo": "img/logos/mobiltech.png",
+      "panel": "img/panel/05_adas/mobiltech.jpg",
+      "category": "adas"
+    },
+    {
+      "name": "MOVON",
+      "logo": "img/logos/movon.png",
+      "panel": "img/panel/05_adas/movon.jpg",
+      "category": "adas"
+    },
+    {
+      "name": "CYGBOT",
+      "logo": "img/logos/cygbot.png",
+      "panel": "img/panel/06_robotics/cygbot.jpg",
+      "category": "robotics"
+    },
+    {
+      "name": "HANCOM ROBOTICS",
+      "logo": "img/logos/hancom_robotics.png",
+      "panel": "img/panel/06_robotics/hancom_robotics.jpg",
+      "category": "robotics"
+    },
+    {
+      "name": "IGIS",
+      "logo": "img/logos/igis.png",
+      "panel": "img/panel/06_robotics/igis.jpg",
+      "category": "robotics"
+    },
+    {
+      "name": "NUVI LAB",
+      "logo": "img/logos/nuvi_lab.png",
+      "panel": "img/panel/06_robotics/nuvi_lab.jpg",
+      "category": "robotics"
+    },
+    {
+      "name": "ROBORISEN",
+      "logo": "img/logos/roborisen.png",
+      "panel": "img/panel/06_robotics/roborisen.jpg",
+      "category": "robotics"
+    },
+    {
+      "name": "WONDERFUL PLATFORM",
+      "logo": "img/logos/wonderful_platform.png",
+      "panel": "img/panel/06_robotics/wonderful_platform.jpg",
+      "category": "robotics"
+    },
+    {
+      "name": "BNF TECHNOLOGY",
+      "logo": "img/logos/bnf_technology.png",
+      "panel": "img/panel/07_it_services/bnf_technology.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "CELLBIG",
+      "logo": "img/logos/cellbig.png",
+      "panel": "img/panel/07_it_services/cellbig.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "CNA",
+      "logo": "img/logos/cna.png",
+      "panel": "img/panel/07_it_services/cna.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "ELMCAD",
+      "logo": "img/logos/elmcad.png",
+      "panel": "img/panel/07_it_services/elmcad.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "HYMATICS",
+      "logo": "img/logos/hymatics.png",
+      "panel": "img/panel/07_it_services/hymatics.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "I-ON COMMUNICATIONS",
+      "logo": "img/logos/i_on_communications.png",
+      "panel": "img/panel/07_it_services/i_on_communications.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "MLAB",
+      "logo": "img/logos/mlab.png",
+      "panel": "img/panel/07_it_services/mlab.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "KINETIC LAB",
+      "logo": "img/logos/kinetic_lab.png",
+      "panel": "img/panel/07_it_services/kinetic_lab.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "MTPOWER",
+      "logo": "img/logos/mtpower.png",
+      "panel": "img/panel/07_it_services/mtpower.jpg",
+      "category": "it services"
+    },
+    {
+      "name": "ROBORUS",
+      "logo": "img/logos/roborus.png",
+      "panel": "img/panel/07_it_services/roborus.jpg",
+      "category": "it services"
+    }
+  ]
+}
