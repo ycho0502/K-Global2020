@@ -306,5 +306,10 @@ function closeSpeakerModal() {
   document.querySelector("html").style.overflowY = "";
 }
 
-speakerModal.style.transition = "900ms ease-in-out";
-partnerPanel.style.transition = "900ms ease-in-out";
+if (speakerModal !== null) {
+  speakerModal.style.transition = "900ms ease-in-out";
+}
+
+if (partnerPanel !== null) {
+  partnerPanel.style.transition = "900ms ease-in-out";
+}
