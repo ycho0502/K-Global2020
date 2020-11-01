@@ -289,7 +289,7 @@ function openSpeakerModal() {
   speakerModal.classList.add("active");
 
   // Disable scrolls other then modal
-  body.style.height = "100vh";
+  document.querySelector("html").style.overflowY = "hidden";
   body.style.overflowY = "hidden";
 }
 
@@ -300,9 +300,7 @@ function closeSpeakerModal() {
 
   const body = document.body;
   body.style.position = "";
-  body.style.top = "";
-  body.style.height = "";
   body.style.overflowY = "";
-
-  subMenuList.classList.toggle("open");
+  document.querySelector("html").style.overflowY = "";
 }
+subMenuList.classList.toggle("open");
