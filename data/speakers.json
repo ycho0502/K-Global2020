@@ -97,11 +97,19 @@
   },
   "Andy Peart": {
     "name": "Andy Peart",
-    "picture": "img/speakers/AMA session/Andy Peart Profile Pic - 500x500.jpg",
+    "picture": "img/speakers/aua/andypeart.jpg",
     "title": "CMSO, Artificial Solutions",
     "category": "AMA",
     "description": "Andy Peart is CMSO of Artificial Solutions, an international business that “Makes Technology Think,” believing that people should be able to interact with technology intelligently, using their own voice, in their own terminology and across whatever channel they choose.  Using a form of AI referred to as ‘Conversational AI’, Artificial Solutions allows people to talk to applications, websites and devices in a human like, intelligent and conversational way. Its Teneo platform enables non-specialists to rapidly build and deploy enterprise strength, conversational applications and deliver customer insight and personalization using conversational data. Andy has over 25 years strategic and marketing experience within the IT and AI sector, successfully helping build innovative, technology driven organizations.",
     "linkedin": "https://www.linkedin.com/in/anpeart/"
+  },
+  "Jonathan Li": {
+    "name": "Jonathan Li",
+    "picture": "img/speakers/aua/jonlee.jpg",
+    "title": "VP of Product Management, Indigo Tech",
+    "category": "AMA",
+    "description": "Jonathan is VP of Product Management at Indigo Technologies. He is responsible for Indigo's efficient, affordable electric vehicle's connectivity solution and associated cloud services. He brings over 20 years of experience defining, designing, and delivering a wide range of consumer and commercial products from one of the world's first touchscreen only mobile phones to computer vision smart retail solutions to interfaces for semi-autonomous vehicles. Jonathan has built and led global design teams, founded a product design consultancy, a custom Android OS software company, a smart photo app company, and a wine retail store. He holds a MS in Engineering Psychology from Tufts University and a BS in Electrical Engineering from MIT.",
+    "linkedin": "https://www.linkedin.com/in/jonli001/"
   },
   "Jay Eum": {
     "name": "Jay Eum",
