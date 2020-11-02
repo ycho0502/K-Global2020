@@ -1945,7 +1945,7 @@ footer h3:before {
   border-radius: 6px;
 }
 
-#category__kpitch,
+#category__kpitch hr,
 #category__ipitch hr {
   border: 0;
   height: 3px;
