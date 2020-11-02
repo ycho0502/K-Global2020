@@ -2,6 +2,7 @@
 
 // Speaker popup modal
 const speakerCard = document.querySelectorAll(".speaker__card");
+const speakerimg = document.querySelectorAll(".speaker__img");
 const speakerModal = document.querySelector(".speaker__modal");
 const speakerModalButton = document.querySelector(
   ".speaker__modal__closeButton"
@@ -222,6 +223,7 @@ function cardCreate(item) {
 }
 
 function openCompanyModal(item) {
+  const body = document.body;
   let panelLogo = document.querySelector(".partnerPanel__logo");
   panelLogo.src = item.panel;
 
@@ -230,16 +232,56 @@ function openCompanyModal(item) {
 
   // Enables panel
   partnerPanel.classList.add("active");
+
+  // Disable scrolls other then modal
+  document.querySelector("html").style.overflowY = "hidden";
+  body.style.overflowY = "hidden";
 }
 
 function closeCompanyModal() {
   // Disables panel
   companyOverlay.classList.remove("active");
   partnerPanel.classList.remove("active");
+
+  const body = document.body;
+  body.style.position = "";
+  body.style.overflowY = "";
+  document.querySelector("html").style.overflowY = "";
 }
 
 speakerCard.forEach((card) => {
   card.addEventListener("click", (e) => {
+    // Speaker modal fillout
+    let speakerName = document.querySelector(".speaker__modal__speakerName");
+    let image = document.querySelector(".speaker__modal__img");
+    let speakerTitle = document.querySelector(".speaker__modal__subTitle");
+    let speakerDescription = document.querySelector(
+      ".speaker__modal__description"
+    );
+    let linkedIn = document.querySelector(".speaker__modal__linkedin");
+    let name = e.currentTarget.getAttribute("value");
+
+    fetch("data/speakers.json")
+      .then((response) => response.json())
+      .then((speaker) => {
+        // Initiating speaker modal from data
+        speakerName.textContent = name;
+        image.src = speaker[name].picture;
+        speakerTitle.textContent = speaker[name].title;
+        speakerDescription.textContent = speaker[name].description;
+        linkedIn.href = speaker[name].linkedin;
+      })
+      .catch((err) => {
+        console.error("Error fetching data");
+        console.error(err);
+      });
+
+    openSpeakerModal();
+  });
+});
+
+speakerimg.forEach((img) => {
+  img.addEventListener("click", (e) => {
     // Speaker modal fillout
     let speakerName = document.querySelector(".speaker__modal__speakerName");
     let image = document.querySelector(".speaker__modal__img");

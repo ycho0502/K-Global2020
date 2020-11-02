@@ -113,10 +113,11 @@ button {
 }
 
 #companylist .section {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  margin-top: 42px;
+  margin-bottom: 64px;
 }
 #companylist__title {
+
   margin-bottom: 42px;
   font-weight: var(--weight-bold);
 }
@@ -714,7 +715,8 @@ p {
 #ict__schedule,
 #ipitch__schedule,
 #kpitch__schedule {
-  margin-top: 120px;
+  margin-top: 52px;
+  margin-bottom: 18px;
 }
 
 #schedule {
@@ -791,6 +793,10 @@ h4 .duration {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+
+.speaker__img img:hover {
+  cursor: pointer;
 }
 
 .speaker__bio {
@@ -890,7 +896,7 @@ h4 .duration {
 
 .events__card__detail {
   min-width: 240px;
-  padding: 40px 10px;
+  padding: 20px 10px 2px 10px;
   color: var(--color-black);
 }
 
@@ -951,6 +957,7 @@ h4 .duration {
 /* ============== Speakers   START ================*/
 #speaker {
   background-color: #f9f9f9;
+  padding-bottom: 48px;
 }
 
 .spaker__col {
@@ -964,8 +971,8 @@ h4 .duration {
 
 .speaker__title {
   text-align: center;
-  padding: 40px 0px;
-  margin: 20px auto;
+  padding: 5px 0px;
+  margin: 42px auto 18px auto;
   font-size: var(--font-medium);
   font-weight: var(--weight-bold);
 }
@@ -1373,8 +1380,8 @@ footer h3:before {
 /* ==============Introduction cards START  ======= */
 
 #introduction {
-  margin-top: 112px;
-  margin-bottom: 112px;
+  margin-top: 24px;
+  margin-bottom: 12px;
 }
 
 .line__title {
@@ -1608,7 +1615,7 @@ footer h3:before {
 
 /* Speakers */
 #speaker {
-  background-color: #f5f5f5;
+  background-color: #F7F7F7;
 }
 
 .spaker__col {
@@ -1622,8 +1629,6 @@ footer h3:before {
 
 .speaker__title {
   text-align: center;
-  padding: 40px 0px;
-  margin: 20px auto;
   font-size: var(--font-medium);
   font-weight: var(--weight-bold);
 }
@@ -1940,6 +1945,32 @@ footer h3:before {
 }
 
 /* company cards */
+
+#category__kpitch hr,#category__ipitch hr {
+
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    var(--color-dark-blue),
+    var(--color-white)
+  );
+}
+ /* #category__ipitch hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    var(--color-dark-blue),
+    var(--color-white)
+  );
+} */
+
+#category__kpitch #companylist__title{
+  color: white;
+}
 
 #cardList {
   display: flex;
@@ -3010,8 +3041,8 @@ footer h3:before {
 .block {
   background: #f5f5f5;
   max-width: 1000px;
-  margin: auto;
-  padding: 12px 24px;
+  margin: 32px auto 0px auto;
+  padding: 4px 24px;
 }
 .block td {
   vertical-align: top;
