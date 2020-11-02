@@ -42,7 +42,7 @@ const navbar = document.querySelector("#navbar");
 const navbarHeight = navbar.getBoundingClientRect().height;
 
 document.addEventListener("scroll", () => {
-  if (window.scrollY > navbarHeight) {
+  if (window.scrollY > 5) {
     navbar.classList.add("navbar--dark");
   } else {
     navbar.classList.remove("navbar--dark");
@@ -222,6 +222,7 @@ function cardCreate(item) {
 }
 
 function openCompanyModal(item) {
+  const body = document.body;
   let panelLogo = document.querySelector(".partnerPanel__logo");
   panelLogo.src = item.panel;
 
@@ -230,12 +231,21 @@ function openCompanyModal(item) {
 
   // Enables panel
   partnerPanel.classList.add("active");
+
+  // Disable scrolls other then modal
+  document.querySelector("html").style.overflowY = "hidden";
+  body.style.overflowY = "hidden";
 }
 
 function closeCompanyModal() {
   // Disables panel
   companyOverlay.classList.remove("active");
   partnerPanel.classList.remove("active");
+
+  const body = document.body;
+  body.style.position = "";
+  body.style.overflowY = "";
+  document.querySelector("html").style.overflowY = "";
 }
 
 speakerCard.forEach((card) => {
