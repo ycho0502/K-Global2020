@@ -51,17 +51,6 @@ body {
   overflow-x: hidden;
 }
 
-/* .preload * {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
-  animation-duration: 0s !important;
-  -webkit-animation-duration: 0s !important;
-  transition: background-color 0s, opacity 0s, color 0s, width 0s, height 0s,
-    padding 0s, margin 0s !important;
-} */
-
 body {
   height: 100%;
 }
@@ -112,10 +101,11 @@ button {
 }
 
 #companylist .section {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  margin-top: 42px;
+  margin-bottom: 64px;
 }
 #companylist__title {
+
   margin-bottom: 42px;
   font-weight: var(--weight-bold);
 }
@@ -123,6 +113,7 @@ button {
 /* Typography */
 
 h1 {
+  font-family: "Oswald", sans-serif;
   font-size: var(--font-large);
   font-weight: var(--weight-bold);
   color: var(--color-black);
@@ -130,6 +121,7 @@ h1 {
 }
 
 h2 {
+  font-family: "Oswald", sans-serif;
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
   color: var(--color-black);
@@ -218,8 +210,8 @@ p {
 }
 
 .navbar__logo img {
-  height: 90px;
-  padding-left: 24px;
+  height: 80px;
+  padding: 8px 24px;
 }
 
 .navbar__logo a {
@@ -304,7 +296,7 @@ p {
 /*============    BGholder    START ========== */
 
 #bgholder {
-  height: 5500px;
+  height: 4900px;
   /* margin: 0 auto; */
   padding-top: 80px;
   background: url("../img/blankbggra.jpg") center/cover no-repeat;
@@ -382,7 +374,6 @@ p {
   left: 100px;
   overflow: hidden;
 }
-
 #text {
   text-align: left;
   position: relative;
@@ -492,6 +483,7 @@ p {
 
 .box__container__logo4 a img {
   width: 180px;
+  margin-left: 32px;
 }
 
 @keyframes fadeIn {
@@ -554,6 +546,9 @@ p {
   margin: 0 auto;
 }
 
+.parall__title h2 {
+  color: var(--color-white);
+}
 .parall__title h1 {
   color: var(--color-white);
 }
@@ -586,7 +581,7 @@ p {
 
 .testimonial__text {
   text-align: center;
-  color: #9fa2a7;
+  color: var(--color-white);
   margin-bottom: 120px;
 }
 
@@ -655,7 +650,7 @@ p {
 /* ===========   SlIDER    START ============= */
 
 #slider {
-  background: url("../img/general_bg.png") center/cover no-repeat;
+  background: url("../img/general_bg.jpg") center/cover no-repeat;
   padding-top: 60px;
   padding-bottom: 52px;
   /* width: 100%; */
@@ -707,7 +702,8 @@ p {
 #ict__schedule,
 #ipitch__schedule,
 #kpitch__schedule {
-  margin-top: 120px;
+  margin-top: 52px;
+  margin-bottom: 18px;
 }
 
 #schedule {
@@ -780,10 +776,28 @@ h4 .duration {
   padding: 4px 12px;
 }
 
+.speaker__img {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 .speaker__img img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  transition: transform 0.4s;
+}
+
+.speaker__img:hover img {
+  transform: scale(1.3);
+  transform-origin: 50% 50%;
+}
+
+.speaker__img img:hover {
+  cursor: pointer;
 }
 
 .speaker__bio {
@@ -810,6 +824,26 @@ h4 .duration {
   text-align: left;
   padding-left: 4px;
   color: var(--color-light-grey);
+}
+
+.speaker__img {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.speaker__img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 0.4s;
+}
+
+.speaker__img:hover img {
+  transform: scale(1.3);
+  transform-origin: 50% 50%;
 }
 
 /*  ==============  Schedule Card END  ======== */
@@ -883,7 +917,7 @@ h4 .duration {
 
 .events__card__detail {
   min-width: 240px;
-  padding: 40px 10px;
+  padding: 20px 10px 2px 10px;
   color: var(--color-black);
 }
 
@@ -944,6 +978,7 @@ h4 .duration {
 /* ============== Speakers   START ================*/
 #speaker {
   background-color: #f9f9f9;
+  padding-bottom: 48px;
 }
 
 .spaker__col {
@@ -957,8 +992,8 @@ h4 .duration {
 
 .speaker__title {
   text-align: center;
-  padding: 40px 0px;
-  margin: 20px auto;
+  padding: 5px 0px;
+  margin: 42px auto 18px auto;
   font-size: var(--font-medium);
   font-weight: var(--weight-bold);
 }
@@ -1028,7 +1063,8 @@ h4 .duration {
 
 .speaker__card__content__name p {
   color: #a7a7a7;
-  font-size: var(--font-micro);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-semi-bold);
 }
 
 .speaker__card__tag {
@@ -1135,16 +1171,16 @@ h4 .duration {
 /* =========== TESTIMONIAL END ============== */
 
 /* ============    Footer   START ==========*/
-#footer {
+footer {
   background-color: var(--color-blue);
 }
 
-#footer h3 {
+footer h3 {
   color: #569cd5;
   font-weight: var(--weight-semi-bold);
 }
 
-#footer h3:before {
+footer h3:before {
   content: "|";
   color: var(--color-orange);
   padding-right: 10px;
@@ -1182,7 +1218,7 @@ h4 .duration {
 
 .footer__quicklink {
   text-align: left;
-  margin-left: 24px;
+  margin-left: -30px;
 }
 
 .footer__quicklink ul li {
@@ -1197,7 +1233,8 @@ h4 .duration {
 .footer__sns {
   text-align: left;
   width: 50%;
-  margin-left: 16px;
+  margin-left: -20px;
+  margin-right: 24px;
 }
 .footer__sns ul {
   display: flex;
@@ -1317,6 +1354,7 @@ h4 .duration {
   text-align: left;
   font-weight: var(--weight-semi-bold);
   padding-right: 12px;
+  padding-bottom: 24px;
 }
 
 .overview__description__title h1 {
@@ -1364,8 +1402,8 @@ h4 .duration {
 /* ==============Introduction cards START  ======= */
 
 #introduction {
-  margin-top: 112px;
-  margin-bottom: 112px;
+  margin-top: 24px;
+  margin-bottom: 12px;
 }
 
 .line__title {
@@ -1450,9 +1488,6 @@ h4 .duration {
 
 /*======= Main Events TABLE====== */
 
-#mainevents {
-  padding-top: 122px;
-}
 .mainevents__container {
   border: 3px solid var(--color-dark-grey);
   border-radius: 5px;
@@ -1601,7 +1636,7 @@ h4 .duration {
 
 /* Speakers */
 #speaker {
-  background-color: #f5f5f5;
+  background-color: #F7F7F7;
 }
 
 .spaker__col {
@@ -1615,8 +1650,6 @@ h4 .duration {
 
 .speaker__title {
   text-align: center;
-  padding: 40px 0px;
-  margin: 20px auto;
   font-size: var(--font-medium);
   font-weight: var(--weight-bold);
 }
@@ -1905,6 +1938,11 @@ h4 .duration {
   font-size: 16px;
 }
 
+.speaker__modal__linkedin img {
+  width: 77px;
+  height: 19px;
+}
+
 #speakerOverlay {
   position: fixed;
   opacity: 0;
@@ -1929,6 +1967,60 @@ h4 .duration {
 
 /* company cards */
 
+#category__kpitch hr,#category__ipitch hr {
+
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    var(--color-dark-blue),
+    var(--color-white)
+  );
+}
+ /* #category__ipitch hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    var(--color-dark-blue),
+    var(--color-white)
+  );
+} */
+
+
+.company__registerBtn {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 7px 18px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+
+  margin-bottom: 8px;
+}
+
+.company__registerBtn:hover {
+  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
+}
+.company__registerBtn:active {
+  position: relative;
+  top: 1px;
+}
+#category__kpitch #companylist__title{
+  color: white;
+}
+
 #cardList {
   display: flex;
   flex-direction: column;
@@ -1946,6 +2038,18 @@ h4 .duration {
   min-height: 200px;
   border: 1px solid rgba(202, 205, 211, 0.5);
   border-radius: 6px;
+}
+
+#category__kpitch hr,
+#category__ipitch hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--color-white),
+    var(--color-dark-blue),
+    var(--color-white)
+  );
 }
 
 #category__smartAppliances hr {
@@ -2031,6 +2135,34 @@ h4 .duration {
   text-align: center;
   color: var(--color-dark-grey);
   margin: 8px 24px 8px 24px;
+}
+
+.company__registerBtn {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 7px 18px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+
+  margin-bottom: 8px;
+}
+
+.company__registerBtn:hover {
+  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
+}
+.company__registerBtn:active {
+  position: relative;
+  top: 1px;
 }
 
 .container__cardList {
@@ -2333,6 +2465,11 @@ h4 .duration {
 @media screen and (max-width: 1024px) {
   /* BGholder */
 
+  
+#bgholder {
+  height: 5500px;
+}
+
   .box__container__logo1 a img {
     width: 180px;
   }
@@ -2348,6 +2485,7 @@ h4 .duration {
 
   .box__container__logo4 a img {
     width: 143px;
+    
   }
 
   /* Events */
@@ -2468,7 +2606,7 @@ h4 .duration {
   /* BGholder */
   .box3__container {
     flex-wrap: wrap;
-    bottom: -560px;
+    bottom: -500px;
   }
 
   .box3__container {
@@ -2478,6 +2616,7 @@ h4 .duration {
   .box3__container__col {
     justify-content: space-evenly;
     width: 100%;
+    
   }
 
   @keyframes anim {
@@ -2536,6 +2675,12 @@ h4 .duration {
   .bgholder__register a:hover {
     color: var(--color-orange);
   }
+
+  .box__container__logo4 a img {
+    width: 123px;
+    margin-left: -14px;
+  }
+
 
   /* Speaker */
 
@@ -2635,8 +2780,16 @@ h4 .duration {
     display: none;
   }
 
+  .footer__sns {
+    margin: 12px auto;
+  }
+
   #footer__col2 {
     width: 100%;
+  }
+
+  .footer__kglobal{
+    margin: 0 auto;
   }
 
   .footer__kglobal img {
@@ -2834,6 +2987,7 @@ h4 .duration {
 
   .box__container__logo4 a img {
     width: 123px;
+    margin-left: -14px;
   }
 
   .testimonial {
@@ -2984,7 +3138,8 @@ h4 .duration {
 .block {
   background: #f5f5f5;
   max-width: 1000px;
-  margin: auto;
+  margin: 32px auto 0px auto;
+  padding: 4px 24px;
 }
 .block td {
   vertical-align: top;
@@ -3011,3 +3166,5 @@ h4 .duration {
     var(--color-white)
   );
 }
+
+/* button test */
