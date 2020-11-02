@@ -307,7 +307,7 @@ p {
 /*============    BGholder    START ========== */
 
 #bgholder {
-  height: 5500px;
+  height: 5000px;
   /* margin: 0 auto; */
   padding-top: 80px;
   background: url("../img/blankbggra.jpg") center/cover no-repeat;
@@ -495,6 +495,7 @@ p {
 
 .box__container__logo4 a img {
   width: 180px;
+  margin-left: 32px;
 }
 
 @keyframes fadeIn {
@@ -2344,6 +2345,11 @@ footer h3:before {
 @media screen and (max-width: 1024px) {
   /* BGholder */
 
+  
+#bgholder {
+  height: 5500px;
+}
+
   .box__container__logo1 a img {
     width: 180px;
   }
@@ -2359,6 +2365,7 @@ footer h3:before {
 
   .box__container__logo4 a img {
     width: 143px;
+    
   }
 
   /* Events */
@@ -2479,7 +2486,7 @@ footer h3:before {
   /* BGholder */
   .box3__container {
     flex-wrap: wrap;
-    bottom: -560px;
+    bottom: -500px;
   }
 
   .box3__container {
@@ -2489,6 +2496,7 @@ footer h3:before {
   .box3__container__col {
     justify-content: space-evenly;
     width: 100%;
+    
   }
 
   @keyframes anim {
@@ -2547,6 +2555,12 @@ footer h3:before {
   .bgholder__register a:hover {
     color: var(--color-orange);
   }
+
+  .box__container__logo4 a img {
+    width: 123px;
+    margin-left: -14px;
+  }
+
 
   /* Speaker */
 
@@ -2845,6 +2859,7 @@ footer h3:before {
 
   .box__container__logo4 a img {
     width: 123px;
+    margin-left: -14px;
   }
 
   .testimonial {
