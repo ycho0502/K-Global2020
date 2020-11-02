@@ -38,7 +38,7 @@
             <li><a href="ipitch.html">International Pitch</a></li>
           </ul>
 
-        <li class="navbar__menu__item"><a href="ama.html">AMA Session</a></li>
+        <li class="navbar__menu__item"><a href="aua.html">AUA Session</a></li>
 
         <li class="navbar__menu__item"><a href="expo.html">Online Partnership Expo</a></li>
 
@@ -76,7 +76,7 @@
       </div>
     </section>
 
-  <!--  AMA Overview with design -->
+  <!--  AUA Overview with design -->
 
   <section id="ama__eventoverview">
     <div class="section">
@@ -86,8 +86,8 @@
           <div class="overview__picture">
           </div>
           <div class="overview__picture__layout">
-            <h1>About<br> AMA Session</h1>
-            <p>Local experts provide tailored answers to questions about AI, startup, corporate culture, etc.<br> *Presenting 10 videos total up to 60 minutes twice</p>
+            <h1>About<br> AUA Session</h1>
+            <p>Experts provide tailored answers to questions about various fields in Artificial Intelligence including NLP, Autonomous Driving, and more.  </p>
           </div>
 
           <div class="overview__description">
@@ -95,28 +95,129 @@
               <h1>EVENT OVERVIEW</h1>
             </div>
             <div class="overview__description__theme">
-              <h3><span>EVENT TITLE</span> <br>Your questions will be answered</h3>
+              <h3><span>EVENT TITLE</span> <br>Ask Us Anything (AUA) about AI </h3>
             </div>
             <div class="overview__description__theme">
-              <h3><span>TIME</span><br> Online (Virtual Pitch Competition)</h3>
+              <h3><span>TIME</span><br>2020. 12. 3 (Thu), 5:00 p.m. - 7:00 p.m. (PST) <br>2020. 12. 4 (Fri), 10:00 a.m. - 12:00 p.m. (KST) 
+              </h3>
             </div>
             <div class="overview__description__theme">
-              <h3><span>LOCATION</span><br> K-Global online event page (*Zoom, YouTube Live)</h3>
+              <h3><span>LOCATION</span><br> Zoom & YouTube Live
+              </h3>
             </div>
             <div class="overview__description__theme">
               <h3><span>HOST</span><br> KOTRA</h3>
             </div>
-            <div class="overview__description__theme">
-              <h3><span>EVENT DETAILS</span><br> Dispatch interviews of Silicon Valley AI experts</h3>
-            </div>
-
-          
-
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- AUA SPEAKERS -->
+
+  <section id="speaker">
+    <div class="section">
+      <div class="speaker__title">
+        AUA Session Speakers
+      </div>
+      <div class="speakers">
+         <div class="speaker__card" value="Bill Reichert">
+          <div class="card__middle">
+            <div class="card__front">
+              <img src="img/speakers/aua/andypeart.jpg" class="speaker__card__img" alt="andy"/>
+            </div>
+            <div class="card__back">
+              <div class="card__back__note">
+                <p>need fill</p>
+              </div>
+            </div>
+          </div>
+          <div class="speaker__card__content">
+            <div class="speaker__card__content__name">
+              <h4>Andy Peart</h4>
+              <p>CMSO, Artificial Solutions</p>
+            </div>
+          </div>
+          <div class="speaker__card__content__more">
+            <div class="text">Read more</div>
+          </div>
+        </div>
+        <div class="speaker__card" value="Bryan Chang">
+          <div class="card__middle">
+            <div class="card__front">
+              <img src="img/speakers/aua/jonlee.jpg" class="speaker__card__img" alt="jonli"/>
+            </div>
+            <div class="card__back">
+              <div class="card__back__note">
+                <p>need fill</p>
+              </div>
+            </div>
+          </div>
+          <div class="speaker__card__content">
+            <div class="speaker__card__content__name">
+              <h4>Jonathan Li</h4>
+              <p>VP of Product Management, Indigo Tech</p>
+            </div>
+          </div>
+          <div class="speaker__card__content__more">
+            <div class="text">Read more</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Speaker popup modal -->
+  <div class="speaker__modal">
+    <div class="speaker__modal__header">
+      <button class="speaker__modal__closeButton">&times;</button>
+      <div class="speaker__modal__imgwrap">
+        <img class="speaker__modal__img" src="" />
+      </div>
+      <div class="speaker__modal__heading">
+        <h3 class="speaker__modal__speakerName"></h3>
+        <div class="speaker__modal__subTitle"></div>
+      </div>
+    </div>
+
+    <div class="speaker__modal__content">
+      <p class="speaker__modal__description"></p>
+      <p>
+        <a class="speaker__modal__linkedin" href="" target="new"><img src="img/linkedinlogo.png"/></a>
+      </p>
+    </div>
+  </div>
+  <!-- Darken rest of the screen when company card is clicked  -->
+  <div id="speakerOverlay"></div>
+
+
+
+
+  <!-- Speaker popup modal -->
+  <div class="speaker__modal">
+    <div class="speaker__modal__header">
+      <button class="speaker__modal__closeButton">&times;</button>
+      <div class="speaker__modal__imgwrap">
+        <img class="speaker__modal__img" src="" />
+      </div>
+      <div class="speaker__modal__heading">
+        <h3 class="speaker__modal__speakerName"></h3>
+        <div class="speaker__modal__subTitle"></div>
+      </div>
+    </div>
+
+    <div class="speaker__modal__content">
+      <p class="speaker__modal__description"></p>
+      <p>
+        <a class="speaker__modal__linkedin" href="" target="new"><img src="img/linkedinlogo.png"/></a>
+      </p>
+    </div>
+  </div>
+  <!-- Darken rest of the screen when company card is clicked  -->
+  <div id="speakerOverlay"></div>
+
+
 
 
     
@@ -147,7 +248,7 @@
     </div>
     <div class="events__row">
       <div class="events__col">
-        <div class="events__card" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="350">
+        <div class="events__card" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="300">
           <div class="events__card__title">ICT Forum</div>
           <div class="events__card__description">
             <div class="events__card__date"> Monday <span>|</span> November 30</div>
@@ -271,7 +372,7 @@
               <li><a href="ict.html">ICT FORUM</a></li>
               <li><a href="kpitch.html">K-PITCH</a></li>
               <li><a href="ipitch.html">I-PITCH</a></li>
-              <li><a href="ama.html">AMA SESSION</a></li>
+              <li><a href="aua.html">AUA SESSION</a></li>
               <li><a href="expo.html">ONLINE PARTNERSHIP EXPO</a></li>
               <li><a href="#">NAVER EXPO</a></li>
             </ul>
