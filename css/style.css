@@ -44,12 +44,13 @@
 
 html,
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family:  'Open Sans', sans-serif;
   cursor: default;
   width: 100%;
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
 }
+
 
 /* .preload * {
   -webkit-transition: none !important;
@@ -123,6 +124,7 @@ button {
 /* Typography */
 
 h1 {
+  font-family: 'Oswald', sans-serif;
   font-size: var(--font-large);
   font-weight: var(--weight-bold);
   color: var(--color-black);
@@ -130,6 +132,7 @@ h1 {
 }
 
 h2 {
+  font-family: 'Oswald', sans-serif;
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
   color: var(--color-black);
@@ -218,8 +221,8 @@ p {
 }
 
 .navbar__logo img {
-  height: 90px;
-  padding-left: 24px;
+  height: 80px;
+  padding: 8px 24px;
 }
 
 .navbar__logo a {
@@ -382,13 +385,13 @@ p {
   left: 100px;
   overflow: hidden;
 }
-
 #text {
   text-align: left;
   position: relative;
   left: -100%;
   animation: anim3 3s forwards 2s;
 }
+
 
 #text .text__title {
   color: var(--color-yellow);
@@ -554,6 +557,9 @@ p {
   margin: 0 auto;
 }
 
+.parall__title h2 {
+  color: var(--color-white);
+}
 .parall__title h1 {
   color: var(--color-white);
 }
@@ -586,7 +592,7 @@ p {
 
 .testimonial__text {
   text-align: center;
-  color: #9fa2a7;
+  color: var(--color-white);
   margin-bottom: 120px;
 }
 
@@ -655,7 +661,7 @@ p {
 /* ===========   SlIDER    START ============= */
 
 #slider {
-  background: url("../img/general_bg.png") center/cover no-repeat;
+  background: url("../img/general_bg.jpg") center/cover no-repeat;
   padding-top: 60px;
   padding-bottom: 52px;
   /* width: 100%; */
@@ -1028,7 +1034,8 @@ h4 .duration {
 
 .speaker__card__content__name p {
   color: #a7a7a7;
-  font-size: var(--font-micro);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-semi-bold);
 }
 
 .speaker__card__tag {
@@ -1135,16 +1142,16 @@ h4 .duration {
 /* =========== TESTIMONIAL END ============== */
 
 /* ============    Footer   START ==========*/
-#footer {
+footer {
   background-color: var(--color-blue);
 }
 
-#footer h3 {
+footer h3 {
   color: #569cd5;
   font-weight: var(--weight-semi-bold);
 }
 
-#footer h3:before {
+footer h3:before {
   content: "|";
   color: var(--color-orange);
   padding-right: 10px;
@@ -1317,6 +1324,7 @@ h4 .duration {
   text-align: left;
   font-weight: var(--weight-semi-bold);
   padding-right: 12px;
+  padding-bottom: 24px;
 }
 
 .overview__description__title h1 {
@@ -1450,9 +1458,7 @@ h4 .duration {
 
 /*======= Main Events TABLE====== */
 
-#mainevents {
-  /* padding-top: 48px; */
-}
+
 .mainevents__container {
   border: 3px solid var(--color-dark-grey);
   border-radius: 5px;
@@ -2990,6 +2996,7 @@ h4 .duration {
   background: #f5f5f5;
   max-width: 1000px;
   margin: auto;
+  padding: 12px 24px;
 }
 .block td {
   vertical-align: top;
@@ -3004,6 +3011,7 @@ h4 .duration {
   font-size: var(--font-regular);
   line-height: 34px;
   font-weight: var(--weight-semi-bold);
+  
 }
 
 .block hr {
