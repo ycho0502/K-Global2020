@@ -420,7 +420,7 @@ background: linear-gradient(180deg, rgba(14,35,62,1) 0%, rgba(22,55,96,1) 50%, r
   font-size: var(--font-regular);
   font-weight: var(--weight-bold);
   
-  border: 2px solid var(--color-white);
+  border: 2px solid var(--color-orange);
   border-radius: var(--size-border-radius);
   background-color: var(--color-blue);
 }
