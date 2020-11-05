@@ -1,7 +1,7 @@
 {
   "Ashok Banerjee": {
     "name": "Ashok Banerjee",
-    "picture": "img/speakers/ICT/ashok4.jpg",
+    "picture": "img/speakers/ict/ashok4.jpg",
     "title": "CTO Enterprise Security, NortonLifeLock",
     "category": "keynote",
     "description": "Ashok Banerjee has been the CTO for Enterprise Security at Symantec focused on Security and Privacy across Threat Protection and Information Protection. Prior to Symantec Ashok has worked at Google, Twitter, Flipkart and other industry leading products from Google's Payment platform to Twitter's user growth platform to Google's Datawarehouse and Analytics platforms and Flipkart's ECommerce. Ashok has led the creation of industry leading products at Google Twitter, Flipkart and Symantec. He has led across a wide range of domains - ECommerce, Cybersecurity, Payments, Logistics, Data warehouse engines, Marketing, Supply Chain, and Experimentation Platforms. He has undertaken large transformations from cloud, Devops, Containers (docker- Kubernetes), NLP, AI/ML and Big Data . These changes were accomplished in widely varying contexts from Pre-IPO companies to Forutne-500 companies, to VC backed pre-IPO companies.",
@@ -9,7 +9,7 @@
   },
   "Kieun Park": {
     "name": "Kieun Park",
-    "picture": "img/speakers/ICT/kieun.jpg",
+    "picture": "img/speakers/ict/kieun.jpg",
     "title": "CTO, Naver Cloud",
     "category": "keynote",
     "description": "Kieun Park is the CTO of NAVER Cloud and has more than 25 years’ experiences in IT, Software, and Cloud. He joined the NAVER at 2006 and worked as technical fellow for service platform and infrastructure technology. He is currently responsible for cloud service and technology of the NAVER Cloud. The NAVER is #1 on-line service company in Korea and investing R&D of AI, robotics, and cloud technologies and the NAVER Cloud Platform is a leading public cloud service provider in Korea, having six global cloud regions and more than 160 cloud service products. ",
@@ -206,5 +206,38 @@
     "category": "kpitch",
     "description": "",
     "linkedin": "https://www.linkedin.com/in/kiha-lee/"
+  },
+  "Manoj Fernando": {
+    "name": "Manoj Fernando",
+    "picture": "img/speakers/kpitch/manoj.jpg",
+    "title": "CEO, Thinktomi",
+    "category": "kpitch",
+    "description": "",
+    "linkedin": "https://www.linkedin.com/in/manojfernando/"
+  },
+  "Jean Marc Frangos": {
+    "name": "Jean Marc Frangos",
+    "picture": "img/speakers/kpitch/jean.jpg",
+    "title": "Ex-SVP, British Telecom",
+    "category": "kpitch",
+    "description": "Jean Marc Frangos is a Silicon Valley Corporate Innovation thought leader and startup NED/advisor. As SVP, External Innovation at BT, Jean-Marc has been responsible for managing the innovation programmes to prepare BT’s future portfolio aimed at the Consumer and Business markets, including areas such as TV over IP, Virtual Reality, IoT and Cloud Technologies. He has also been responsible for innovation partnerships with venture capitalists, start-ups and industry peers in the United States, Asia, and Europe.",
+    "linkedin": "https://www.linkedin.com/in/jmfrangos/"
+  },
+  "Preetha Ram": {
+    "name": "Preetha Ram",
+    "picture": "img/speakers/kpitch/preetha.jpg",
+    "title": "Partner, Pier 70 Ventures",
+    "category": "kpitch",
+    "description": "",
+    "linkedin": "https://www.linkedin.com/in/preetharam/"
+  },
+  "Kwangrog Kim": {
+    "name": "Kwangrog Kim",
+    "picture": "img/speakers/kpitch/kwangrog.jpg",
+    "title": "Partner, Primer Sazze Partners",
+    "category": "kpitch",
+    "description": "Kwangrog co-founded Sazze, Inc. in 2005 and serves as CFO, overseeing finance and human resources, and supervising strategy, product management and online marketing on various company projects.  He set up several eCommerce projects at Sazze, Inc., including DealsPlus.com, WhizWallet.com and Progrids. Kwangrog co-founded Sazze Partners in 2014. He focuses on transformative consumer tech companies. Prior to co-founding Sazze, Kwangrog studied Civil Engineering at University of California, Berkeley. Kwangrog currently lives in Silicon Valley and works in Silicon Valley and Seoul",
+    "linkedin": "https://www.linkedin.com/in/gregkim/"
   }
+
 }
