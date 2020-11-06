@@ -44,12 +44,24 @@
 
 html,
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family:  'Open Sans', sans-serif;
   cursor: default;
   width: 100%;
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
 }
+
+
+/* .preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+  animation-duration: 0s !important;
+  -webkit-animation-duration: 0s !important;
+  transition: background-color 0s, opacity 0s, color 0s, width 0s, height 0s,
+    padding 0s, margin 0s !important;
+} */
 
 body {
   height: 100%;
@@ -113,7 +125,7 @@ button {
 /* Typography */
 
 h1 {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: var(--font-large);
   font-weight: var(--weight-bold);
   color: var(--color-black);
@@ -121,7 +133,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
   color: var(--color-black);
@@ -299,8 +311,13 @@ p {
   height: 4900px;
   /* margin: 0 auto; */
   padding-top: 80px;
-  background: url("../img/blankbggra.jpg") center/cover no-repeat;
+  /* background: url("../img/blankbggra.jpg") center/cover no-repeat; */
+  /* background: rgb(5,13,23);
+  background: linear-gradient(180deg, rgba(5,13,23,1) 0%, rgba(22,55,96,1) 50%, rgba(47,86,134,1) 70%, rgba(92,132,181,1) 83%, rgba(247,247,247,1) 100%); */
+  background: rgb(14,35,62);
+background: linear-gradient(180deg, rgba(14,35,62,1) 0%, rgba(22,55,96,1) 50%, rgba(47,86,134,1) 70%, rgba(92,132,181,1) 83%, rgba(247,247,247,1) 100%);
   color: var(--color-white);
+  
 }
 
 .cont {
@@ -381,8 +398,9 @@ p {
   animation: anim3 3s forwards 2s;
 }
 
+
 #text .text__title {
-  color: var(--color-yellow);
+  color: var(--color-orange);
   font-size: var(--font-xlarge);
   font-weight: var(--weight-bold);
 }
@@ -397,14 +415,14 @@ p {
   font-weight: var(--weight-semi-bold);
 }
 
-.bgholder__register {
-  color: var(--color-white);
+.bgholder__register a {
+  color: var(--color-orange);
   font-size: var(--font-regular);
   font-weight: var(--weight-bold);
-  margin-top: 4px;
-  border: 2px solid var(--color-white);
+  
+  border: 2px solid var(--color-orange);
   border-radius: var(--size-border-radius);
-  background-color: var(--color-dark-blue);
+  background-color: var(--color-blue);
 }
 
 .bgholder__register a {
@@ -413,7 +431,8 @@ p {
 }
 
 .bgholder__register a:hover {
-  color: var(--color-orange);
+  color: var(--color-white);
+  border: 2px solid var(--color-white);
 }
 
 @keyframes anim3 {
@@ -544,6 +563,7 @@ p {
   color: var(--color-light-white);
   max-width: 600px;
   margin: 0 auto;
+  line-height: 32px;
 }
 
 .parall__title h2 {
@@ -562,7 +582,7 @@ p {
   margin: 60px 0;
 }
 
-/* 나중에 이벤트로 옮깃것 */
+
 
 .events__card__host img {
   width: 150px;
@@ -577,7 +597,7 @@ p {
   width: 35%;
 }
 
-/* TESTIMONIAL 나중에 옮깃것 */
+
 
 .testimonial__text {
   text-align: center;
@@ -591,7 +611,7 @@ p {
   color: #e1e4e9;
   font-size: var(--font-regular);
   line-height: 1.6;
-  padding: 15px 50px;
+  padding: 35px 50px 15px 50px;
   max-width: 550px;
   margin: 100px auto 200px auto;
   position: relative;
@@ -657,6 +677,10 @@ p {
   margin: 0 auto;
 }
 
+#slider .bgholder__register {
+  margin-top: 24px;
+}
+
 .slider__text__title {
   color: var(--color-yellow);
   font-size: var(--font-large);
@@ -676,7 +700,7 @@ p {
 
 /* ===========   SlIDER   END  ============= */
 
-/* OVERVIEW   디자인 넣고 지울 예정  */
+/* OVERVIEW   */
 
 #ict__event {
   margin-top: 80px;
@@ -726,7 +750,6 @@ p {
   width: 15%;
   text-align: center;
   padding: 16px 10px;
-
   font-weight: var(--weight-semi-bold);
   color: #4d4d4d;
 }
@@ -776,24 +799,10 @@ h4 .duration {
   padding: 4px 12px;
 }
 
-.speaker__img {
-  flex-shrink: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
 .speaker__img img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  transition: transform 0.4s;
-}
-
-.speaker__img:hover img {
-  transform: scale(1.3);
-  transform-origin: 50% 50%;
 }
 
 .speaker__img img:hover {
@@ -813,7 +822,7 @@ h4 .duration {
 .speaker__bio__name span {
   background-color: var(--color-blue);
   display: inline-block;
-  width: 20px;
+  width: 19px;
   font-size: var(--font-micro);
   text-align: center;
   color: var(--color-white);
@@ -906,6 +915,7 @@ h4 .duration {
 .events__card__description {
   background-color: var(--color-white);
   border: 1px solid var(--color-black);
+  padding-bottom: 48px;
 }
 .events__card__date {
   margin: 0 auto;
@@ -1233,7 +1243,7 @@ footer h3:before {
 .footer__sns {
   text-align: left;
   width: 50%;
-  margin-left: -20px;
+  margin-left: 40px;
   margin-right: 24px;
 }
 .footer__sns ul {
@@ -1249,6 +1259,7 @@ footer h3:before {
 }
 
 .footer__kglobal {
+  margin-left: 32px;
   margin-right: 15px;
 }
 .footer__kglobal img {
@@ -1487,6 +1498,7 @@ footer h3:before {
 /* ==============Introduction cards END  ======= */
 
 /*======= Main Events TABLE====== */
+
 
 .mainevents__container {
   border: 3px solid var(--color-dark-grey);
@@ -2040,18 +2052,6 @@ footer h3:before {
   border-radius: 6px;
 }
 
-#category__kpitch hr,
-#category__ipitch hr {
-  border: 0;
-  height: 3px;
-  background-image: linear-gradient(
-    to right,
-    var(--color-white),
-    var(--color-dark-blue),
-    var(--color-white)
-  );
-}
-
 #category__smartAppliances hr {
   border: 0;
   height: 3px;
@@ -2135,34 +2135,6 @@ footer h3:before {
   text-align: center;
   color: var(--color-dark-grey);
   margin: 8px 24px 8px 24px;
-}
-
-.company__registerBtn {
-  box-shadow: inset 0px 1px 0px 0px #ffffff;
-  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-  background-color: #ffffff;
-  border-radius: 6px;
-  border: 1px solid #dcdcdc;
-  display: inline-block;
-  cursor: pointer;
-  color: #666666;
-  font-family: Arial;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 7px 18px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #ffffff;
-
-  margin-bottom: 8px;
-}
-
-.company__registerBtn:hover {
-  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-  background-color: #f6f6f6;
-}
-.company__registerBtn:active {
-  position: relative;
-  top: 1px;
 }
 
 .container__cardList {
@@ -2624,7 +2596,7 @@ footer h3:before {
       bottom: -50%;
     }
     to {
-      bottom: 20%;
+      bottom: 33%;
     }
   }
 
@@ -2641,7 +2613,7 @@ footer h3:before {
   }
 
   #text .text__title {
-    color: var(--color-yellow);
+    color: var(--color-orange);
     font-size: var(--font-large);
     font-weight: var(--weight-bold);
   }
@@ -2661,15 +2633,13 @@ footer h3:before {
     font-size: var(--font-regular);
     font-weight: var(--weight-bold);
     margin: 24px;
-    /* padding: 8px 12px; */
-    border: 2px solid var(--color-white);
     border-radius: var(--size-border-radius);
     background-color: var(--color-dark-blue);
   }
 
   .bgholder__register a {
     display: block;
-    padding: 8px 14px;
+    /* padding: 8px 14px; */
   }
 
   .bgholder__register a:hover {
@@ -2767,8 +2737,8 @@ footer h3:before {
   /* Footer */
 
   .footer__kotra {
-    width: 60%;
-    margin: 0 auto;
+    width: 80%;
+    margin-left:128px;
   }
   .footer__kotra img {
     width: 180px;
@@ -3035,7 +3005,7 @@ footer h3:before {
   .footer__col .footer__sns {
     margin: 0 auto;
     margin-bottom: 24px;
-    margin-left: 68px;
+    margin-left: 103px;
   }
 
   .footer__col .footer__kglobal {
@@ -3154,6 +3124,7 @@ footer h3:before {
   font-size: var(--font-regular);
   line-height: 34px;
   font-weight: var(--weight-semi-bold);
+  
 }
 
 .block hr {
@@ -3166,5 +3137,3 @@ footer h3:before {
     var(--color-white)
   );
 }
-
-/* button test */
