@@ -476,7 +476,43 @@
           <div id="category__ipitch" class="cardList__Category">
             <h4 class="cardList__Category__title">I-Pitch</h4>
             <hr />
-            <ul id="cardList__kpitch" class="container__cardList"><li class="container__cardList__card"><div style="font-size: 35px;">TBA</div></li></ul>
+            <ul id="cardList__ipitch" class="container__cardList">
+              <li class="container__cardList__card">
+                <div class="container__cardList__card__container"><img class="container__cardList__card__img" src="img/logos/flow.jpg"></div>
+                <div class="container__cardList__card__title">FLOW</div>
+                <div class="speaker__card__content__more"><div class="text">More Info</div></div>
+              </li>
+              <li class="container__cardList__card">
+                <div class="container__cardList__card__container"><img class="container__cardList__card__img" src="img/logos/kipsum.jpg"></div>
+                <div class="container__cardList__card__title">KIPSUM</div>
+                <div class="speaker__card__content__more"><div class="text">More Info</div></div>
+              </li>
+              <li class="container__cardList__card">
+                <div class="container__cardList__card__container"><img class="container__cardList__card__img" src="img/logos/moodme.jpg"></div>
+                <div class="container__cardList__card__title">MOODME</div>
+                <div class="speaker__card__content__more"><div class="text">More Info</div></div>
+              </li>
+              <li class="container__cardList__card">
+                <div class="container__cardList__card__container"><img class="container__cardList__card__img" src="img/logos/raxel.jpg"></div>
+                <div class="container__cardList__card__title">RAXEL</div>
+                <div class="speaker__card__content__more"><div class="text">More Info</div></div>
+              </li>
+              <li class="container__cardList__card">
+                <div class="container__cardList__card__container"><img class="container__cardList__card__img" src="img/logos/rentaga.jpg"></div>
+                <div class="container__cardList__card__title">RENTAGA</div>
+                <div class="speaker__card__content__more"><div class="text">More Info</div></div>
+              </li>
+              <li class="container__cardList__card">
+                <div class="container__cardList__card__container"><img class="container__cardList__card__img" src="img/logos/swipe.jpg"></div>
+                <div class="container__cardList__card__title">SWIPE</div>
+                <div class="speaker__card__content__more"><div class="text">More Info</div></div>
+              </li>
+              <li class="container__cardList__card">
+                <div class="container__cardList__card__container"><img class="container__cardList__card__img" src="img/logos/yokai.jpg"></div>
+                <div class="container__cardList__card__title">YOKAI</div>
+                <div class="speaker__card__content__more"><div class="text">More Info</div></div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -484,16 +520,22 @@
 
 
     <!-- Partner Panel -->
-    <div class="partnerPanel" id="partnerPanel">
-      <div class="partnerPanel__header">
-        <div class="partnerPanel__imgContainer">
-          <img class="partnerPanel__logo" />
+    <div class="pitch__modal">
+      <div class="pitch__modal__header">
+        <button class="pitch__modal__closeButton">&times;</button>
+        <div class="pitch__modal__imgwrap">
+          <img class="pitch__modal__img" src="" />
         </div>
-        <button class="partnerPanel__closeBtn">&times;</button>
+      </div>
+
+      <div class="pitch__modal__content">
+        <p class="pitch__modal__description"></p>
+        <a href="">Home</a>
+          
       </div>
     </div>
-    <!-- Overlay  -->
-    <div id="companyCardOverlay"></div>
+    <!-- Darken rest of the screen when company card is clicked  -->
+    <div id="speakerOverlay"></div>
   </section>
 
 

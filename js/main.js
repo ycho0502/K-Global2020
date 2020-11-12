@@ -17,6 +17,9 @@ var securityList = document.getElementById("cardList__security");
 var adasList = document.getElementById("cardList__adas");
 var roboticsList = document.getElementById("cardList__robotics");
 var itServiceList = document.getElementById("cardList__itServices");
+var ipitchParent = document.getElementById("cardList__ipitch");
+var kpitchParent = document.getElementById("cardList__kpitch");
+var pitchModalCloseBtn = document.querySelector(".pitch__modal__closeButton");
 
 // Init etc
 var companyOverlay = document.getElementById("companyCardOverlay");
@@ -246,6 +249,131 @@ function closeCompanyModal() {
 if (window.NodeList && !NodeList.prototype.forEach) {
   NodeList.prototype.forEach = Array.prototype.forEach;
 }
+
+/*
+---------------IPITCH-----------------
+--------------------------------------
+*/
+if (ipitchParent !== null) {
+  var ipitchList = ipitchParent.querySelectorAll(".container__cardList__card");
+  var pitchModal = document.querySelector(".pitch__modal");
+  ipitchList.forEach(function (ipitch) {
+    ipitch.addEventListener("click", function (e) {
+      fetch("data/companies.json")
+        .then(function (response) {
+          return response.json();
+        })
+        .then(function (companies) {
+          var company = companies.company;
+
+          for (var i = 0; i < company.length; i++) {
+            var target = ipitch.querySelector(
+              ".container__cardList__card__title"
+            ).innerHTML;
+            var comp = company[i];
+            var name = comp.name;
+            if (target === name) {
+              var img = document.querySelector(".pitch__modal__img");
+              var desc = document.querySelector(".pitch__modal__description");
+              desc.textContent = comp.description;
+              img.src = comp.logo;
+              break;
+            }
+          }
+        })
+        .catch(function (err) {
+          console.error("Error fetching data");
+          console.error(err);
+        });
+
+      var body = document.body;
+      // Enable overlay
+      speakerOverlay.classList.add("active");
+
+      // Enables modal
+      pitchModal.classList.add("active");
+
+      // Disable scrolls other then modal
+      document.querySelector("html").style.overflowY = "hidden";
+      body.style.overflowY = "hidden";
+    });
+  });
+}
+
+/*
+---------------END OF IPITCH-----------------
+---------------------------------------------
+*/
+
+/*
+---------------KPITCH-----------------
+--------------------------------------
+*/
+
+// if (kpitchParent !== null) {
+//   var kpitchList = kpitchParent.querySelectorAll(".container__cardList__card");
+//   var pitchModal = document.querySelector(".pitch__modal");
+//   kpitchList.forEach(function (kpitch) {
+//     kpitch.addEventListener("click", function (e) {
+//       fetch("data/companies.json")
+//         .then(function (response) {
+//           return response.json();
+//         })
+//         .then(function (companies) {
+//           var company = companies.company;
+
+//           for (var i = 0; i < company.length; i++) {
+//             var target = kpitch.querySelector(
+//               ".container__cardList__card__title"
+//             ).innerHTML;
+//             var comp = company[i];
+//             var name = comp.name;
+//             if (target === name) {
+//               var img = document.querySelector(".pitch__modal__img");
+//               var desc = document.querySelector(".pitch__modal__description");
+//               desc.textContent = comp.description;
+//               img.src = comp.logo;
+//               break;
+//             }
+//           }
+//         })
+//         .catch(function (err) {
+//           console.error("Error fetching data");
+//           console.error(err);
+//         });
+
+//       var body = document.body;
+//       // Enable overlay
+//       speakerOverlay.classList.add("active");
+
+//       // Enables modal
+//       pitchModal.classList.add("active");
+
+//       // Disable scrolls other then modal
+//       document.querySelector("html").style.overflowY = "hidden";
+//       body.style.overflowY = "hidden";
+//     });
+//   });
+// }
+
+/*
+---------------END OF IPITCH-----------------
+---------------------------------------------
+*/
+if (pitchModalCloseBtn !== null) {
+  pitchModalCloseBtn.addEventListener("click", function () {
+    speakerOverlay.classList.remove("active");
+    if (pitchModal) {
+      pitchModal.classList.remove("active");
+    }
+
+    var body = document.body;
+    body.style.position = "";
+    body.style.overflowY = "";
+    document.querySelector("html").style.overflowY = "";
+  });
+}
+
 speakerCard.forEach(function (card) {
   card.addEventListener("click", function (e) {
     // Speaker modal fillout
@@ -342,6 +470,9 @@ function closeSpeakerModal() {
   // Disables panel
   speakerOverlay.classList.remove("active");
   speakerModal.classList.remove("active");
+  if (pitchModal) {
+    pitchModal.classList.remove("active");
+  }
 
   var body = document.body;
   body.style.position = "";
@@ -356,4 +487,8 @@ if (speakerModal !== null) {
 
 if (partnerPanel !== null) {
   partnerPanel.style.transition = "900ms ease-in-out";
+}
+
+if (pitchModal !== null && pitchModal !== undefined) {
+  pitchModal.style.transition = "900ms ease-in-out";
 }

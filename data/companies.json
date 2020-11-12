@@ -287,6 +287,55 @@
       "logo": "img/logos/roborus.png",
       "panel": "img/panel/07_it_services/roborus.jpg",
       "category": "it services"
+    },
+    {
+      "name": "FLOW",
+      "logo": "img/logos/flow.jpg",
+      "panel": "",
+      "description": "Flow provides access to the proven benefits of meditation in just 4 minutes using cutting edge technology including virtual reality. Be transported to your own meditation retreat in Iceland where you can learn and practice meditation. Featuring stunning 360° Icelandic nature and music, Flow helps alleviate stress, boosting clarity and joy. Flow has positively impacted over 50 corporations in Iceland and the Nordics that care about the mental health and wellbeing of their employees. HR managers love Flow because we help solve their biggest pain point: burnout and stress in a challenging culture.",
+      "category": "ipitch"
+    },
+    {
+      "name": "KIPSUM",
+      "logo": "img/logos/kipsum.jpg",
+      "panel": "",
+      "description": "We have designed an intelligent and connecter energy manager. The key principle of our technology is based on the understanding of the behavior of the system (vehicle, lighting, building, passengers, the heating and cooling devices). It relies on physics-based modeling and machine learning methods. Using artificial intelligence, we then optimise the way the system is functioning. We will bring to you the best tool to minimize the consumption and ensure a real time control of all comfort devices based on cloud computing and IoT and through a mobile app. For our customers a return on investment of less than 2 years.",
+      "category": "ipitch"
+    },
+    {
+      "name": "MOODME",
+      "logo": "img/logos/moodme.jpg",
+      "panel": "",
+      "description": "MoodMe is an Artificial Intelligence company focused on face analytics & augmented reality. We have 2 US patents. 75+ Customers trust us: FIFA, Stanford, ATT, Gucci, Glaxo. Privacy by design: edge AI, no faces stored. MoodMe helps organizations transition to the “next normal” by conducting happier & more productive meetings. MoodMe provides actionable engagement insights on video calls by gathering and analyzing participants’ emotions, attention & demographics data.",
+      "category": "ipitch"
+    },
+    {
+      "name": "RAXEL",
+      "logo": "img/logos/raxel.jpg",
+      "panel": "",
+      "description": "We leverage smartphone capabilities to collect location, behavior, and vehicle data. Our technologies are wrapped into a single Telematics SDK which is backed by a device-agnostic mobility platform and APIs. This robust solution enables our partners and clients to develop various data-driven products as well as disrupt the existing markets by providing innovative services at a reduced price. Our DataHub – front-end of the platform provides SDK and Telematics APP management capabilities as well as telematics data insights.",
+      "category": "ipitch"
+    },
+    {
+      "name": "RENTAGA",
+      "logo": "img/logos/rentaga.jpg",
+      "panel": "",
+      "description": "Rentaga is the unique B2B digital platform that allows customers to book rental machines for their construction, maintenance, or other projects. The platform shows the 3 best rental proposals and availability for your rental machines and allows you to book them immediately without wasting time on requests and waiting answers. Rentaga has been launched in Belgium early 2020 and is now present in Belgium, Luxembourg and the Netherlands. Expansion to the Nordics and Germany are planned before year-end. A seed fundraising round of 750k€ has been opened to boost the traction and local customer support.",
+      "category": "ipitch"
+    },
+    {
+      "name": "SWIPE",
+      "logo": "img/logos/swipe.jpg",
+      "panel": "",
+      "description": "SwipeVideo (https://swipevideo.jp/en/) is a proprietary software that allows you to live-stream or archive stream multi-angle video over any web browser. With SwipeVideo you give control over the direction of the content to the viewer, increasing engagement by providing a totally new video viewing experience. The key differentiation of our product is that our patented web delivery system allows for unlimited camera angles without reducing the picture quality of each angle. Our videos can be viewed on any web browser on smartphone, tablet or computer. No specialized equipment or standalone apps are required. SwipeVideo is a 5G technology that runs on 4G networks today. Our videos can be accessed and viewed by over 3billion 4G smartphone users.",
+      "category": "ipitch"
+    },
+    {
+      "name": "YOKAI",
+      "logo": "img/logos/yokai.jpg",
+      "panel": "",
+      "description": "Contactless Autonomous Restaurant Solution defining our eating of the future NOW! Using our patented machine and food manufacturing advanced technology to serve delicious meals in under 1 minute anytime and anywhere. You can find a Yo-Kai in almost all business sectors such as, airports, universities, Fortune 500 companies, hotels, factories, and retail shopping spaces. Soon in January 2021, you can have a mini Yo-Kai from the comforts of your own home! We let our food speak for itself, working with Michelin Star Chefs in the creation of each of our savory and decadent dessert menu items. We are not only a huge hit in the B2B, we have been validated in the B2C with reporters and media coverage from around the world.",
+      "category": "ipitch"
     }
   ]
 }
